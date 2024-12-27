@@ -1,0 +1,204 @@
+{
+    "name": "",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "cal",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "copper",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "biotin",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "chloride",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "chromium",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "iodine",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "molybdenum",
+            "unit": "μg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "linoleicAcid",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "g",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "",
+            "unitAbbreviation": "",
+            "portionInGrams": 0.0
+        }
+    ],
+    "attributes": [],
+    "sources": []
+}
