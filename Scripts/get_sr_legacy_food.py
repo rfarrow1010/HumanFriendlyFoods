@@ -1,0 +1,166 @@
+import json
+import requests
+import argparse
+from datetime import datetime
+
+FRIENDLY_NUTRIENTS = {
+
+}
+
+class Nutrient:
+    name: str
+    unit: str
+    amountPer100g: float
+
+class UnitOption:
+    unitFullName: str
+    unitAbbreviation: str
+    portionInGrams: float
+
+class Food:
+    name: str
+    nutrients: list[Nutrient]
+    unitOptions: list[UnitOption]
+    attributes: list[str]
+    sources: list[str]
+
+def fetch(api_key: str, fdcId: str) -> dict:
+    URL = f"https://api.nal.usda.gov/fdc/v1/food/{fdcId}?api_key={api_key}"
+    response = requests.get(URL)
+    if response.status_code != 200:
+        print(f"Received status code {response.status_code}. Exiting")
+        exit(1)
+
+    return response.json()
+
+def parse(json_dict: dict, fdcId: str, name: str) -> Food:
+    NUTRIENT_NAME_MAP = {
+        "Energy": "calories",
+        "Protein": "protein",
+        "Total lipid (fat)": "fat",
+        "Carbohydrates": "carbohydrates",
+        "Fiber, total dietary": "fiber",
+        "Total Sugars": "sugar",
+        "Calcium, Ca": "calcium",
+        "Iron, Fe": "iron",
+        "Magnesium, Mg": "magnesium",
+        "Phosphorus, P": "phosphorus",
+        "Potassium, K": "potassium",
+        "Sodium, Na": "sodium",
+        "Zinc, Zn": "zinc",
+        "Copper, Cu": "copper",
+        "Selenium, Se": "selenium",
+        "Fluoride, F": "fluoride",
+        "Vitamin C, total ascorbic acid": "vitaminC",
+        "Thiamin": "thiamin",
+        "Riboflavin": "riboflavin",
+        "Niacin": "niacin",
+        "Pantothenic acid": "pantothenicAcid",
+        "Vitamin B-6": "vitaminB6",
+        "Folate, total": "folate",
+        "Choline, total": "choline",
+        "Vitamin B-12": "vitaminB12",
+        "Vitamin A, RAE": "vitaminA",
+        "Vitamin E (alpha-tocopherol)": "vitaminE",
+        "Vitamin D (D2 + D3)": "vitaminD",
+        "Vitamin K (phylloquinone)": "vitaminK",
+        "Fatty acids, total saturated": "saturatedFat",
+        "Fatty acids, total trans": "transFat",
+        "": "biotin",
+        "": "chloride",
+        "": "chromium",
+        "": "iodine",
+        "": "molybdenum",
+        "": "linoleicAcid",
+        "": "alphaLinolenicAcid"
+    }
+
+    nutrients = []
+    unitOptions = []
+
+    source_nutrients = json_dict["foodNutrients"]
+    source_units = json_dict["foodPortions"]
+
+    for nutrient in source_nutrients:
+        source_nutrient_name = nutrient["nutrient"]["name"]
+        nutrient_unit = nutrient["nutrient"]["unitName"]
+        amount = nutrient["amount"]
+
+        if source_nutrient_name not in NUTRIENT_NAME_MAP.keys():
+            continue
+
+        nutrient_name = NUTRIENT_NAME_MAP[source_nutrient_name]
+        if nutrient_name is None:
+            continue
+
+        # skip kilojoules
+        if nutrient_unit == "kJ":
+            continue
+
+        nutrients.append(
+            Nutrient(
+                name=nutrient_name,
+                unit=nutrient_unit,
+                amountPer100g=amount
+            )
+        )
+
+    for unit in source_units:
+        unitFullName = unit["modifier"]
+        unitAbbreviation = ""
+        portionInGrams = unit["gramWeight"]
+
+        unitOptions.append(
+            UnitOption(
+                unitFullName=unitFullName,
+                unitAbbreviation=unitAbbreviation,
+                portionInGrams=portionInGrams
+            )
+        )
+
+    SOURCE_STR = f"U.S. Department of Agriculture. ({datetime.today().strftime('%Y-%m-%d')}). {name}. U.S. Department of Agriculture. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
+
+    return Food(
+        name=name,
+        nutrients=nutrients,
+        unitOptions=unitOptions,
+        attributes=[],
+        sources=list[SOURCE_STR]
+    )
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description='''
+        This script creates a Human Friendly Food from an SR Legacy entry. 
+        It uses a user-supplied API key to fetch the entry from the FoodData Central API 
+        and parses the entry into the Human Friendly Food format.
+        An FDC ID must be supplied, which can be found on an SR Legacy entry's webpage.
+        A human friendly name must also be supplied.
+        This script does not produce a finished product. The user must add unit option
+        abbreviations as well as relevant attributes.
+        '''
+    )
+    parser.add_argument("api_key", help="Your API key for FoodData Central.")
+    parser.add_argument("fdcId", help="The FDC ID of the given SR Legacy food. This is a numerical value.")
+    parser.add_argument("name", help="The human friendly name for this food.")
+
+    args = parser.parse_args()
+    api_key = args.api_key
+    fdcId = args.fdcId
+    name = args.name
+
+    if not all(x.isalpha() or x.isspace() for x in name):
+        print("Non-alphabet or whitespace letters in the supplied name. Exiting.")
+        exit(1)
+
+    fetched_json_dict = fetch(api_key=api_key, fdcId=fdcId)
+    food_json_obj = parse(json_dict=fetched_json_dict, fdcId=fdcId, name=name)
+
+    food_json = json.dumps(food_json_obj.__dict__)
+
+    underscored_name = name.replace(" ", "_")
+    out_file = open(f"../Foods/{underscored_name}.json", "w")
+    out_file.write(food_json)
+    out_file.close()
+
+    print(f"File written to `Foods/{name}.json`. Please add missing information and double-check for accuracy.")
