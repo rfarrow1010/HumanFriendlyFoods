@@ -1,0 +1,36 @@
+name: Compile Food Data JSON and Publish
+
+on:
+  push:
+    branches:
+      - main  # Adjust to your default branch
+
+jobs:
+  compile-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: pip install json
+
+      # Step 4: Run the Python script to compile JSON files
+      - name: Compile JSON files
+        run: python Scripts/compile_json.py
+
+      # Step 5: Upload the combined JSON as an artifact
+      - name: Upload combined JSON artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: combined-json
+          path: FoodData.json
