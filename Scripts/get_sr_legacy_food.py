@@ -3,27 +3,6 @@ import requests
 import argparse
 from datetime import datetime
 
-FRIENDLY_NUTRIENTS = {
-
-}
-
-class Nutrient:
-    name: str
-    unit: str
-    amountPer100g: float
-
-class UnitOption:
-    unitFullName: str
-    unitAbbreviation: str
-    portionInGrams: float
-
-class Food:
-    name: str
-    nutrients: list[Nutrient]
-    unitOptions: list[UnitOption]
-    attributes: list[str]
-    sources: list[str]
-
 def fetch(api_key: str, fdcId: str) -> dict:
     URL = f"https://api.nal.usda.gov/fdc/v1/food/{fdcId}?api_key={api_key}"
     response = requests.get(URL)
@@ -33,12 +12,14 @@ def fetch(api_key: str, fdcId: str) -> dict:
 
     return response.json()
 
-def parse(json_dict: dict, fdcId: str, name: str) -> Food:
+def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     NUTRIENT_NAME_MAP = {
         "Energy": "calories",
         "Protein": "protein",
         "Total lipid (fat)": "fat",
-        "Carbohydrates": "carbohydrates",
+        # TODO: make some logic to choose whichever of these two exists
+        #"Carbohydrates": "carbohydrates",
+        "Carbohydrate, by difference": "carbohydrates",
         "Fiber, total dietary": "fiber",
         "Total Sugars": "sugar",
         "Calcium, Ca": "calcium",
@@ -75,19 +56,23 @@ def parse(json_dict: dict, fdcId: str, name: str) -> Food:
         "": "alphaLinolenicAcid"
     }
 
-    nutrients = []
-    unitOptions = []
+    food = {
+        "nutrients": [],
+        "unitOptions": []
+    }
 
     source_nutrients = json_dict["foodNutrients"]
     source_units = json_dict["foodPortions"]
 
     for nutrient in source_nutrients:
         source_nutrient_name = nutrient["nutrient"]["name"]
-        nutrient_unit = nutrient["nutrient"]["unitName"]
-        amount = nutrient["amount"]
-
         if source_nutrient_name not in NUTRIENT_NAME_MAP.keys():
             continue
+    
+        nutrient_unit = nutrient["nutrient"]["unitName"]
+        print(source_nutrient_name)
+        print(nutrient_unit)
+        amount = nutrient["amount"]
 
         nutrient_name = NUTRIENT_NAME_MAP[source_nutrient_name]
         if nutrient_name is None:
@@ -97,12 +82,12 @@ def parse(json_dict: dict, fdcId: str, name: str) -> Food:
         if nutrient_unit == "kJ":
             continue
 
-        nutrients.append(
-            Nutrient(
-                name=nutrient_name,
-                unit=nutrient_unit,
-                amountPer100g=amount
-            )
+        food["nutrients"].append(
+            {
+                "name": nutrient_name,
+                "unit": nutrient_unit,
+                "amountPer100g": str(amount)
+            }
         )
 
     for unit in source_units:
@@ -110,23 +95,25 @@ def parse(json_dict: dict, fdcId: str, name: str) -> Food:
         unitAbbreviation = ""
         portionInGrams = unit["gramWeight"]
 
-        unitOptions.append(
-            UnitOption(
-                unitFullName=unitFullName,
-                unitAbbreviation=unitAbbreviation,
-                portionInGrams=portionInGrams
-            )
+        food["unitOptions"].append(
+            {
+                "unitFullName": unitFullName,
+                "unitAbbreviation": unitAbbreviation,
+                "portionInGrams": portionInGrams
+            }
         )
 
     SOURCE_STR = f"U.S. Department of Agriculture. ({datetime.today().strftime('%Y-%m-%d')}). {name}. U.S. Department of Agriculture. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
 
-    return Food(
-        name=name,
-        nutrients=nutrients,
-        unitOptions=unitOptions,
-        attributes=[],
-        sources=list[SOURCE_STR]
-    )
+    food["name"] = name
+    food["attributes"] = []
+    food["sources"] = [
+        SOURCE_STR
+    ]
+
+    # TODO: make placeholders for any missing nutrients
+
+    return food
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -154,13 +141,10 @@ if __name__ == "__main__":
         exit(1)
 
     fetched_json_dict = fetch(api_key=api_key, fdcId=fdcId)
-    food_json_obj = parse(json_dict=fetched_json_dict, fdcId=fdcId, name=name)
-
-    food_json = json.dumps(food_json_obj.__dict__)
+    food_dict = parse(json_dict=fetched_json_dict, fdcId=fdcId, name=name)
 
     underscored_name = name.replace(" ", "_")
-    out_file = open(f"../Foods/{underscored_name}.json", "w")
-    out_file.write(food_json)
-    out_file.close()
+    with open(f"../Foods/{underscored_name}.json", "w") as out_file:
+        json.dump(food_dict, out_file, ensure_ascii=False)
 
     print(f"File written to `Foods/{name}.json`. Please add missing information and double-check for accuracy.")

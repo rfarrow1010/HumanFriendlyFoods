@@ -1,0 +1,206 @@
+{
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": "89.0"
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": "1.09"
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": "0.33"
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": "22.84"
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": "2.6"
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": "12.23"
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": "5.0"
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": "0.26"
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": "27.0"
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": "22.0"
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": "358.0"
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": "1.0"
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": "0.15"
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": "0.078"
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": "1.0"
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": "2.2"
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": "8.7"
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": "0.031"
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": "0.073"
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": "0.665"
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": "0.334"
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": "0.367"
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": "20.0"
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": "9.8"
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": "0.0"
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": "3.0"
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": "0.1"
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": "0.0"
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": "0.5"
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": "0.112"
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": "0.0"
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "NLEA serving",
+            "unitAbbreviation": "",
+            "portionInGrams": 126.0
+        },
+        {
+            "unitFullName": "extra large (9\" or longer)",
+            "unitAbbreviation": "",
+            "portionInGrams": 152.0
+        },
+        {
+            "unitFullName": "large (8\" to 8-7/8\" long)",
+            "unitAbbreviation": "",
+            "portionInGrams": 136.0
+        },
+        {
+            "unitFullName": "cup, sliced",
+            "unitAbbreviation": "",
+            "portionInGrams": 150.0
+        },
+        {
+            "unitFullName": "small (6\" to 6-7/8\" long)",
+            "unitAbbreviation": "",
+            "portionInGrams": 101.0
+        },
+        {
+            "unitFullName": "extra small (less than 6\" long)",
+            "unitAbbreviation": "",
+            "portionInGrams": 81.0
+        },
+        {
+            "unitFullName": "medium (7\" to 7-7/8\" long)",
+            "unitAbbreviation": "",
+            "portionInGrams": 118.0
+        },
+        {
+            "unitFullName": "cup, mashed",
+            "unitAbbreviation": "",
+            "portionInGrams": 225.0
+        }
+    ],
+    "name": "Banana",
+    "attributes": [],
+    "sources": [
+        "U.S. Department of Agriculture. (2025-01-02). Banana. U.S. Department of Agriculture. https://api.nal.usda.gov/fdc/v1/food/173944"
+    ]
+}
