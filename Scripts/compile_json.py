@@ -7,9 +7,11 @@ combined_data = []
 
 for file in json_files:
     with open(file, 'r') as f:
+        print(f"Opening {file}")
         data = json.load(f)
         combined_data.append(data)
 
 # Save the combined JSON file
 with open("../FoodData.json", "w") as outfile:
+    print("Writing file")
     json.dump(combined_data, outfile, indent=4)
