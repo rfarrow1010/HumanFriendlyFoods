@@ -57,6 +57,7 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     }
 
     food = {
+        "name": "",
         "nutrients": [],
         "unitOptions": []
     }
