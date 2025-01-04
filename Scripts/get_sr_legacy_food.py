@@ -56,6 +56,8 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
         "": "alphaLinolenicAcid"
     }
 
+    nutrients_written = []
+
     food = {
         "name": "",
         "nutrients": [],
@@ -87,9 +89,11 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
             {
                 "name": nutrient_name,
                 "unit": nutrient_unit,
-                "amountPer100g": str(amount)
+                "amountPer100g": amount
             }
         )
+
+        nutrients_written.append(nutrient_name)
 
     for unit in source_units:
         unitFullName = unit["modifier"]
@@ -104,6 +108,7 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
             }
         )
 
+
     SOURCE_STR = f"U.S. Department of Agriculture. ({datetime.today().strftime('%Y-%m-%d')}). {name}. U.S. Department of Agriculture. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
 
     food["name"] = name
@@ -112,7 +117,14 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
         SOURCE_STR
     ]
 
-    # TODO: make placeholders for any missing nutrients
+    # make placeholders for any missing nutrients
+    for nutrient in NUTRIENT_NAME_MAP.values():
+        if nutrient not in nutrients_written:
+            food["nutrients"].append({
+                "name": nutrient,
+                "unit": "",
+                "amountPer100g": 0.0
+            })
 
     return food
 
@@ -146,6 +158,6 @@ if __name__ == "__main__":
 
     underscored_name = name.replace(" ", "_")
     with open(f"../Foods/{underscored_name}.json", "w") as out_file:
-        json.dump(food_dict, out_file, ensure_ascii=False)
+        json.dump(food_dict, out_file, ensure_ascii=False, indent=4)
 
     print(f"File written to `Foods/{name}.json`. Please add missing information and double-check for accuracy.")

@@ -194,11 +194,6 @@
     ],
     "unitOptions": [
         {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
-        },
-        {
             "unitFullName": "cup slices",
             "unitAbbreviation": "cup",
             "portionInGrams": 109.0
@@ -220,12 +215,13 @@
         },
         {
             "unitFullName": "large",
-            "unitAbbreviation": "lrg",
+            "unitAbbreviation": "lg",
             "portionInGrams": 223.0
         }
     ],
     "attributes": [
         "vegetarian",
+        "vegan",
         "fruit"
     ],
     "sources": ["https://fdc.nal.usda.gov/food-details/171688/nutrients"]
