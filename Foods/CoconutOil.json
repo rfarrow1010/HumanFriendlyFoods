@@ -1,0 +1,178 @@
+{
+    "name": "Coconut oil",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 833.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 99.1
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.84
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.05
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.02
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.11
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.6
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 82.5
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.028
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "tablespoon",
+            "unitAbbreviation": "tbsp",
+            "portionInGrams": 11.6
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Coconut oil via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/330458"
+    ]
+}

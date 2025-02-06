@@ -73,8 +73,6 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
             continue
     
         nutrient_unit = nutrient["nutrient"]["unitName"]
-        print(source_nutrient_name)
-        print(nutrient_unit)
         amount = nutrient["amount"]
 
         nutrient_name = NUTRIENT_NAME_MAP[source_nutrient_name]
@@ -96,8 +94,16 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
         nutrients_written.append(nutrient_name)
 
     for unit in source_units:
-        unitFullName = unit["modifier"]
-        unitAbbreviation = ""
+        # NOTE: the path to which units are written appears to be a point of divergence between
+        # Foundation Foods and SR Legacy
+        unitFullName: str = ""
+        unitAbbreviation: str = ""
+        if json_dict["dataType"] == "Foundation":
+            unitFullName = unit["measureUnit"]["name"]
+            unitAbbreviation = unit["measureUnit"]["abbreviation"]
+        else:
+            unitFullName = unit["modifier"]
+
         portionInGrams = unit["gramWeight"]
 
         food["unitOptions"].append(
@@ -108,11 +114,20 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
             }
         )
 
+    resource_title_data_source: str = "unspecified"
+    if json_dict["dataType"] == "Foundation":
+        resource_title_data_source = "Foundation Foods"
+    elif json_dict["dataType"] == "SR Legacy":
+        resource_title_data_source = "SR Legacy"
 
-    SOURCE_STR = f"U.S. Department of Agriculture. ({datetime.today().strftime('%Y-%m-%d')}). {name}. U.S. Department of Agriculture. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
+    SOURCE_STR = f"U.S. Department of Agriculture, Agricultural Research Service. ({datetime.today().strftime('%Y-%m-%d')}). {name} via {resource_title_data_source}. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
 
     food["name"] = name
     food["attributes"] = []
+    if json_dict["dataType"] == "Foundation":
+        food["attributes"].append("foundation")
+    else:
+        food["attributes"].append("non-foundation")
     food["sources"] = [
         SOURCE_STR
     ]
