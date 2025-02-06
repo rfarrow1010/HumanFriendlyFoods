@@ -1,0 +1,183 @@
+{
+    "name": "Coconut milk",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 197.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 2.02
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 21.33
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 2.81
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 18.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 3.3
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 46.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 96.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 220.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 13.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.56
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.223
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.022
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.637
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.153
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.028
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 14.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 8.5
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 18.915
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 226.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 15.0
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Coconut milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170173"
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "name": "Crushed tomatoes",
+    "nutrients": [
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 1.4375
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.3975
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 7.137
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 1.944
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 19.2
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 2.268
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 18.64
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 32.91
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 345.6
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 139.8
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.2014
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.1043
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [],
+    "attributes": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Crushed tomatoes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685581"
+    ]
+}

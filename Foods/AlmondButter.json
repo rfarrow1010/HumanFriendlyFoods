@@ -1,0 +1,172 @@
+{
+    "name": "Almond butter",
+    "nutrients": [
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 20.78734
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 53.04
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 21.23666
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 9.718
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 263.8
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 4.108
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 267.8
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 506.9
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 745.4
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.9963
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 3.178
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.9746
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.7938
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.09456
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 3.909
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.08375
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 42.46
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 16.67
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 4.253
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [],
+    "attributes": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Almond butter via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2262074"
+    ]
+}

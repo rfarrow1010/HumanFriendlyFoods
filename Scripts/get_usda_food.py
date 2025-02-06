@@ -65,7 +65,7 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     }
 
     source_nutrients = json_dict["foodNutrients"]
-    source_units = json_dict["foodPortions"]
+    source_units = json_dict.get("foodPortions", [])
 
     for nutrient in source_nutrients:
         source_nutrient_name = nutrient["nutrient"]["name"]
@@ -126,8 +126,8 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     food["attributes"] = []
     if json_dict["dataType"] == "Foundation":
         food["attributes"].append("foundation")
-    else:
-        food["attributes"].append("non-foundation")
+    elif json_dict["dataType"] == "SR Legacy":
+        food["attributes"].append("sr-legacy")
     food["sources"] = [
         SOURCE_STR
     ]

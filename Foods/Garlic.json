@@ -1,0 +1,172 @@
+{
+    "name": "Garlic",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 143.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 6.62
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.38
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 28.2
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 2.7
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 9.8
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 10.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "iron",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "potassium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sodium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "zinc",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "copper",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [],
+    "attributes": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Garlic via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/1104647"
+    ]
+}

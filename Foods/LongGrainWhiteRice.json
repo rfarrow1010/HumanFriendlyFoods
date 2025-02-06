@@ -1,0 +1,172 @@
+{
+    "name": "Long grain white rice",
+    "nutrients": [
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 7.03885
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 1.033
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 80.31315
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.1488
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 4.46
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.1405
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 26.53
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 108.2
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 82.26
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.4625
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.354
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.2138
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 6.6
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.065
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.08
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 1.434
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.05788
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [],
+    "attributes": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Long grain white rice via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2512381"
+    ]
+}

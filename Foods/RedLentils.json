@@ -1,0 +1,178 @@
+{
+    "name": "Red lentils",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 358.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 23.91
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 2.17
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 63.1
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 10.8
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 48.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 7.39
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 59.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 294.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 668.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 7.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 3.6
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 1.303
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 1.7
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.51
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.106
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 1.495
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.348
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.403
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 204.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 3.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.379
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 192.0
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Red lentils via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174284"
+    ]
+}
