@@ -179,9 +179,10 @@
             "portionInGrams": 221.0
         }
     ],
-    "attributes": [
-        "sr-legacy",
-        "low-quality"
+    "attributes": [],
+    "annotations": [
+        "srLegacy",
+        "lowQuality"
     ],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Vegetable broth via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171583"

@@ -174,8 +174,9 @@
             "portionInGrams": 6.1
         }
     ],
-    "attributes": [
-        "sr-legacy"
+    "attributes": [],
+    "annotations": [
+        "srLegacy"
     ],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Serrano pepper via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169395"

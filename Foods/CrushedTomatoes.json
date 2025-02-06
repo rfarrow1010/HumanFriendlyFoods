@@ -163,7 +163,8 @@
         }
     ],
     "unitOptions": [],
-    "attributes": [
+    "attributes": [],
+    "annotations": [
         "foundation"
     ],
     "sources": [
