@@ -162,7 +162,13 @@
             "amountPer100g": 0.0
         }
     ],
-    "unitOptions": [],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        }
+    ],
     "attributes": [],
     "annotations": [
         "foundation"

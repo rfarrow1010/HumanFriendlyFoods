@@ -172,6 +172,11 @@
             "unitFullName": "tbsp",
             "unitAbbreviation": "",
             "portionInGrams": 15.0
+        },
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
         }
     ],
     "attributes": [],

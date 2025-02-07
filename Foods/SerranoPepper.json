@@ -172,6 +172,11 @@
             "unitFullName": "pepper",
             "unitAbbreviation": "",
             "portionInGrams": 6.1
+        },
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
         }
     ],
     "attributes": [],

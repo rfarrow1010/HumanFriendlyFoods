@@ -167,6 +167,11 @@
             "unitFullName": "tablespoon",
             "unitAbbreviation": "tbsp",
             "portionInGrams": 11.6
+        },
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
         }
     ],
     "attributes": [],

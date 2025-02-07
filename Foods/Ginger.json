@@ -177,6 +177,11 @@
             "unitFullName": "tsp",
             "unitAbbreviation": "",
             "portionInGrams": 2.0
+        },
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
         }
     ],
     "attributes": [],

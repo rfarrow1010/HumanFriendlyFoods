@@ -58,10 +58,15 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
 
     nutrients_written = []
 
+    # initialize everything with 1 gram as a unit option to base other units off of
     food = {
         "name": "",
         "nutrients": [],
-        "unitOptions": []
+        "unitOptions": [{
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        }]
     }
 
     source_nutrients = json_dict["foodNutrients"]
