@@ -1,0 +1,184 @@
+{
+    "name": "Yellow onion",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 38.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.83
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.05
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 8.61
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 1.9
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 15.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.28
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 9.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 34.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 182.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.2
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.035
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 8.2
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "Onion",
+            "unitAbbreviation": "Onion",
+            "portionInGrams": 143.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Yellow onion via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/790646"
+    ]
+}

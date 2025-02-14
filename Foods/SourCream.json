@@ -1,0 +1,179 @@
+{
+    "name": "Sour cream",
+    "nutrients": [
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 3.070694
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 17.99
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 5.555506
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 107.2
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 10.11
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 102.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 153.8
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 50.04
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.3919
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.04275
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.0385
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.06175
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 1.2
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 10.7
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Sour cream via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346387"
+    ]
+}

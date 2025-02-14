@@ -1,0 +1,189 @@
+{
+    "name": "Chives",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 30.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 3.27
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.73
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 4.35
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 2.5
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 1.85
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 92.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.6
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 42.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 58.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 296.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 3.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.56
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.157
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.9
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 58.1
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.078
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.115
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.647
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.324
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.138
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 105.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 5.2
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 218.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.21
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 212.7
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.146
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "tsp chopped",
+            "unitAbbreviation": "",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "tbsp chopped",
+            "unitAbbreviation": "",
+            "portionInGrams": 3.0
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chives via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169994"
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "name": "Russet potato",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 81.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 2.27375
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.36
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 17.77125
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 7.801
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.3835
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 25.64
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 55.19
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 450.1
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 2.743
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.3781
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.09118
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 10.9
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.07375
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 1.501
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.1573
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 1.5
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Russet potato via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346401"
+    ]
+}

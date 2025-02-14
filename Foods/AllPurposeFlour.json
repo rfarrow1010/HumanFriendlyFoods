@@ -1,0 +1,179 @@
+{
+    "name": "All-purpose flour",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 362.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 12.0
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 1.7
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 74.6
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 3.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 22.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.18
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 36.1
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 134.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 150.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 2.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.15
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.212
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 20.1
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.298
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 1.59
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.085
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 23.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). All-purpose flour via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/790018"
+    ]
+}

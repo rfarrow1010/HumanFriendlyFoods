@@ -1,0 +1,184 @@
+{
+    "name": "Egg",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 148.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 12.4
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 9.96
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.96
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 48.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.67
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 11.4
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 184.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 132.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 129.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.24
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 31.1
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.077
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.419
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.063
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 71.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 335.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 1.02
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 180.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 2.46
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 3.2
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "egg",
+            "unitAbbreviation": "egg",
+            "portionInGrams": 50.3
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Egg via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/748967"
+    ]
+}

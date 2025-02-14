@@ -1,0 +1,184 @@
+{
+    "name": "Whole milk",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 60.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 3.27
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 3.2
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 4.63
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 123.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 11.9
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 101.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 150.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 38.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.42
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.001
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 1.9
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.056
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.138
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.105
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.362
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.061
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 17.8
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.54
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 32.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.05
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.96
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 1.86
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.112
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 249.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Whole milk via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746782"
+    ]
+}

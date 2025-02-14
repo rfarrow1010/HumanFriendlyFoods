@@ -1,0 +1,194 @@
+{
+    "name": "Mayonnaise",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 680.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.96
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 74.85
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.57
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.57
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 8.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.21
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 21.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 20.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 635.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.15
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.019
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 2.3
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.01
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.019
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.172
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.008
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 5.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 34.2
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.12
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 16.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 3.28
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.2
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 163.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 11.703
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.187
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 13.8
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 220.0
+        },
+        {
+            "unitFullName": "packet",
+            "unitAbbreviation": "",
+            "portionInGrams": 10.0
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Mayonnaise via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171009"
+    ]
+}

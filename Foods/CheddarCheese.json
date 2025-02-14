@@ -1,0 +1,189 @@
+{
+    "name": "Cheddar cheese",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 408.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 23.3
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 34.0
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 2.44
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 707.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.16
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 26.8
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 458.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 77.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 654.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 3.67
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.033
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 28.3
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.029
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.441
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.052
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.413
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.069
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 21.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 1.06
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 316.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.75
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 2.4
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 19.2
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 1.14
+        },
+        {
+            "name": "fiber",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "slice",
+            "unitAbbreviation": "slice",
+            "portionInGrams": 17.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 105.0
+        }
+    ],
+    "attributes": [
+        "foundation"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Cheddar cheese via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/328637"
+    ]
+}

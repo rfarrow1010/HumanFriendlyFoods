@@ -1,0 +1,189 @@
+{
+    "name": "Bread crumbs",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 395.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 13.35
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 5.3
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 71.98
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 4.5
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 6.2
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 183.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 4.83
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 43.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 165.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 196.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 732.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.45
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.255
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 25.2
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.967
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.403
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 6.634
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.552
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.121
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 107.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 14.6
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.35
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.08
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 6.6
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 1.203
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 108.0
+        },
+        {
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.35
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Bread crumbs via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174928"
+    ]
+}

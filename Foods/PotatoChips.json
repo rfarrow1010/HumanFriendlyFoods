@@ -1,0 +1,199 @@
+{
+    "name": "Potato chips",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 532.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 6.39
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 33.98
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 53.83
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 3.1
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.33
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 21.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.28
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 63.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 153.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 1196.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 527.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.09
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.234
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 2.5
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 61.3
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 21.6
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.213
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.088
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 4.762
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.956
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.531
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 29.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 12.1
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 10.45
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 22.1
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 3.4
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.084
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "bag (8 oz)",
+            "unitAbbreviation": "",
+            "portionInGrams": 227.0
+        },
+        {
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.35
+        },
+        {
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.0
+        },
+        {
+            "unitFullName": "chips",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.0
+        }
+    ],
+    "attributes": [
+        "sr-legacy"
+    ],
+    "annotations": [],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Potato chips via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169677"
+    ]
+}
