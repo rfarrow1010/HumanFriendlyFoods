@@ -184,10 +184,10 @@
             "portionInGrams": 10.0
         }
     ],
-    "attributes": [
-        "sr-legacy"
+    "attributes": [],
+    "annotations": [
+        "srLegacy"
     ],
-    "annotations": [],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Mayonnaise via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171009"
     ]

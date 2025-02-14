@@ -132,9 +132,9 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     # for notes about the app that should not be exposed to the user for goal tracking
     food["annotations"] = []
     if json_dict["dataType"] == "Foundation":
-        food["attributes"].append("foundation")
+        food["annotations"].append("foundation")
     elif json_dict["dataType"] == "SR Legacy":
-        food["attributes"].append("sr-legacy")
+        food["annotations"].append("srLegacy")
     food["sources"] = [
         SOURCE_STR
     ]

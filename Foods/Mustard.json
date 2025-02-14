@@ -179,10 +179,10 @@
             "portionInGrams": 6.0
         }
     ],
-    "attributes": [
+    "attributes": [],
+    "annotations": [
         "foundation"
     ],
-    "annotations": [],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Mustard via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/326698"
     ]
