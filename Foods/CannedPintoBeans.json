@@ -1,84 +1,119 @@
 {
-    "name": "Chicken breast",
+    "name": "Canned pinto beans",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 114.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 6.99
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 0.9
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 20.22
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 5.5
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.54
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 63.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 1.33
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 32.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 101.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 274.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 239.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 0.61
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.259
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.052
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.019
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.272
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 24.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
+            "amountPer100g": 0.158
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
             "amountPer100g": 0.0
         },
         {
@@ -88,26 +123,6 @@
         },
         {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -122,17 +137,7 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -143,11 +148,6 @@
         },
         {
             "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,21 +169,16 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "can drained solids",
+            "unitAbbreviation": "",
+            "portionInGrams": 277.0
         }
     ],
     "attributes": [],
     "annotations": [
-        "foundation"
+        "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Canned pinto beans via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174286"
     ]
 }

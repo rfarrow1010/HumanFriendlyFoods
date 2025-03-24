@@ -1,15 +1,15 @@
 {
-    "name": "Chicken breast",
+    "name": "93% lean ground turkey",
     "nutrients": [
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 17.34375
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 9.591
         },
         {
             "name": "carbohydrates",
@@ -19,57 +19,57 @@
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 23.63
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 1.087
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 17.3
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 162.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 246.3
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 80.18
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 2.95
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.07624
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
+            "amountPer100g": 2.264
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.00875
+            "amountPer100g": 0.081
         },
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 158.0
         },
         {
             "name": "fiber",
@@ -167,16 +167,6 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
         }
     ],
     "attributes": [],
@@ -184,6 +174,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-23). 93% lean ground turkey via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2514747"
     ]
 }

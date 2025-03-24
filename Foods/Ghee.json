@@ -1,83 +1,88 @@
 {
-    "name": "Chicken breast",
+    "name": "Ghee",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 900.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 0.0
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 100.0
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
-        },
-        {
-            "name": "calcium",
-            "unit": "mg",
-            "amountPer100g": 3.939
-        },
-        {
-            "name": "iron",
-            "unit": "mg",
-            "amountPer100g": 0.3543
-        },
-        {
-            "name": "magnesium",
-            "unit": "mg",
-            "amountPer100g": 26.2
-        },
-        {
-            "name": "phosphorus",
-            "unit": "mg",
-            "amountPer100g": 214.9
-        },
-        {
-            "name": "potassium",
-            "unit": "mg",
-            "amountPer100g": 330.1
-        },
-        {
-            "name": "sodium",
-            "unit": "mg",
-            "amountPer100g": 65.75
-        },
-        {
-            "name": "zinc",
-            "unit": "mg",
-            "amountPer100g": 0.6545
-        },
-        {
-            "name": "copper",
-            "unit": "mg",
-            "amountPer100g": 0.003638
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.3488
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 0.0
         },
         {
             "name": "fiber",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 60.0
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "potassium",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "zinc",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "copper",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -88,11 +93,6 @@
         },
         {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -167,23 +167,13 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
         }
     ],
     "attributes": [],
     "annotations": [
-        "foundation"
+        "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Ghee via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171314"
     ]
 }

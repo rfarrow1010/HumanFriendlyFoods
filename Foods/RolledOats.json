@@ -1,75 +1,90 @@
 {
-    "name": "Chicken breast",
+    "name": "Rolled oats",
     "nutrients": [
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 13.49645
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 5.89
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 68.65755
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 45.53
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 4.339
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 126.3
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 387.3
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 350.1
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 0.6675
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 2.744
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.4278
         },
         {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.3488
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 25.35
         },
         {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.4063
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.9931
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.1346
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 32.03
         },
         {
             "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
+            "unit": "",
+            "amountPer100g": 382.0
         },
         {
             "name": "fiber",
@@ -78,11 +93,6 @@
         },
         {
             "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "selenium",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -97,32 +107,12 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "riboflavin",
             "unit": "",
             "amountPer100g": 0.0
         },
         {
-            "name": "niacin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "folate",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -157,6 +147,16 @@
             "amountPer100g": 0.0
         },
         {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "alphaLinolenicAcid",
             "unit": "",
             "amountPer100g": 0.0
@@ -169,14 +169,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 85
         }
     ],
     "attributes": [],
@@ -184,6 +179,7 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Rolled oats via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346396",
+        "Cup weight: https://fdc.nal.usda.gov/food-details/173904/nutrients"
     ]
 }

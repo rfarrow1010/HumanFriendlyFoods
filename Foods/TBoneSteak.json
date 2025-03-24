@@ -1,75 +1,100 @@
 {
-    "name": "Chicken breast",
+    "name": "T-bone steak",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 219.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 27.3
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 11.4
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 19.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 3.53
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 20.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 211.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 283.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 67.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 4.69
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.078
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 29.7
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.27
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 6.37
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.753
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 1.88
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
+            "amountPer100g": 4.68
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 0.594
         },
         {
             "name": "fiber",
@@ -78,11 +103,6 @@
         },
         {
             "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "selenium",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -102,22 +122,7 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -128,11 +133,6 @@
         },
         {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,6 +169,11 @@
             "portionInGrams": 1.0
         },
         {
+            "unitFullName": "steak",
+            "unitAbbreviation": "steak",
+            "portionInGrams": 360.0
+        },
+        {
             "unitFullName": "ounce",
             "unitAbbreviation": "oz",
             "portionInGrams": 28.3495
@@ -184,6 +189,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). T-bone steak via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746763"
     ]
 }

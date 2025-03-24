@@ -1,158 +1,158 @@
 {
-    "name": "Evaporated milk",
+    "name": "Cloves",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 274.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 5.97
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 13.0
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 65.53
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
+            "amountPer100g": 33.9
         },
         {
             "name": "sugar",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 2.38
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 632.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 11.83
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 259.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 104.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 1020.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 277.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 2.32
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.368
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "amountPer100g": 7.2
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 0.2
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.158
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.22
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
+            "amountPer100g": 1.56
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 0.509
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.391
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 25.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
+            "amountPer100g": 37.4
         },
         {
             "name": "vitaminB12",
             "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 8.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
+            "amountPer100g": 8.82
         },
         {
             "name": "vitaminD",
             "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
+            "amountPer100g": 141.8
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 3.952
         },
         {
             "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.254
+        },
+        {
+            "name": "fluoride",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,19 +169,14 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "tsp",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
+            "portionInGrams": 2.1
         },
         {
-            "unitFullName": "fl oz",
+            "unitFullName": "tbsp",
             "unitAbbreviation": "",
-            "portionInGrams": 31.5
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 6.5
         }
     ],
     "attributes": [],
@@ -189,6 +184,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Cloves via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171321"
     ]
 }

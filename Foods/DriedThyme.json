@@ -1,158 +1,158 @@
 {
-    "name": "Evaporated milk",
+    "name": "Dried thyme",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 276.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 9.11
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 7.43
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 63.94
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
+            "amountPer100g": 37.0
         },
         {
             "name": "sugar",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 1.71
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 1890.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 123.6
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 220.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 201.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 814.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 55.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 6.18
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.86
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "amountPer100g": 4.6
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 50.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.513
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.399
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 4.94
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.55
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 274.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
+            "amountPer100g": 43.6
         },
         {
             "name": "vitaminB12",
             "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 190.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
+            "amountPer100g": 7.48
         },
         {
             "name": "vitaminD",
             "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
+            "amountPer100g": 1714.5
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 2.73
         },
         {
             "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,19 +169,24 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "tsp, leaves",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
+            "portionInGrams": 1.0
         },
         {
-            "unitFullName": "fl oz",
+            "unitFullName": "tbsp, ground",
             "unitAbbreviation": "",
-            "portionInGrams": 31.5
+            "portionInGrams": 4.3
         },
         {
-            "unitFullName": "cup",
+            "unitFullName": "tbsp, leaves",
             "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 2.7
+        },
+        {
+            "unitFullName": "tsp, ground",
+            "unitAbbreviation": "",
+            "portionInGrams": 1.4
         }
     ],
     "attributes": [],
@@ -189,6 +194,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Dried thyme via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170938"
     ]
 }

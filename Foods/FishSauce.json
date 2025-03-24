@@ -1,25 +1,25 @@
 {
-    "name": "Evaporated milk",
+    "name": "Fish sauce",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 35.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 5.06
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 0.01
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 3.64
         },
         {
             "name": "fiber",
@@ -29,127 +29,127 @@
         {
             "name": "sugar",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 3.64
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 43.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 0.78
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 175.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 7.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 288.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 7851.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 0.2
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.05
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "amountPer100g": 9.1
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 0.5
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.012
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.057
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
+            "amountPer100g": 2.313
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 0.118
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.396
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 51.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
+            "amountPer100g": 13.2
         },
         {
             "name": "vitaminB12",
             "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 0.48
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 4.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
             "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
+            "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 0.003
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "transFat",
@@ -169,19 +169,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "tbsp",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
-        },
-        {
-            "unitFullName": "fl oz",
-            "unitAbbreviation": "",
-            "portionInGrams": 31.5
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 18.0
         }
     ],
     "attributes": [],
@@ -189,6 +179,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Fish sauce via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174531"
     ]
 }

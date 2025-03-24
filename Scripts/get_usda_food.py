@@ -1,6 +1,7 @@
 import json
 import requests
 import argparse
+import os
 from datetime import datetime
 
 def fetch(api_key: str, fdcId: str) -> dict:
@@ -11,6 +12,17 @@ def fetch(api_key: str, fdcId: str) -> dict:
         exit(1)
 
     return response.json()
+
+def space_name(name: str) -> str:
+    spaced_name = name[0]
+
+    for letter in name[1:]:
+        if letter.isupper():
+            spaced_name += " "
+
+        spaced_name += letter.lower()
+
+    return spaced_name
 
 def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     NUTRIENT_NAME_MAP = {
@@ -56,11 +68,12 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
         "": "alphaLinolenicAcid"
     }
 
+    spaced_name = space_name(name)
     nutrients_written = []
 
     # initialize everything with 1 gram as a unit option to base other units off of
     food = {
-        "name": "",
+        "name": spaced_name,
         "nutrients": [],
         "unitOptions": [{
             "unitFullName": "gram",
@@ -125,9 +138,8 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
     elif json_dict["dataType"] == "SR Legacy":
         resource_title_data_source = "SR Legacy"
 
-    SOURCE_STR = f"U.S. Department of Agriculture, Agricultural Research Service. ({datetime.today().strftime('%Y-%m-%d')}). {name} via {resource_title_data_source}. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
+    SOURCE_STR = f"U.S. Department of Agriculture, Agricultural Research Service. ({datetime.today().strftime('%Y-%m-%d')}). {spaced_name} via {resource_title_data_source}. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
 
-    food["name"] = name
     food["attributes"] = []
     # for notes about the app that should not be exposed to the user for goal tracking
     food["annotations"] = []
@@ -174,6 +186,12 @@ if __name__ == "__main__":
     if not all(x.isalpha() or x.isspace() for x in name):
         print("Non-alphabet or whitespace letters in the supplied name. Exiting.")
         exit(1)
+
+    with os.scandir("../Foods") as entries:
+        for entry in entries:
+            if entry.name == f"{name}.json":
+                print(f"Entry with name {name} already exists")
+                exit(1)
 
     fetched_json_dict = fetch(api_key=api_key, fdcId=fdcId)
     food_dict = parse(json_dict=fetched_json_dict, fdcId=fdcId, name=name)

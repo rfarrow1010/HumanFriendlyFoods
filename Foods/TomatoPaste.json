@@ -1,155 +1,155 @@
 {
-    "name": "Evaporated milk",
+    "name": "Tomato paste",
     "nutrients": [
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 134.0
-        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 4.234375
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 0.7325
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 20.188125
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 4.704
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 36.85
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 3.185
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 49.61
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 91.16
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 971.6
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 61.15
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 0.5113
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.295
+        },
+        {
+            "name": "calories",
+            "unit": "",
+            "amountPer100g": 89.0
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "selenium",
-            "unit": "µg",
-            "amountPer100g": 2.3
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
-            "unit": "mg",
-            "amountPer100g": 1.9
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
-            "unit": "mg",
-            "amountPer100g": 0.047
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "mg",
-            "amountPer100g": 0.316
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "mg",
-            "amountPer100g": 0.194
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "mg",
-            "amountPer100g": 0.638
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "mg",
-            "amountPer100g": 0.05
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "µg",
-            "amountPer100g": 8.0
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "mg",
-            "amountPer100g": 31.8
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "µg",
-            "amountPer100g": 0.16
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "µg",
-            "amountPer100g": 65.0
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 0.14
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "µg",
-            "amountPer100g": 2.0
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
-            "amountPer100g": 0.5
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 4.591
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "transFat",
@@ -169,26 +169,23 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
-            "unitAbbreviation": "",
-            "portionInGrams": 369.0
-        },
-        {
-            "unitFullName": "fl oz",
-            "unitAbbreviation": "",
-            "portionInGrams": 31.5
+            "unitFullName": "tablespoon",
+            "unitAbbreviation": "tbsp",
+            "portionInGrams": 16.0
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "unitAbbreviation": "cup",
+            "portionInGrams": 262.0
         }
     ],
     "attributes": [],
     "annotations": [
-        "srLegacy"
+        "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Tomato paste via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685580",
+        "Tablespoon weight: https://fdc.nal.usda.gov/food-details/170459/nutrients",
+        "Cup weight: https://fdc.nal.usda.gov/food-details/170459/nutrients"
     ]
 }

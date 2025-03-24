@@ -1,158 +1,158 @@
 {
-    "name": "Evaporated milk",
+    "name": "Baked sweet potato",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 90.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 2.01
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 0.15
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 20.71
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
+            "amountPer100g": 3.3
         },
         {
             "name": "sugar",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 6.48
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 38.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 0.69
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 27.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 54.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 475.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 36.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 0.32
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.161
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "amountPer100g": 0.2
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 19.6
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.107
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.106
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
+            "amountPer100g": 1.487
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 0.884
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.286
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 6.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
+            "amountPer100g": 13.1
         },
         {
             "name": "vitaminB12",
             "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 961.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
+            "amountPer100g": 0.71
         },
         {
             "name": "vitaminD",
             "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
+            "amountPer100g": 2.3
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 0.052
         },
         {
             "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,19 +169,24 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "large",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
+            "portionInGrams": 180.0
         },
         {
-            "unitFullName": "fl oz",
+            "unitFullName": "small",
             "unitAbbreviation": "",
-            "portionInGrams": 31.5
+            "portionInGrams": 60.0
         },
         {
             "unitFullName": "cup",
             "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 200.0
+        },
+        {
+            "unitFullName": "medium (2\" dia, 5\" long, raw)",
+            "unitAbbreviation": "",
+            "portionInGrams": 114.0
         }
     ],
     "attributes": [],
@@ -189,6 +194,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Baked sweet potato via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168483"
     ]
 }

@@ -1,158 +1,158 @@
 {
-    "name": "Evaporated milk",
+    "name": "Soy sauce",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 53.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 8.14
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 0.57
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 4.93
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.8
         },
         {
             "name": "sugar",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 0.4
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 33.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 1.45
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 74.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 166.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 435.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 5493.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 0.87
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.043
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
+            "amountPer100g": 0.5
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.033
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.165
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
+            "amountPer100g": 2.196
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 0.297
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.148
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 14.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
+            "amountPer100g": 18.3
         },
         {
             "name": "vitaminB12",
             "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
             "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
+            "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 0.073
         },
         {
             "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,19 +169,24 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "individual packet",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
+            "portionInGrams": 8.9
         },
         {
-            "unitFullName": "fl oz",
+            "unitFullName": "tbsp",
             "unitAbbreviation": "",
-            "portionInGrams": 31.5
+            "portionInGrams": 16.0
+        },
+        {
+            "unitFullName": "tsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 5.3
         },
         {
             "unitFullName": "cup",
             "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 255.0
         }
     ],
     "attributes": [],
@@ -189,6 +194,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Soy sauce via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174277"
     ]
 }

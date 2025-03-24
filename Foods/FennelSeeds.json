@@ -1,80 +1,115 @@
 {
-    "name": "Chicken breast",
+    "name": "Fennel seeds",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 345.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 15.8
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 14.87
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 52.29
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 39.8
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 1196.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 18.54
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 385.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 487.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 1694.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 88.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 3.7
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 1.067
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 21.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.408
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.353
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 6.05
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.47
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 7.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.48
         },
         {
             "name": "sugar",
@@ -92,32 +127,7 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -132,27 +142,17 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "vitaminE",
             "unit": "",
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminD",
+            "name": "vitaminK",
             "unit": "",
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminK",
+            "name": "transFat",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,21 +169,21 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
+            "unitFullName": "tbsp, whole",
+            "unitAbbreviation": "",
+            "portionInGrams": 5.8
         },
         {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "tsp, whole",
+            "unitAbbreviation": "",
+            "portionInGrams": 2.0
         }
     ],
     "attributes": [],
     "annotations": [
-        "foundation"
+        "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Fennel seeds via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171323"
     ]
 }

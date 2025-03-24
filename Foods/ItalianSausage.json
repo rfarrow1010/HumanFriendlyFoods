@@ -1,90 +1,115 @@
 {
-    "name": "Chicken breast",
+    "name": "Italian sausage",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 290.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 13.9
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 24.26
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
-        },
-        {
-            "name": "calcium",
-            "unit": "mg",
-            "amountPer100g": 3.939
-        },
-        {
-            "name": "iron",
-            "unit": "mg",
-            "amountPer100g": 0.3543
-        },
-        {
-            "name": "magnesium",
-            "unit": "mg",
-            "amountPer100g": 26.2
-        },
-        {
-            "name": "phosphorus",
-            "unit": "mg",
-            "amountPer100g": 214.9
-        },
-        {
-            "name": "potassium",
-            "unit": "mg",
-            "amountPer100g": 330.1
-        },
-        {
-            "name": "sodium",
-            "unit": "mg",
-            "amountPer100g": 65.75
-        },
-        {
-            "name": "zinc",
-            "unit": "mg",
-            "amountPer100g": 0.6545
-        },
-        {
-            "name": "copper",
-            "unit": "mg",
-            "amountPer100g": 0.003638
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.3488
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 2.97
         },
         {
             "name": "fiber",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 1.19
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 12.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.77
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 16.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 126.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 211.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 563.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.91
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.064
         },
         {
             "name": "selenium",
-            "unit": "",
+            "unit": "µg",
+            "amountPer100g": 11.3
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
             "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.23
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 5.8
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 8.615
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.115
         },
         {
             "name": "fluoride",
@@ -92,22 +117,7 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -128,16 +138,6 @@
         },
         {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,21 +169,16 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "link",
+            "unitAbbreviation": "",
+            "portionInGrams": 101.0
         }
     ],
     "attributes": [],
     "annotations": [
-        "foundation"
+        "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Italian sausage via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171631"
     ]
 }

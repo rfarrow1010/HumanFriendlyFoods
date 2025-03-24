@@ -1,15 +1,15 @@
 {
-    "name": "Chicken breast",
+    "name": "Wild salmon",
     "nutrients": [
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 22.3
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 4.936
         },
         {
             "name": "carbohydrates",
@@ -19,57 +19,57 @@
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 14.84
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 0.4024
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 26.15
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 226.3
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 329.7
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 53.3
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 0.4246
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.0616
         },
         {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.3488
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 30.2
         },
         {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 5.16
         },
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 136.0
         },
         {
             "name": "fiber",
@@ -78,11 +78,6 @@
         },
         {
             "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "selenium",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -132,11 +127,6 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "vitaminA",
             "unit": "",
             "amountPer100g": 0.0
@@ -153,6 +143,16 @@
         },
         {
             "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -184,6 +184,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Wild salmon via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2684440"
     ]
 }

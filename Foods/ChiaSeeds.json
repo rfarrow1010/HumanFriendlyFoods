@@ -1,80 +1,120 @@
 {
-    "name": "Chicken breast",
+    "name": "Chia seeds",
     "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 486.0
+        },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 16.54
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 30.74
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 42.12
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 34.4
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 631.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 7.72
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 335.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 860.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 407.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 16.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 4.58
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.924
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 55.2
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 1.6
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.62
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.17
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 8.83
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 49.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.5
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
+            "amountPer100g": 3.33
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.00875
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.14
         },
         {
             "name": "sugar",
@@ -82,32 +122,7 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "selenium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -122,27 +137,12 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "choline",
             "unit": "",
             "amountPer100g": 0.0
         },
         {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,21 +169,16 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.35
         }
     ],
     "attributes": [],
     "annotations": [
-        "foundation"
+        "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Chia seeds via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170554"
     ]
 }

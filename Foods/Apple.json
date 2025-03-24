@@ -1,30 +1,30 @@
 {
-    "name": "Evaporated milk",
+    "name": "Apple",
     "nutrients": [
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 134.0
+            "amountPer100g": 57.0
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 6.81
+            "amountPer100g": 0.28
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 7.56
+            "amountPer100g": 0.15
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 10.04
+            "amountPer100g": 13.6
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 0.0
+            "amountPer100g": 2.4
         },
         {
             "name": "sugar",
@@ -34,125 +34,125 @@
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 261.0
+            "amountPer100g": 6.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.19
+            "amountPer100g": 0.13
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 24.0
+            "amountPer100g": 5.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 203.0
+            "amountPer100g": 10.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 303.0
+            "amountPer100g": 100.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 106.0
+            "amountPer100g": 2.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.77
+            "amountPer100g": 0.04
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.016
+            "amountPer100g": 0.03
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 2.3
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 8.5
-        },
-        {
-            "name": "vitaminC",
-            "unit": "mg",
-            "amountPer100g": 1.9
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.047
+            "amountPer100g": 0.018
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.316
+            "amountPer100g": 0.026
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.194
+            "amountPer100g": 0.094
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.638
+            "amountPer100g": 0.074
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.05
+            "amountPer100g": 0.051
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 8.0
+            "amountPer100g": 3.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 31.8
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "µg",
-            "amountPer100g": 0.16
+            "amountPer100g": 5.1
         },
         {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 65.0
+            "amountPer100g": 3.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.14
-        },
-        {
-            "name": "vitaminD",
-            "unit": "µg",
-            "amountPer100g": 2.0
+            "amountPer100g": 0.18
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 0.5
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 4.591
+            "amountPer100g": 1.8
         },
         {
             "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -169,19 +169,24 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "can (13 oz)",
+            "unitFullName": "large",
             "unitAbbreviation": "",
-            "portionInGrams": 369.0
+            "portionInGrams": 215.0
         },
         {
-            "unitFullName": "fl oz",
+            "unitFullName": "medium",
             "unitAbbreviation": "",
-            "portionInGrams": 31.5
+            "portionInGrams": 169.0
         },
         {
-            "unitFullName": "cup",
+            "unitFullName": "cup, sliced",
             "unitAbbreviation": "",
-            "portionInGrams": 252.0
+            "portionInGrams": 109.0
+        },
+        {
+            "unitFullName": "small",
+            "unitAbbreviation": "",
+            "portionInGrams": 129.0
         }
     ],
     "attributes": [],
@@ -189,6 +194,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Apple via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168202"
     ]
 }

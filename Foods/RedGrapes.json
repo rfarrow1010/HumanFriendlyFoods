@@ -1,75 +1,70 @@
 {
-    "name": "Chicken breast",
+    "name": "Red grapes",
     "nutrients": [
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 0.914375
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 0.1638
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 20.196825
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 10.17
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 0.1615
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 8.556
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 24.86
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 229.4
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 6.999
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 0.03603
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.08081
         },
         {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.3488
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.00875
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 3.308
         },
         {
             "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 112.0
+            "unit": "",
+            "amountPer100g": 0.0
         },
         {
             "name": "fiber",
@@ -88,11 +83,6 @@
         },
         {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -157,6 +147,16 @@
             "amountPer100g": 0.0
         },
         {
+            "name": "saturatedFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "alphaLinolenicAcid",
             "unit": "",
             "amountPer100g": 0.0
@@ -169,14 +169,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "grape",
+            "unitAbbreviation": "grape",
+            "portionInGrams": 6.0
         }
     ],
     "attributes": [],
@@ -184,6 +179,7 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Red grapes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346412",
+        "Grape weight: https://fdc.nal.usda.gov/food-details/173040/nutrients"
     ]
 }

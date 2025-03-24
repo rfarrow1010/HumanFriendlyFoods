@@ -1,15 +1,15 @@
 {
-    "name": "Chicken breast",
+    "name": "Ninety percent ground beef",
     "nutrients": [
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.525
+            "amountPer100g": 18.15625
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.934
+            "amountPer100g": 12.85
         },
         {
             "name": "carbohydrates",
@@ -19,57 +19,57 @@
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 3.939
+            "amountPer100g": 7.135
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.3543
+            "amountPer100g": 2.128
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 26.2
+            "amountPer100g": 16.49
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 214.9
+            "amountPer100g": 148.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 330.1
+            "amountPer100g": 281.4
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 65.75
+            "amountPer100g": 61.64
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.6545
+            "amountPer100g": 4.194
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.003638
+            "amountPer100g": 0.05616
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.3488
+            "amountPer100g": 5.051
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.00875
+            "amountPer100g": 0.484
         },
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 112.0
+            "amountPer100g": 190.0
         },
         {
             "name": "fiber",
@@ -184,6 +184,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Chicken breast via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Ninety percent ground beef via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2514743"
     ]
 }
