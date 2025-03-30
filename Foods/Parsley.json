@@ -1,5 +1,5 @@
 {
-    "name": "P parsley",
+    "name": "Parsley",
     "nutrients": [
         {
             "name": "calories",
@@ -170,12 +170,12 @@
         },
         {
             "unitFullName": "cup chopped",
-            "unitAbbreviation": "",
+            "unitAbbreviation": "cup",
             "portionInGrams": 60.0
         },
         {
-            "unitFullName": "tbsp",
-            "unitAbbreviation": "",
+            "unitFullName": "tablespoon",
+            "unitAbbreviation": "tbsp",
             "portionInGrams": 3.8
         },
         {
