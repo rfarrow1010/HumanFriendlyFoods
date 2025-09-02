@@ -179,11 +179,13 @@
             "portionInGrams": 453.592
         }
     ],
+    "minimumInternalTemperatureFahrenheit": 165,
     "attributes": [],
     "annotations": [
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Chicken thigh via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646171"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Chicken thigh via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646171",
+        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
     ]
 }

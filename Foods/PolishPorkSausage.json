@@ -162,6 +162,7 @@
             "amountPer100g": 0.0
         }
     ],
+    "minimumInternalTemperatureFahrenheit": 160,
     "unitOptions": [
         {
             "unitFullName": "gram",
@@ -184,6 +185,7 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Polish pork sausage via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174577"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Polish pork sausage via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174577",
+        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
     ]
 }
