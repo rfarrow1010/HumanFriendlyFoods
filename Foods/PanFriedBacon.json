@@ -180,7 +180,13 @@
             "portionInGrams": 11.5
         }
     ],
-    "attributes": [],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree"
+    ],
     "annotations": [
         "srLegacy"
     ],

@@ -5,3 +5,10 @@
 * `fruit`
 * `vegetable`
 * `animalMeat`
+* `glutenFree`
+* `lactoseIntolerant`
+* `nutFree`
+* `soyFree`
+* `eggFree`
+* `halal`
+* `kosher`

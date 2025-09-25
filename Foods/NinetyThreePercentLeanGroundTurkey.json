@@ -170,7 +170,15 @@
             "portionInGrams": 1.0
         }
     ],
-    "attributes": [],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher"
+    ],
     "annotations": [
         "foundation"
     ],

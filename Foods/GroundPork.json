@@ -180,7 +180,13 @@
         }
     ],
     "minimumInternalTemperatureFahrenheit": 160,
-    "attributes": [],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree"
+    ],
     "annotations": [
         "foundation"
     ],
