@@ -186,12 +186,10 @@
     ],
     "attributes": [
         "vegetarian",
-        "vegan",
         "glutenFree",
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree",
         "halal",
         "kosher"
     ],

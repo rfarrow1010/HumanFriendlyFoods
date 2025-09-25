@@ -2,8 +2,6 @@
 
 * `vegetarian`
 * `vegan`
-* `fruit`
-* `vegetable`
 * `animalMeat`
 * `glutenFree`
 * `lactoseIntolerant`

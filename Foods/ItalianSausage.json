@@ -180,9 +180,7 @@
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree",
-        "halal",
-        "kosher"
+        "eggFree"
     ],
     "annotations": [
         "srLegacy"

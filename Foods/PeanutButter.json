@@ -181,7 +181,9 @@
     ],
     "attributes": [
         "vegetarian",
+        "vegan",
         "glutenFree",
+        "lactoseIntolerant",
         "soyFree",
         "eggFree",
         "halal",
