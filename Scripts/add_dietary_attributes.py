@@ -18,18 +18,13 @@ SPECIAL_CASES = {
     # Plant-based "milk" products - these are vegan despite having "milk" in name  
     "plant_based_milks": {
         "names": ["coconut milk", "canned coconut milk", "almond milk", "soy milk", "oat milk", "rice milk"],
-        "add_attributes": ["vegan", "lactoseIntolerant"],
+        "add_attributes": ["vegan", "lactoseIntolerant", "nutFree"],
         "remove_attributes": []
     },
     # Products that contain eggs
     "egg_containing": {
-        "names": ["mayonnaise", "pasta", "noodles"],
+        "names": ["mayonnaise"],
         "remove_attributes": ["vegan", "eggFree"]
-    },
-    # Dairy products that aren't inherently kosher
-    "dairy_products": {
-        "names": ["cheese", "butter", "milk", "cream", "yogurt"],
-        "remove_attributes": ["kosher"]
     },
     # Sausages that likely contain pork
     "pork_sausages": {
@@ -113,10 +108,8 @@ DIETARY_RESTRICTIONS = {
             # Pork and shellfish - definitively not kosher
             "pork", "bacon", "ham", "shrimp", "shellfish", "italian sausage", "polish sausage"
         ],
-        "exclude_keywords": ["pork", "shellfish"],
-        # Dairy products need kosher certification, so exclude by default
-        "exclude_dairy": ["milk", "cheese", "butter", "cream", "yogurt", "ghee", "buttermilk"]
-        # Note: Similar to halal, being conservative about preparation
+        "exclude_keywords": ["pork", "shellfish"]
+        # Note: Assuming user will buy kosher-certified products when needed
     }
 }
 
@@ -153,16 +146,6 @@ def food_violates_restriction(food_name: str, restriction_name: str) -> bool:
     for keyword in restriction.get("exclude_keywords", []):
         if keyword.lower() in food_name_lower:
             return True
-    
-    # Special handling for kosher dairy products
-    if restriction_name == "kosher" and "exclude_dairy" in restriction:
-        for dairy_item in restriction["exclude_dairy"]:
-            if dairy_item.lower() in food_name_lower:
-                # Check if it's a plant-based alternative
-                plant_based_exceptions = ["coconut", "almond", "soy", "oat", "rice"]
-                is_plant_based = any(plant.lower() in food_name_lower for plant in plant_based_exceptions)
-                if not is_plant_based:
-                    return True
     
     return False
 

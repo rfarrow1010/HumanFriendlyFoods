@@ -187,7 +187,8 @@
         "halal",
         "kosher",
         "vegan",
-        "lactoseIntolerant"
+        "lactoseIntolerant",
+        "nutFree"
     ],
     "annotations": [
         "srLegacy"

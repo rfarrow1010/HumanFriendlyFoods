@@ -185,6 +185,7 @@
         "soyFree",
         "eggFree",
         "halal",
+        "kosher",
         "vegan",
         "lactoseIntolerant"
     ],
