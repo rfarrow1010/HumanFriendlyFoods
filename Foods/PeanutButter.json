@@ -181,13 +181,12 @@
     ],
     "attributes": [
         "vegetarian",
-        "vegan",
         "glutenFree",
-        "lactoseIntolerant",
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "vegan",
+        "lactoseIntolerant"
     ],
     "annotations": [
         "srLegacy"

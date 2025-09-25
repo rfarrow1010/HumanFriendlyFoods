@@ -171,13 +171,13 @@
     ],
     "attributes": [
         "vegetarian",
-        "vegan",
         "glutenFree",
-        "lactoseIntolerant",
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "vegan",
+        "lactoseIntolerant"
     ],
     "annotations": [
         "foundation"

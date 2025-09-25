@@ -8,6 +8,37 @@ import os
 from pathlib import Path
 
 
+# Define special cases that need custom handling
+SPECIAL_CASES = {
+    # Plant-based "butter" products - these are vegan despite having "butter" in name
+    "plant_based_butters": {
+        "names": ["almond butter", "peanut butter", "cashew butter", "sunflower butter"],
+        "add_attributes": ["vegan", "lactoseIntolerant"]
+    },
+    # Plant-based "milk" products - these are vegan despite having "milk" in name  
+    "plant_based_milks": {
+        "names": ["coconut milk", "canned coconut milk", "almond milk", "soy milk", "oat milk", "rice milk"],
+        "add_attributes": ["vegan", "lactoseIntolerant"],
+        "remove_attributes": []
+    },
+    # Products that contain eggs
+    "egg_containing": {
+        "names": ["mayonnaise", "pasta", "noodles"],
+        "remove_attributes": ["vegan", "eggFree"]
+    },
+    # Dairy products that aren't inherently kosher
+    "dairy_products": {
+        "names": ["cheese", "butter", "milk", "cream", "yogurt"],
+        "remove_attributes": ["kosher"]
+    },
+    # Sausages that likely contain pork
+    "pork_sausages": {
+        "names": ["italian sausage", "polish sausage", "bratwurst"],
+        "remove_attributes": ["halal", "kosher"]
+    }
+}
+
+
 # Define dietary restrictions and foods that violate them
 DIETARY_RESTRICTIONS = {
     "vegetarian": {
@@ -26,7 +57,12 @@ DIETARY_RESTRICTIONS = {
             "milk", "cheese", "butter", "cream", "yogurt", "egg", "honey",
             "ghee", "buttermilk"
         ],
-        "exclude_keywords": ["meat", "poultry", "fish", "seafood", "dairy", "milk", "cheese"]
+        "exclude_keywords": ["meat", "poultry", "fish", "seafood", "dairy", "cheese"],
+        # Special handling: exclude items with "milk" or "butter" UNLESS they're plant-based
+        "exclude_keywords_with_exceptions": {
+            "milk": ["coconut milk", "almond milk", "soy milk", "oat milk", "rice milk", "canned coconut milk"],
+            "butter": ["almond butter", "peanut butter", "cashew butter", "sunflower butter"]
+        }
     },
     "glutenFree": {
         "exclude_names": [
@@ -39,7 +75,12 @@ DIETARY_RESTRICTIONS = {
         "exclude_names": [
             "milk", "cheese", "butter", "cream", "yogurt", "ghee", "buttermilk"
         ],
-        "exclude_keywords": ["milk", "cheese", "dairy", "lactose"]
+        "exclude_keywords": ["cheese", "dairy", "lactose"],
+        # Special handling: exclude items with "milk" or "butter" UNLESS they're plant-based
+        "exclude_keywords_with_exceptions": {
+            "milk": ["coconut milk", "almond milk", "soy milk", "oat milk", "rice milk", "canned coconut milk"],
+            "butter": ["almond butter", "peanut butter", "cashew butter", "sunflower butter"]
+        }
     },
     "nutFree": {
         "exclude_names": [
@@ -55,13 +96,13 @@ DIETARY_RESTRICTIONS = {
         "exclude_keywords": ["soy", "tofu", "tempeh"]
     },
     "eggFree": {
-        "exclude_names": ["egg"],
+        "exclude_names": ["egg", "mayonnaise"],
         "exclude_keywords": ["egg"]
     },
     "halal": {
         "exclude_names": [
             # Pork products - definitively not halal
-            "pork", "bacon", "ham"
+            "pork", "bacon", "ham", "italian sausage", "polish sausage"
         ],
         "exclude_keywords": ["pork"]
         # Note: We're being conservative - chicken, beef etc. could be halal if prepared properly
@@ -70,9 +111,11 @@ DIETARY_RESTRICTIONS = {
     "kosher": {
         "exclude_names": [
             # Pork and shellfish - definitively not kosher
-            "pork", "bacon", "ham", "shrimp", "shellfish"
+            "pork", "bacon", "ham", "shrimp", "shellfish", "italian sausage", "polish sausage"
         ],
-        "exclude_keywords": ["pork", "shellfish"]
+        "exclude_keywords": ["pork", "shellfish"],
+        # Dairy products need kosher certification, so exclude by default
+        "exclude_dairy": ["milk", "cheese", "butter", "cream", "yogurt", "ghee", "buttermilk"]
         # Note: Similar to halal, being conservative about preparation
     }
 }
@@ -90,18 +133,73 @@ def food_violates_restriction(food_name: str, restriction_name: str) -> bool:
         True if the food violates the restriction, False otherwise
     """
     restriction = DIETARY_RESTRICTIONS[restriction_name]
+    food_name_lower = food_name.lower()
     
     # Check exact name matches
-    for excluded_name in restriction["exclude_names"]:
-        if excluded_name.lower() in food_name.lower():
+    for excluded_name in restriction.get("exclude_names", []):
+        if excluded_name.lower() in food_name_lower:
             return True
     
-    # Check keyword matches
-    for keyword in restriction["exclude_keywords"]:
-        if keyword.lower() in food_name.lower():
+    # Check keyword matches with exceptions
+    if "exclude_keywords_with_exceptions" in restriction:
+        for keyword, exceptions in restriction["exclude_keywords_with_exceptions"].items():
+            if keyword.lower() in food_name_lower:
+                # Check if this food is in the exception list
+                is_exception = any(exc.lower() == food_name_lower for exc in exceptions)
+                if not is_exception:
+                    return True
+    
+    # Check regular keyword matches
+    for keyword in restriction.get("exclude_keywords", []):
+        if keyword.lower() in food_name_lower:
             return True
+    
+    # Special handling for kosher dairy products
+    if restriction_name == "kosher" and "exclude_dairy" in restriction:
+        for dairy_item in restriction["exclude_dairy"]:
+            if dairy_item.lower() in food_name_lower:
+                # Check if it's a plant-based alternative
+                plant_based_exceptions = ["coconut", "almond", "soy", "oat", "rice"]
+                is_plant_based = any(plant.lower() in food_name_lower for plant in plant_based_exceptions)
+                if not is_plant_based:
+                    return True
     
     return False
+
+
+def apply_special_cases(food_name: str, attributes: list) -> list:
+    """
+    Apply special case rules to modify attributes for specific foods.
+    
+    Args:
+        food_name: The name of the food
+        attributes: Current list of attributes
+    
+    Returns:
+        Modified list of attributes
+    """
+    food_name_lower = food_name.lower()
+    modified_attributes = attributes.copy()
+    
+    for case_name, case_rules in SPECIAL_CASES.items():
+        # Check if this food matches any of the special case names
+        for special_name in case_rules["names"]:
+            if special_name.lower() == food_name_lower:
+                # Add specified attributes
+                if "add_attributes" in case_rules:
+                    for attr in case_rules["add_attributes"]:
+                        if attr not in modified_attributes:
+                            modified_attributes.append(attr)
+                
+                # Remove specified attributes
+                if "remove_attributes" in case_rules:
+                    for attr in case_rules["remove_attributes"]:
+                        if attr in modified_attributes:
+                            modified_attributes.remove(attr)
+                
+                break  # Found a match, no need to check other names in this case
+    
+    return modified_attributes
 
 
 def get_dietary_attributes(food_name: str) -> list:
@@ -116,9 +214,13 @@ def get_dietary_attributes(food_name: str) -> list:
     """
     attributes = []
     
+    # First, apply standard restriction logic
     for restriction in DIETARY_RESTRICTIONS.keys():
         if not food_violates_restriction(food_name, restriction):
             attributes.append(restriction)
+    
+    # Then apply special case modifications
+    attributes = apply_special_cases(food_name, attributes)
     
     return attributes
 
@@ -143,15 +245,15 @@ def update_food_json(file_path: Path) -> bool:
         # Get existing attributes (preserve existing ones)
         existing_attributes = food_data.get("attributes", [])
         
-        # Get dietary attributes
+        # Get dietary attributes (replaces existing dietary attributes completely)
         dietary_attributes = get_dietary_attributes(food_name)
         
-        # Combine existing attributes with new dietary attributes
-        # Remove duplicates while preserving order
-        all_attributes = existing_attributes.copy()
-        for attr in dietary_attributes:
-            if attr not in all_attributes:
-                all_attributes.append(attr)
+        # Filter existing attributes to keep only non-dietary ones
+        dietary_restriction_names = set(DIETARY_RESTRICTIONS.keys())
+        non_dietary_attributes = [attr for attr in existing_attributes if attr not in dietary_restriction_names]
+        
+        # Combine non-dietary attributes with new dietary attributes
+        all_attributes = non_dietary_attributes + dietary_attributes
         
         # Update the attributes
         food_data["attributes"] = all_attributes

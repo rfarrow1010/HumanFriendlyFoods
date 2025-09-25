@@ -211,11 +211,9 @@
     ],
     "attributes": [
         "vegetarian",
-        "vegan",
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree",
         "halal",
         "kosher"
     ],

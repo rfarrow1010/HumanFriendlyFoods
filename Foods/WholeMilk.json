@@ -180,8 +180,7 @@
         "nutFree",
         "soyFree",
         "eggFree",
-        "halal",
-        "kosher"
+        "halal"
     ],
     "annotations": [
         "foundation"
