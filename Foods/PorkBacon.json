@@ -175,7 +175,13 @@
             "portionInGrams": 6.3
         }
     ],
-    "attributes": [],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree"
+    ],
     "annotations": [
         "foundation"
     ],

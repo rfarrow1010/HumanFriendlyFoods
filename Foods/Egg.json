@@ -175,7 +175,15 @@
         }
     ],
     "minimumInternalTemperatureFahrenheit": 160,
-    "attributes": [],
+    "attributes": [
+        "vegetarian",
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "halal",
+        "kosher"
+    ],
     "annotations": [
         "foundation"
     ],

@@ -174,7 +174,17 @@
             "portionInGrams": 225
         }
     ],
-    "attributes": [],
+    "attributes": [
+        "vegetarian",
+        "vegan",
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher"
+    ],
     "annotations": [],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Chocolate chips via unspecified. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2710333"

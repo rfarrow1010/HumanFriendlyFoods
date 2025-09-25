@@ -184,7 +184,15 @@
             "portionInGrams": 10.0
         }
     ],
-    "attributes": [],
+    "attributes": [
+        "vegetarian",
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "halal",
+        "kosher"
+    ],
     "annotations": [
         "srLegacy"
     ],
