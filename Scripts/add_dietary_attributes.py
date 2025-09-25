@@ -15,10 +15,16 @@ SPECIAL_CASES = {
         "names": ["almond butter", "peanut butter", "cashew butter", "sunflower butter"],
         "add_attributes": ["vegan", "lactoseIntolerant"]
     },
-    # Plant-based "milk" products - these are vegan despite having "milk" in name  
-    "plant_based_milks": {
-        "names": ["coconut milk", "canned coconut milk", "almond milk", "soy milk", "oat milk", "rice milk"],
+    # Coconut products - these are nut-free despite "coconut" containing "nut"
+    "coconut_products": {
+        "names": ["coconut milk", "canned coconut milk", "coconut oil"],
         "add_attributes": ["vegan", "lactoseIntolerant", "nutFree"],
+        "remove_attributes": []
+    },
+    # Other plant-based "milk" products - these are vegan but may not be nut-free
+    "other_plant_milks": {
+        "names": ["almond milk", "soy milk", "oat milk", "rice milk"],
+        "add_attributes": ["vegan", "lactoseIntolerant"],
         "remove_attributes": []
     },
     # Products that contain eggs
