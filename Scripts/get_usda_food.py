@@ -3,6 +3,7 @@ import requests
 import argparse
 import os
 from datetime import datetime
+from add_dietary_attributes import get_dietary_attributes
 
 def fetch(api_key: str, fdcId: str) -> dict:
     URL = f"https://api.nal.usda.gov/fdc/v1/food/{fdcId}?api_key={api_key}"
@@ -140,7 +141,8 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
 
     SOURCE_STR = f"U.S. Department of Agriculture, Agricultural Research Service. ({datetime.today().strftime('%Y-%m-%d')}). {spaced_name} via {resource_title_data_source}. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/{fdcId}"
 
-    food["attributes"] = []
+    # Get dietary attributes automatically
+    food["attributes"] = get_dietary_attributes(spaced_name)
     # for notes about the app that should not be exposed to the user for goal tracking
     food["annotations"] = []
     if json_dict["dataType"] == "Foundation":
