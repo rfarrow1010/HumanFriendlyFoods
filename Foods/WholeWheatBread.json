@@ -1,0 +1,198 @@
+{
+    "name": "Whole wheat bread",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 254.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 12.3
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 3.55
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 43.1
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 6.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 163.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 2.56
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 76.6
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 212.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 250.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 450.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 1.76
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.226
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 25.8
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.391
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.166
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 4.43
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.65
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.216
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 42.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 27.2
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 2.82
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.732
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.022
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "slice",
+            "unitAbbreviation": "slice",
+            "portionInGrams": 32.1
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 50.0
+        }
+    ],
+    "attributes": [
+        "vegetarian",
+        "vegan",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher"
+    ],
+    "annotations": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-10-23). Whole wheat bread via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/335240"
+    ]
+}

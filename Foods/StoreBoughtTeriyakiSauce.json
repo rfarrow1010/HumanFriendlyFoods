@@ -1,0 +1,204 @@
+{
+    "name": "Store bought teriyaki sauce",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 89.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 5.93
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.02
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 15.56
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 14.1
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 25.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.7
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 61.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 154.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 225.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 3833.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 1.1
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.03
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.07
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 1.27
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.2
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 8.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 19.5
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 18.0
+        },
+        {
+            "unitFullName": "fl oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 36.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 288.0
+        }
+    ],
+    "attributes": [
+        "vegetarian",
+        "vegan",
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher"
+    ],
+    "annotations": [
+        "srLegacy"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-10-15). Store bought teriyaki sauce via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171167"
+    ]
+}

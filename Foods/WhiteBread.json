@@ -1,0 +1,198 @@
+{
+    "name": "White bread",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 270.0
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 9.43
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 3.59
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 49.2
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 2.3
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 211.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 3.36
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 26.9
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 113.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 117.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 477.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.88
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.124
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 23.2
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.507
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.24
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 4.76
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.548
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.092
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.821
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.035
+        },
+        {
+            "name": "sugar",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "alphaLinolenicAcid",
+            "unit": "",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "slice",
+            "unitAbbreviation": "slice",
+            "portionInGrams": 27.3
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 50.0
+        }
+    ],
+    "attributes": [
+        "vegetarian",
+        "vegan",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher"
+    ],
+    "annotations": [
+        "foundation"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-10-23). White bread via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/325871"
+    ]
+}
