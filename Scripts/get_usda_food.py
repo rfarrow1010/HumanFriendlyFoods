@@ -153,6 +153,31 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
         SOURCE_STR
     ]
 
+    # Calculate calories from macros if calories are not provided
+    if "calories" not in nutrients_written:
+        protein_amount = 0.0
+        carbs_amount = 0.0
+        fat_amount = 0.0
+        
+        for nutrient in food["nutrients"]:
+            if nutrient["name"] == "protein":
+                protein_amount = nutrient["amountPer100g"]
+            elif nutrient["name"] == "carbohydrates":
+                carbs_amount = nutrient["amountPer100g"]
+            elif nutrient["name"] == "fat":
+                fat_amount = nutrient["amountPer100g"]
+        
+        # Calculate calories: protein * 4 + carbs * 4 + fat * 9
+        calculated_calories = (protein_amount * 4) + (carbs_amount * 4) + (fat_amount * 9)
+        
+        if calculated_calories > 0:
+            food["nutrients"].append({
+                "name": "calories",
+                "unit": "kcal",
+                "amountPer100g": calculated_calories
+            })
+            nutrients_written.append("calories")
+
     # make placeholders for any missing nutrients
     for nutrient in NUTRIENT_NAME_MAP.values():
         if nutrient not in nutrients_written:
