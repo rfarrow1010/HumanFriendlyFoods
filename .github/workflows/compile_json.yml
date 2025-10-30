@@ -35,3 +35,16 @@ jobs:
         with:
           name: FoodData-v${{ github.run_number }}
           path: ${{ env.OUTPUT_FILE }}
+
+      # Step 5: Create a GitHub release with the version tag
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          body: |
+            Automated release of compiled food data.
+            Version: ${{ env.VERSION }}
+          files: ${{ env.OUTPUT_FILE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
