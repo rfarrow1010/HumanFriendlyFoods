@@ -12,5 +12,5 @@ __pycache__/
 *$py.class
 
 # Build artifacts
-FoodData*.jsontest_output.json
-FoodData.json
+FoodData*.json
+test_output.json

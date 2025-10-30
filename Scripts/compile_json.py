@@ -6,6 +6,15 @@ import sys
 output_file = sys.argv[1] if len(sys.argv) > 1 else "FoodData.json"
 version = sys.argv[2] if len(sys.argv) > 2 else "v1"
 
+# Validate inputs
+if not output_file or not output_file.strip():
+    print("Error: Output filename cannot be empty")
+    sys.exit(1)
+    
+if not version or not version.strip():
+    print("Error: Version cannot be empty")
+    sys.exit(1)
+
 # List all JSON files in the directory
 json_files = glob.glob("Foods/*.json")
 foods = []
