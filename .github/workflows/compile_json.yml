@@ -23,7 +23,7 @@ jobs:
       # Step 3: Run the Python script to compile JSON files with versioning
       - name: Compile JSON files
         run: |
-          OUTPUT_FILE="FoodData-${{ github.sha }}.json"
+          OUTPUT_FILE="FoodData-v${{ github.run_number }}.json"
           python Scripts/compile_json.py "$OUTPUT_FILE"
           echo "OUTPUT_FILE=$OUTPUT_FILE" >> $GITHUB_ENV
 
@@ -31,5 +31,5 @@ jobs:
       - name: Upload combined JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: combined-json-${{ github.sha }}
+          name: combined-json-v${{ github.run_number }}
           path: ${{ env.OUTPUT_FILE }}
