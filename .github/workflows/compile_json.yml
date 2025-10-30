@@ -1,5 +1,8 @@
 name: Compile Food Data JSON and Publish
 
+permissions:
+  contents: write
+
 on:
   push:
     branches:
