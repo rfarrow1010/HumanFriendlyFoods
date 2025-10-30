@@ -20,13 +20,31 @@ jobs:
         with:
           python-version: "3.x"
 
-      # Step 3: Run the Python script to compile JSON files
+      # Step 3: Run the Python script to compile JSON files with versioning
       - name: Compile JSON files
-        run: python Scripts/compile_json.py
+        run: |
+          OUTPUT_FILE="FoodData.json"
+          VERSION="v${{ github.run_number }}"
+          python Scripts/compile_json.py "$OUTPUT_FILE" "$VERSION"
+          echo "OUTPUT_FILE=$OUTPUT_FILE" >> $GITHUB_ENV
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       # Step 4: Upload the combined JSON as an artifact
       - name: Upload combined JSON artifact
         uses: actions/upload-artifact@v4
         with:
-          name: combined-json
-          path: FoodData.json
+          name: FoodData-v${{ github.run_number }}
+          path: ${{ env.OUTPUT_FILE }}
+
+      # Step 5: Create a GitHub release with the version tag
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          body: |
+            Automated release of compiled food data.
+            Version: ${{ env.VERSION }}
+          files: ${{ env.OUTPUT_FILE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
