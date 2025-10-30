@@ -13,3 +13,4 @@ __pycache__/
 
 # Build artifacts
 FoodData*.json
+test_output.json
