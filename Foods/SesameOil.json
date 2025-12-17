@@ -1,89 +1,79 @@
 {
-    "name": "Canola oil",
+    "name": "Sesame oil",
     "nutrients": [
         {
-            "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 17.3
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 6.61
-        },
-        {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 884.0
         },
         {
             "name": "protein",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "fat",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 100.0
         },
         {
             "name": "carbohydrates",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "fiber",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "sugar",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "calcium",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "iron",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "magnesium",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "phosphorus",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "potassium",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "sodium",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "zinc",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "copper",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
             "name": "selenium",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
@@ -93,63 +83,73 @@
         },
         {
             "name": "vitaminC",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.2
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 1.4
+        },
+        {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "μg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "μg",
+            "amountPer100g": 13.6
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 14.2
         },
         {
             "name": "transFat",
@@ -167,11 +167,6 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "milliliter",
-            "unitAbbreviation": "ml",
-            "portionInGrams": 90.9
         }
     ],
     "attributes": [
@@ -186,9 +181,9 @@
         "kosher"
     ],
     "annotations": [
-        "foundation"
+        "sr_legacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-15). CanolaOil via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/748278"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Oil, sesame, salad or cooking via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171016"
     ]
 }
