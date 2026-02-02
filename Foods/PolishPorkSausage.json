@@ -68,7 +68,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 17.7
         },
         {
@@ -103,17 +103,17 @@
         },
         {
             "name": "folate",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 2.0
         },
         {
             "name": "vitaminB12",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.98
         },
         {
             "name": "vitaminA",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.0
         },
         {
@@ -185,7 +185,8 @@
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree"
+        "eggFree",
+        "protein"
     ],
     "annotations": [
         "srLegacy"

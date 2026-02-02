@@ -1,0 +1,105 @@
+name: Validate Food Database
+
+on:
+  pull_request:
+    paths:
+      - 'Foods/**'
+      - 'Scripts/validate_food_data.py'
+  push:
+    branches:
+      - main
+    paths:
+      - 'Foods/**'
+      - 'Scripts/validate_food_data.py'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Run food database validation
+      id: validate
+      run: |
+        python3 Scripts/validate_food_data.py --export validation-issues.json
+        
+        # Check if there are any critical issues
+        MISSING_UNITS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['missing_units']))")
+        HIGH_ZEROS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['high_zero_percentage']))")
+        ZERO_MACROS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['zero_macros']))")
+        
+        echo "missing_units=$MISSING_UNITS" >> $GITHUB_OUTPUT
+        echo "high_zeros=$HIGH_ZEROS" >> $GITHUB_OUTPUT
+        echo "zero_macros=$ZERO_MACROS" >> $GITHUB_OUTPUT
+        
+        # Fail if any issues found
+        if [ "$MISSING_UNITS" -gt 0 ] || [ "$HIGH_ZEROS" -gt 0 ] || [ "$ZERO_MACROS" -gt 0 ]; then
+          echo "::error::Food database validation failed with issues"
+          exit 1
+        fi
+    
+    - name: Upload validation results
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-issues
+        path: validation-issues.json
+    
+    - name: Comment validation results on PR
+      if: failure() && github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const issues = JSON.parse(fs.readFileSync('validation-issues.json', 'utf8'));
+          
+          let comment = '## 🔍 Food Database Validation Failed\n\n';
+          
+          if (issues.missing_units.length > 0) {
+            comment += `### ⚠️ Missing Units (${issues.missing_units.length} files)\n\n`;
+            issues.missing_units.forEach(item => {
+              comment += `- **${item.name}** (\`${item.file}\`)\n`;
+              item.issues.forEach(issue => {
+                comment += `  ${issue}\n`;
+              });
+            });
+            comment += '\n';
+          }
+          
+          if (issues.high_zero_percentage.length > 0) {
+            comment += `### ⚠️ High Zero Percentage (${issues.high_zero_percentage.length} files)\n\n`;
+            issues.high_zero_percentage.slice(0, 10).forEach(item => {
+              comment += `- **${item.name}** (\`${item.file}\`): ${item.zero_count}/${item.total_count} nutrients are zero (${item.percentage}%)\n`;
+            });
+            if (issues.high_zero_percentage.length > 10) {
+              comment += `\n... and ${issues.high_zero_percentage.length - 10} more\n`;
+            }
+            comment += '\n';
+          }
+          
+          if (issues.zero_macros.length > 0) {
+            comment += `### ⚠️ Zero Macronutrients (${issues.zero_macros.length} files)\n\n`;
+            issues.zero_macros.slice(0, 10).forEach(item => {
+              comment += `- **${item.name}** (\`${item.file}\`): Zero values for ${item.zero_nutrients.join(', ')}\n`;
+            });
+            if (issues.zero_macros.length > 10) {
+              comment += `\n... and ${issues.zero_macros.length - 10} more\n`;
+            }
+          }
+          
+          comment += '\n---\n';
+          comment += 'Please fix these issues before merging. Run `python3 Scripts/validate_food_data.py` locally to see the full report.';
+          
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: comment
+          });

@@ -63,7 +63,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.0
         },
         {
@@ -88,7 +88,7 @@
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 1.5
         },
         {
@@ -183,7 +183,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "vegetables"
     ],
     "annotations": [
         "foundation"

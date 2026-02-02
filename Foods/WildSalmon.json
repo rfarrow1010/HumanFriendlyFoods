@@ -58,12 +58,12 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 30.2
         },
         {
             "name": "vitaminB12",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 5.16
         },
         {
@@ -187,7 +187,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "protein"
     ],
     "annotations": [
         "foundation"

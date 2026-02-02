@@ -63,7 +63,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.0
         },
         {
@@ -93,12 +93,12 @@
         },
         {
             "name": "folate",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 9.994
         },
         {
             "name": "vitaminA",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 23.9
         },
         {
@@ -178,7 +178,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "vegetables"
     ],
     "annotations": [
         "foundation"

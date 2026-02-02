@@ -4,6 +4,7 @@ import argparse
 import os
 from datetime import datetime
 from add_dietary_attributes import get_dietary_attributes
+from myplate_classifier import enrich_food_data
 
 def fetch(api_key: str, fdcId: str) -> dict:
     URL = f"https://api.nal.usda.gov/fdc/v1/food/{fdcId}?api_key={api_key}"
@@ -222,6 +223,9 @@ if __name__ == "__main__":
 
     fetched_json_dict = fetch(api_key=api_key, fdcId=fdcId)
     food_dict = parse(json_dict=fetched_json_dict, fdcId=fdcId, name=name)
+    
+    # Auto-classify the food into food groups
+    food_dict = enrich_food_data(food_dict)
 
     underscored_name = name.replace(" ", "_")
     with open(f"../Foods/{underscored_name}.json", "w") as out_file:

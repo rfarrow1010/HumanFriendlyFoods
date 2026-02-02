@@ -103,7 +103,7 @@
         },
         {
             "name": "folate",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 303.0
         },
         {
@@ -118,7 +118,7 @@
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 31.4
         },
         {
@@ -187,7 +187,8 @@
         "nutFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "protein"
     ],
     "annotations": [
         "srLegacy"

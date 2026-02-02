@@ -181,7 +181,8 @@
         "nutFree",
         "soyFree",
         "eggFree",
-        "halal"
+        "halal",
+        "protein"
     ],
     "annotations": [
         "srLegacy"

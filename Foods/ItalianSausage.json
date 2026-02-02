@@ -73,7 +73,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 11.3
         },
         {
@@ -93,12 +93,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 1.0
         },
         {
             "name": "vitaminA",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.0
         },
         {
@@ -180,7 +180,8 @@
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree"
+        "eggFree",
+        "protein"
     ],
     "annotations": [
         "srLegacy"

@@ -68,7 +68,7 @@
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.6
         },
         {
@@ -183,7 +183,9 @@
         "eggFree",
         "halal",
         "kosher",
-        "nutFree"
+        "nutFree",
+        "protein",
+        "fatsAndOils"
     ],
     "annotations": [
         "foundation"

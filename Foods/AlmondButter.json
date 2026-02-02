@@ -63,7 +63,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.7938
         },
         {
@@ -83,7 +83,7 @@
         },
         {
             "name": "folate",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 42.46
         },
         {
@@ -93,7 +93,7 @@
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.0
         },
         {
@@ -177,7 +177,8 @@
         "halal",
         "kosher",
         "vegan",
-        "lactoseIntolerant"
+        "lactoseIntolerant",
+        "protein"
     ],
     "annotations": [
         "foundation"

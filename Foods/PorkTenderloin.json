@@ -185,7 +185,8 @@
         "lactoseIntolerant",
         "nutFree",
         "soyFree",
-        "eggFree"
+        "eggFree",
+        "protein"
     ],
     "annotations": [
         "foundation"

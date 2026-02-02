@@ -73,12 +73,12 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 2.3
         },
         {
             "name": "fluoride",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 8.5
         },
         {
@@ -113,7 +113,7 @@
         },
         {
             "name": "folate",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 8.0
         },
         {
@@ -123,12 +123,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.16
         },
         {
             "name": "vitaminA",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 65.0
         },
         {
@@ -138,12 +138,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 2.0
         },
         {
             "name": "vitaminK",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 0.5
         },
         {
@@ -191,7 +191,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "dairy"
     ],
     "annotations": [
         "srLegacy"

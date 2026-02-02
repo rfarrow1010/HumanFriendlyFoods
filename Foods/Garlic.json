@@ -28,7 +28,7 @@
         },
         {
             "name": "selenium",
-            "unit": "µg",
+            "unit": "\u00b5g",
             "amountPer100g": 9.8
         },
         {
@@ -178,7 +178,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "vegetables"
     ],
     "annotations": [
         "foundation"

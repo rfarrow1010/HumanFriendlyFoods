@@ -176,7 +176,8 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher"
+        "kosher",
+        "fatsAndOils"
     ],
     "annotations": [
         "srLegacy"

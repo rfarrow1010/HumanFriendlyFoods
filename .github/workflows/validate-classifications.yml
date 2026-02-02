@@ -1,0 +1,96 @@
+name: Validate Food Group Classifications
+
+on:
+  pull_request:
+    paths:
+      - 'Foods/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'Foods/**'
+
+jobs:
+  validate-classifications:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Validate all foods have food group classifications
+      id: validate
+      run: |
+        echo "Checking for foods without food group classifications..."
+        
+        # Run Python script to check classifications
+        python3 << 'EOF'
+        import json
+        import glob
+        import sys
+        
+        FOOD_GROUPS = {'vegetables', 'fruits', 'grains', 'protein', 'dairy', 'fatsAndOils'}
+        
+        unclassified = []
+        total_foods = 0
+        
+        for filepath in sorted(glob.glob('Foods/*.json')):
+            total_foods += 1
+            try:
+                with open(filepath, 'r') as f:
+                    food_data = json.load(f)
+                
+                food_name = food_data.get('name', filepath)
+                attributes = set(food_data.get('attributes', []))
+                
+                # Check if food has at least one food group classification
+                if not (attributes & FOOD_GROUPS):
+                    unclassified.append(filepath)
+                    
+            except Exception as e:
+                print(f"Error processing {filepath}: {e}")
+                sys.exit(1)
+        
+        print(f"\n{'='*80}")
+        print(f"FOOD GROUP CLASSIFICATION VALIDATION")
+        print(f"{'='*80}")
+        print(f"\nTotal foods: {total_foods}")
+        print(f"Classified: {total_foods - len(unclassified)}")
+        print(f"Unclassified: {len(unclassified)}")
+        
+        if unclassified:
+            print(f"\n❌ UNCLASSIFIED FOODS:")
+            print(f"{'-'*80}")
+            for food in unclassified[:20]:
+                with open(food, 'r') as f:
+                    food_data = json.load(f)
+                print(f"  - {food_data.get('name', 'Unknown')} ({food})")
+            
+            if len(unclassified) > 20:
+                print(f"  ... and {len(unclassified) - 20} more")
+            
+            print(f"\n💡 To fix: Run 'python3 Scripts/myplate_classifier.py --apply'")
+            print(f"{'='*80}\n")
+            sys.exit(1)
+        else:
+            print(f"\n✅ All foods have food group classifications!")
+            print(f"{'='*80}\n")
+            sys.exit(0)
+        EOF
+    
+    - name: Comment on PR
+      if: failure() && github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.issues.createComment({
+            issue_number: context.issue.number,
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            body: '❌ **Food Classification Validation Failed**\n\nSome foods are missing food group classifications. Please run:\n```bash\npython3 Scripts/myplate_classifier.py --apply\n```\n\nThen commit the changes.'
+          })
