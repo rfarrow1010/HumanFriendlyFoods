@@ -2,11 +2,6 @@
     "name": "Russet potato",
     "nutrients": [
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 81.0
-        },
-        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 2.27375
@@ -63,7 +58,7 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -88,13 +83,13 @@
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.5
         },
         {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 83.41999999999999
         },
         {
             "name": "fiber",
@@ -172,6 +167,11 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 110.0
         }
     ],
     "attributes": [
@@ -190,6 +190,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Russet potato via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346401"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Russet potato via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346401"
     ]
 }

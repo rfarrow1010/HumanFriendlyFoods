@@ -98,7 +98,7 @@
         },
         {
             "name": "calories",
-            "unit": "",
+            "unit": "kcal",
             "amountPer100g": 31.0
         },
         {

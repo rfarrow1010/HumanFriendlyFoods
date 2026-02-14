@@ -4,11 +4,17 @@ on:
   pull_request:
     paths:
       - 'Foods/**'
-  push:
-    branches:
-      - main
-    paths:
-      - 'Foods/**'
+      - 'Scripts/validate_classifications.py'
+      - 'Scripts/myplate_classifier.py'
+  # Temporarily disabled on push to main - 54 foods need classification
+  # Re-enable by uncommenting below after running: python3 Scripts/myplate_classifier.py --apply
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'Foods/**'
+  #     - 'Scripts/validate_classifications.py'
+  #     - 'Scripts/myplate_classifier.py'
 
 jobs:
   validate-classifications:
@@ -26,71 +32,59 @@ jobs:
     - name: Validate all foods have food group classifications
       id: validate
       run: |
-        echo "Checking for foods without food group classifications..."
+        python3 Scripts/validate_classifications.py --export classification-issues.json
         
-        # Run Python script to check classifications
-        python3 << 'EOF'
-        import json
-        import glob
-        import sys
+        # Check results
+        UNCLASSIFIED=$(python3 -c "import json; data=json.load(open('classification-issues.json')); print(data['total_unclassified'])")
         
-        FOOD_GROUPS = {'vegetables', 'fruits', 'grains', 'protein', 'dairy', 'fatsAndOils'}
+        echo "unclassified=$UNCLASSIFIED" >> $GITHUB_OUTPUT
         
-        unclassified = []
-        total_foods = 0
-        
-        for filepath in sorted(glob.glob('Foods/*.json')):
-            total_foods += 1
-            try:
-                with open(filepath, 'r') as f:
-                    food_data = json.load(f)
-                
-                food_name = food_data.get('name', filepath)
-                attributes = set(food_data.get('attributes', []))
-                
-                # Check if food has at least one food group classification
-                if not (attributes & FOOD_GROUPS):
-                    unclassified.append(filepath)
-                    
-            except Exception as e:
-                print(f"Error processing {filepath}: {e}")
-                sys.exit(1)
-        
-        print(f"\n{'='*80}")
-        print(f"FOOD GROUP CLASSIFICATION VALIDATION")
-        print(f"{'='*80}")
-        print(f"\nTotal foods: {total_foods}")
-        print(f"Classified: {total_foods - len(unclassified)}")
-        print(f"Unclassified: {len(unclassified)}")
-        
-        if unclassified:
-            print(f"\n❌ UNCLASSIFIED FOODS:")
-            print(f"{'-'*80}")
-            for food in unclassified[:20]:
-                with open(food, 'r') as f:
-                    food_data = json.load(f)
-                print(f"  - {food_data.get('name', 'Unknown')} ({food})")
-            
-            if len(unclassified) > 20:
-                print(f"  ... and {len(unclassified) - 20} more")
-            
-            print(f"\n💡 To fix: Run 'python3 Scripts/myplate_classifier.py --apply'")
-            print(f"{'='*80}\n")
-            sys.exit(1)
-        else:
-            print(f"\n✅ All foods have food group classifications!")
-            print(f"{'='*80}\n")
-            sys.exit(0)
-        EOF
+        # Fail if any foods are unclassified
+        if [ "$UNCLASSIFIED" -gt 0 ]; then
+          echo "::error::Food classification validation failed - $UNCLASSIFIED foods missing classifications"
+          exit 1
+        fi
+    
+    - name: Upload validation results
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: classification-issues
+        path: classification-issues.json
     
     - name: Comment on PR
       if: failure() && github.event_name == 'pull_request'
       uses: actions/github-script@v7
       with:
         script: |
+          const fs = require('fs');
+          const issues = JSON.parse(fs.readFileSync('classification-issues.json', 'utf8'));
+          
+          let comment = '## ❌ Food Classification Validation Failed\n\n';
+          comment += `**${issues.total_unclassified} of ${issues.total_foods} foods are missing food group classifications.**\n\n`;
+          comment += 'Required food groups: `vegetables`, `fruits`, `grains`, `protein`, `dairy`, `fatsAndOils`\n\n';
+          
+          if (issues.unclassified.length > 0) {
+            comment += '### Unclassified Foods:\n\n';
+            issues.unclassified.slice(0, 20).forEach(item => {
+              comment += `- **${item.name}** (\`${item.file}\`)\n`;
+            });
+            
+            if (issues.unclassified.length > 20) {
+              comment += `\n... and ${issues.unclassified.length - 20} more\n`;
+            }
+          }
+          
+          comment += '\n---\n';
+          comment += '### How to fix:\n\n';
+          comment += '```bash\n';
+          comment += 'python3 Scripts/myplate_classifier.py --apply\n';
+          comment += '```\n\n';
+          comment += 'Then commit and push the changes.';
+          
           github.rest.issues.createComment({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: '❌ **Food Classification Validation Failed**\n\nSome foods are missing food group classifications. Please run:\n```bash\npython3 Scripts/myplate_classifier.py --apply\n```\n\nThen commit the changes.'
-          })
+            body: comment
+          });

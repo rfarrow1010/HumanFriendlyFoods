@@ -63,8 +63,8 @@
         },
         {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 85.919
         },
         {
             "name": "fiber",
@@ -169,9 +169,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "grape",
-            "unitAbbreviation": "grape",
-            "portionInGrams": 6.0
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 140.0
         }
     ],
     "attributes": [
@@ -190,7 +190,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Red grapes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346412",
-        "Grape weight: https://fdc.nal.usda.gov/food-details/173040/nutrients"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Red grapes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346412"
     ]
 }

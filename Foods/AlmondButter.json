@@ -63,7 +63,7 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.7938
         },
         {
@@ -83,7 +83,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 42.46
         },
         {
@@ -93,7 +93,7 @@
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -103,8 +103,8 @@
         },
         {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 645.456
         },
         {
             "name": "sugar",
@@ -184,6 +184,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Almond butter via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2262074"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Almond butter via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2262074"
     ]
 }

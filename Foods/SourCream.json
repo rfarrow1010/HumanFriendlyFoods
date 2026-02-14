@@ -73,12 +73,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.06175
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.2
         },
         {
@@ -88,8 +88,8 @@
         },
         {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 196.4148
         },
         {
             "name": "fiber",
@@ -167,6 +167,11 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 30.0
         }
     ],
     "attributes": [
@@ -183,6 +188,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Sour cream via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346387"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Sour cream via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346387"
     ]
 }

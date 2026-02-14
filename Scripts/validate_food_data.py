@@ -45,6 +45,58 @@ def check_zero_values(food_data: Dict, filepath: Path) -> Tuple[int, int, List[s
     return zero_count, total_nutrients, zero_important
 
 
+def check_required_macros(food_data: Dict, filepath: Path) -> List[str]:
+    """
+    Check for required macronutrients that MUST have values.
+    
+    This is a critical validation - foods with missing macros should NOT be merged.
+    
+    Rules:
+    1. Calories must NEVER be zero or missing (except for zero-calorie items like water/baking soda)
+    2. At least ONE macro (protein, fat, or carbs) must be non-zero
+    3. All three macros (protein, fat, carbs) must be present (but can be zero)
+    
+    This allows for legitimate cases like:
+    - Oils: fat=high, protein=0, carbs=0
+    - Meats: protein=high, fat=varies, carbs=0
+    - Sugar: carbs=high, protein=0, fat=0
+    """
+    # Hard-coded exceptions for legitimate zero-calorie items
+    ZERO_CALORIE_EXCEPTIONS = ['Salt.json', 'BakingSoda.json', 'TapWater.json']
+    
+    required_macros = ['calories', 'protein', 'fat', 'carbohydrates']
+    nutrients = food_data.get('nutrients', [])
+    nutrient_dict = {n['name']: n.get('amountPer100g', 0) for n in nutrients}
+    
+    issues = []
+    
+    # Check if any macros are completely missing from the data
+    for macro in required_macros:
+        if macro not in nutrient_dict:
+            issues.append(f"{macro} (MISSING from data)")
+    
+    # If any are missing, return early
+    if issues:
+        return issues
+    
+    # Check if calories are zero (unless it's a zero-calorie exception)
+    if nutrient_dict['calories'] == 0.0 and filepath.name not in ZERO_CALORIE_EXCEPTIONS:
+        issues.append("calories (ZERO - must have calorie value)")
+    
+    # Check if ALL three macros are zero (protein, fat, carbs)
+    # This would be suspicious unless calories are also zero (like baking soda/water)
+    protein_zero = nutrient_dict['protein'] == 0.0
+    fat_zero = nutrient_dict['fat'] == 0.0
+    carbs_zero = nutrient_dict['carbohydrates'] == 0.0
+    
+    if protein_zero and fat_zero and carbs_zero:
+        # Only flag if calories are also zero or if this seems like a real food
+        if nutrient_dict['calories'] > 0:
+            issues.append("ALL macros are zero (protein, fat, carbs) but calories is non-zero - data inconsistency")
+    
+    return issues
+
+
 def check_missing_unit_options(food_data: Dict, filepath: Path) -> List[str]:
     """Check if food has adequate unit options."""
     issues = []
@@ -64,6 +116,7 @@ def validate_all_foods(foods_dir: Path, verbose: bool = False) -> Dict:
         'missing_units': [],
         'high_zero_percentage': [],
         'zero_macros': [],
+        'missing_required_macros': [],  # New critical validation
         'limited_units': [],
         'total_files': 0
     }
@@ -76,6 +129,16 @@ def validate_all_foods(foods_dir: Path, verbose: bool = False) -> Dict:
             food_data = load_food_file(filepath)
             food_name = food_data.get('name', filepath.stem)
             has_issues = False
+            
+            # CRITICAL: Check for missing or zero required macros (blocks merge)
+            missing_macros = check_required_macros(food_data, filepath)
+            if missing_macros:
+                results['missing_required_macros'].append({
+                    'file': filepath.name,
+                    'name': food_name,
+                    'missing_macros': missing_macros
+                })
+                has_issues = True
             
             # Check for missing units
             missing_unit_issues = check_missing_units(food_data, filepath)
@@ -101,6 +164,7 @@ def validate_all_foods(foods_dir: Path, verbose: bool = False) -> Dict:
                 })
                 has_issues = True
             
+            # Legacy check - keeping for backward compatibility
             if zero_important:
                 results['zero_macros'].append({
                     'file': filepath.name,
@@ -131,6 +195,19 @@ def print_report(results: Dict):
     print("=" * 80)
     print(f"\nTotal files scanned: {results['total_files']}\n")
     
+    # CRITICAL: Missing required macros (blocks merge)
+    if results['missing_required_macros']:
+        print(f"\n🚫 CRITICAL: MISSING REQUIRED MACROS ({len(results['missing_required_macros'])} files)")
+        print("=" * 80)
+        print("These foods are MISSING required macronutrients and MUST be fixed before merge!")
+        print("Required macros: calories, protein, fat, carbohydrates")
+        print("-" * 80)
+        for item in results['missing_required_macros']:
+            print(f"\n{item['file']} - {item['name']}")
+            print(f"  - Missing/Zero: {', '.join(item['missing_macros'])}")
+    else:
+        print("\n✓ All foods have required macronutrients (calories, protein, fat, carbohydrates)")
+    
     # Missing units
     if results['missing_units']:
         print(f"\n⚠️  MISSING UNITS ({len(results['missing_units'])} files)")
@@ -152,7 +229,7 @@ def print_report(results: Dict):
     else:
         print("\n✓ No excessive zero values found")
     
-    # Zero macros
+    # Zero macros (legacy check)
     if results['zero_macros']:
         print(f"\n⚠️  ZERO MACRONUTRIENTS ({len(results['zero_macros'])} files)")
         print("-" * 80)
@@ -179,6 +256,7 @@ def print_report(results: Dict):
 def export_issues_json(results: Dict, output_path: Path):
     """Export issues to a JSON file for programmatic processing."""
     issues = {
+        'missing_required_macros': results['missing_required_macros'],  # Critical blocker
         'missing_units': results['missing_units'],
         'high_zero_percentage': results['high_zero_percentage'],
         'zero_macros': results['zero_macros']

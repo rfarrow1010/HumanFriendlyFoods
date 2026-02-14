@@ -62,9 +62,14 @@
             "amountPer100g": 0.1043
         },
         {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 9.1
+        },
+        {
             "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "kcal",
+            "amountPer100g": 37.8755
         },
         {
             "name": "sugar",
@@ -78,11 +83,6 @@
         },
         {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
             "unit": "",
             "amountPer100g": 0.0
         },
@@ -167,6 +167,11 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 130.0
         }
     ],
     "attributes": [
@@ -185,6 +190,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Crushed tomatoes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685581"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Crushed tomatoes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685581"
     ]
 }

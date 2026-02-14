@@ -31,16 +31,18 @@ jobs:
         python3 Scripts/validate_food_data.py --export validation-issues.json
         
         # Check if there are any critical issues
+        MISSING_REQUIRED_MACROS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data.get('missing_required_macros', [])))")
         MISSING_UNITS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['missing_units']))")
         HIGH_ZEROS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['high_zero_percentage']))")
         ZERO_MACROS=$(python3 -c "import json; data=json.load(open('validation-issues.json')); print(len(data['zero_macros']))")
         
+        echo "missing_required_macros=$MISSING_REQUIRED_MACROS" >> $GITHUB_OUTPUT
         echo "missing_units=$MISSING_UNITS" >> $GITHUB_OUTPUT
         echo "high_zeros=$HIGH_ZEROS" >> $GITHUB_OUTPUT
         echo "zero_macros=$ZERO_MACROS" >> $GITHUB_OUTPUT
         
         # Fail if any issues found
-        if [ "$MISSING_UNITS" -gt 0 ] || [ "$HIGH_ZEROS" -gt 0 ] || [ "$ZERO_MACROS" -gt 0 ]; then
+        if [ "$MISSING_REQUIRED_MACROS" -gt 0 ] || [ "$MISSING_UNITS" -gt 0 ] || [ "$HIGH_ZEROS" -gt 0 ] || [ "$ZERO_MACROS" -gt 0 ]; then
           echo "::error::Food database validation failed with issues"
           exit 1
         fi
@@ -61,6 +63,21 @@ jobs:
           const issues = JSON.parse(fs.readFileSync('validation-issues.json', 'utf8'));
           
           let comment = '## 🔍 Food Database Validation Failed\n\n';
+          
+          // CRITICAL: Missing required macros (blocks merge)
+          if (issues.missing_required_macros && issues.missing_required_macros.length > 0) {
+            comment += `### 🚫 CRITICAL: Missing Required Macros (${issues.missing_required_macros.length} files)\n\n`;
+            comment += '**These foods are MISSING required macronutrients and MUST be fixed before merge!**\n\n';
+            comment += 'Required macros: `calories`, `protein`, `fat`, `carbohydrates`\n\n';
+            issues.missing_required_macros.slice(0, 10).forEach(item => {
+              comment += `- **${item.name}** (\`${item.file}\`)\n`;
+              comment += `  - Missing/Zero: ${item.missing_macros.join(', ')}\n`;
+            });
+            if (issues.missing_required_macros.length > 10) {
+              comment += `\n... and ${issues.missing_required_macros.length - 10} more\n`;
+            }
+            comment += '\n';
+          }
           
           if (issues.missing_units.length > 0) {
             comment += `### ⚠️ Missing Units (${issues.missing_units.length} files)\n\n`;
