@@ -7,6 +7,11 @@
             "amountPer100g": 358.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 7.82
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 23.91
@@ -25,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 10.8
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -68,7 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -103,22 +118,37 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 204.0
         },
         {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -132,46 +162,21 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
     "unitOptions": [
         {
-            "unitFullName": "cup",
-            "unitAbbreviation": "",
-            "portionInGrams": 192.0
-        },
-        {
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 192.0
         }
     ],
     "attributes": [
@@ -190,6 +195,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Red lentils via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174284"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Lentils, pink or red, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174284"
     ]
 }

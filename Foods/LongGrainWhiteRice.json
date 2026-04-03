@@ -2,6 +2,16 @@
     "name": "Long grain white rice",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 369.637321
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 11.19
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 7.03885
@@ -20,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 0.1488
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -67,6 +82,16 @@
             "amountPer100g": 6.6
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "thiamin",
             "unit": "mg",
             "amountPer100g": 0.065
@@ -82,83 +107,63 @@
             "amountPer100g": 1.434
         },
         {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB6",
             "unit": "mg",
             "amountPer100g": 0.05788
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 358.705
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -190,6 +195,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-13). Long grain white rice via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2512381"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Rice, white, long grain, unenriched, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2512381"
     ]
 }

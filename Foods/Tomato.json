@@ -2,6 +2,16 @@
     "name": "Tomato",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 94.73
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.695625
@@ -20,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 0.9706
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -63,7 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -87,78 +107,63 @@
             "amountPer100g": 0.5331
         },
         {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB6",
             "unit": "mg",
             "amountPer100g": 0.07894
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 9.994
         },
         {
-            "name": "vitaminA",
-            "unit": "\u00b5g",
-            "amountPer100g": 23.9
-        },
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 19.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 23.9
+        },
+        {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -167,6 +172,11 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 85.0
         }
     ],
     "attributes": [
@@ -185,6 +195,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Tomato via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/1999634"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tomato, roma via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/1999634"
     ]
 }

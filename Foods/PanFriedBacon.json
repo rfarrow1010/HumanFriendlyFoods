@@ -7,6 +7,11 @@
             "amountPer100g": 468.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 23.65
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 33.92
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 50.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.09
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 11.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.4
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -152,17 +162,11 @@
             "amountPer100g": 0.144
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.223
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 145,
     "unitOptions": [
         {
             "unitFullName": "gram",
@@ -192,7 +196,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Pan-fried bacon via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168322",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Pork, cured, bacon, pre-sliced, cooked, pan-fried via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168322"
     ]
 }

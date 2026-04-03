@@ -7,6 +7,11 @@
             "amountPer100g": 57.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 85.81
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.28
@@ -73,7 +78,17 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
@@ -103,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -112,8 +127,13 @@
             "amountPer100g": 5.1
         },
         {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -122,9 +142,19 @@
             "amountPer100g": 0.18
         },
         {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.8
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "transFat",
@@ -132,33 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -205,6 +210,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Apple via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168202"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Apples, raw, golden delicious, with skin via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168202"
     ]
 }

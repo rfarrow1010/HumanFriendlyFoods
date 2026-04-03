@@ -7,6 +7,11 @@
             "amountPer100g": 532.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 1.86
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 6.39
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 2.5
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 61.3
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 29.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 22.1
         },
         {
@@ -158,8 +163,8 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.34
         }
     ],
     "unitOptions": [
@@ -205,6 +210,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Potato chips via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169677"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Snacks, potato chips, plain, salted via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169677"
     ]
 }

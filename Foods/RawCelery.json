@@ -7,6 +7,11 @@
             "amountPer100g": 14.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 95.43
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.69
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.4
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 4.0
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 36.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 22.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 29.3
         },
         {
@@ -158,7 +163,7 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -220,6 +225,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Raw celery via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169988"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Celery, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169988"
     ]
 }

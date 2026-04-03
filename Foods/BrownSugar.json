@@ -7,6 +7,11 @@
             "amountPer100g": 380.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 1.34
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.12
@@ -75,6 +80,11 @@
             "name": "selenium",
             "unit": "µg",
             "amountPer100g": 1.2
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -147,18 +157,13 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -209,6 +214,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Brown sugar via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168833"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Sugars, brown via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168833"
     ]
 }

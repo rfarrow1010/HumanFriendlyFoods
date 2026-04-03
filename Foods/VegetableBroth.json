@@ -7,6 +7,11 @@
             "amountPer100g": 5.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 98.05
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.24
@@ -73,7 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 12.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.7
         },
         {
@@ -152,17 +162,17 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
     "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
         {
             "unitFullName": "can",
             "unitAbbreviation": "",
@@ -177,11 +187,6 @@
             "unitFullName": "cup",
             "unitAbbreviation": "",
             "portionInGrams": 221.0
-        },
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
         }
     ],
     "attributes": [
@@ -201,6 +206,6 @@
         "lowQuality"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Vegetable broth via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171583"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Soup, vegetable broth, ready to serve via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171583"
     ]
 }

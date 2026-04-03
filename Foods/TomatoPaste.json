@@ -2,6 +2,16 @@
     "name": "Tomato paste",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 88.53450625
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 71.93
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 4.234375
@@ -20,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 4.704
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -62,103 +77,93 @@
             "amountPer100g": 0.295
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 89.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "selenium",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "fluoride",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 18.4
         },
         {
             "name": "thiamin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,14 +174,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
-            "portionInGrams": 16.0
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 262.0
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 30.0
         }
     ],
     "attributes": [
@@ -195,8 +195,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Tomato paste via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685580",
-        "Tablespoon weight: https://fdc.nal.usda.gov/food-details/170459/nutrients",
-        "Cup weight: https://fdc.nal.usda.gov/food-details/170459/nutrients"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tomato, paste, canned, without salt added via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685580"
     ]
 }

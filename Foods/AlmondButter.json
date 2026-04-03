@@ -2,6 +2,16 @@
     "name": "Almond butter",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 602.510076
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 1.751
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 20.78734
@@ -20,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 9.718
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -67,14 +82,34 @@
             "amountPer100g": 0.7938
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "thiamin",
             "unit": "mg",
             "amountPer100g": 0.09456
         },
         {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "niacin",
             "unit": "mg",
             "amountPer100g": 3.909
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
@@ -87,9 +122,29 @@
             "amountPer100g": 42.46
         },
         {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminE",
             "unit": "mg",
             "amountPer100g": 16.67
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
@@ -102,63 +157,13 @@
             "amountPer100g": 4.253
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 645.456
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -184,6 +189,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-02-14). Almond butter via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2262074"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Almond butter, creamy via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2262074"
     ]
 }

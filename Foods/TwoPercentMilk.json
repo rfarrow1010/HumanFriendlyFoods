@@ -7,109 +7,134 @@
             "amountPer100g": 50.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 89.21
+        },
+        {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 3.36
+            "amountPer100g": 3.3
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 1.9
+            "amountPer100g": 1.98
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 4.9
+            "amountPer100g": 4.8
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 5.06
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 126.0
+            "amountPer100g": 120.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.02
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 12.0
+            "amountPer100g": 11.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 103.0
+            "amountPer100g": 92.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 159.0
+            "amountPer100g": 140.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 39.0
+            "amountPer100g": 47.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 0.43
+            "amountPer100g": 0.48
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.001
+            "amountPer100g": 0.006
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
-            "amountPer100g": 1.8
+            "unit": "µg",
+            "amountPer100g": 2.5
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 3.4
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.2
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.059
+            "amountPer100g": 0.039
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.137
+            "amountPer100g": 0.185
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.112
+            "amountPer100g": 0.092
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.39
+            "amountPer100g": 0.356
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.061
+            "amountPer100g": 0.038
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
-            "amountPer100g": 2.0
+            "unit": "µg",
+            "amountPer100g": 5.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 18.2
+            "amountPer100g": 16.4
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
-            "amountPer100g": 0.55
+            "unit": "µg",
+            "amountPer100g": 0.53
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
-            "amountPer100g": 83.0
+            "unit": "µg",
+            "amountPer100g": 55.0
         },
         {
             "name": "vitaminE",
@@ -118,48 +143,28 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
-            "amountPer100g": 1.13
+            "unit": "µg",
+            "amountPer100g": 1.2
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.2
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 1.11
+            "amountPer100g": 1.257
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.07
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.085
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.008
         }
     ],
     "unitOptions": [
@@ -169,9 +174,19 @@
             "portionInGrams": 1.0
         },
         {
+            "unitFullName": "quart",
+            "unitAbbreviation": "",
+            "portionInGrams": 976.0
+        },
+        {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 245.0
+            "unitAbbreviation": "",
+            "portionInGrams": 244.0
+        },
+        {
+            "unitFullName": "fl oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 30.5
         }
     ],
     "attributes": [
@@ -188,6 +203,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). 2% milk via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746778"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171267"
     ]
 }

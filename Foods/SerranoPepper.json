@@ -7,6 +7,11 @@
             "amountPer100g": 32.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 90.25
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 1.74
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.4
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 23.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 47.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 11.8
         },
         {
@@ -152,17 +162,17 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
     "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
         {
             "unitFullName": "cup, chopped",
             "unitAbbreviation": "",
@@ -172,11 +182,6 @@
             "unitFullName": "pepper",
             "unitAbbreviation": "",
             "portionInGrams": 6.1
-        },
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
         }
     ],
     "attributes": [
@@ -195,6 +200,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Serrano pepper via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169395"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Peppers, serrano, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169395"
     ]
 }

@@ -7,6 +7,11 @@
             "amountPer100g": 82.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 81.22
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 17.81
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 33.1
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 7.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.91
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 12.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.9
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.1
         },
         {
@@ -147,18 +157,13 @@
             "amountPer100g": 0.131
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -179,7 +184,6 @@
             "portionInGrams": 85.0
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 145,
     "attributes": [
         "glutenFree",
         "lactoseIntolerant",
@@ -194,7 +198,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-23). Cod via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171955",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Fish, cod, Atlantic, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171955"
     ]
 }

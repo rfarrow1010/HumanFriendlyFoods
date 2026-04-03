@@ -7,6 +7,11 @@
             "amountPer100g": 84.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 78.04
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 5.22
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.9
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 36.0
         },
         {
@@ -118,7 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -128,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 4.1
         },
         {
@@ -147,19 +162,9 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.075
         }
     ],
     "unitOptions": [
@@ -190,6 +195,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Canned kidney beans via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173741"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Beans, kidney, all types, mature seeds, canned via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173741"
     ]
 }

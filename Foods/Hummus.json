@@ -4,72 +4,87 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 229.0
+            "amountPer100g": 237.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 57.4
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 7.35
+            "amountPer100g": 7.78
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 17.1
+            "amountPer100g": 17.82
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 14.9
+            "amountPer100g": 15.0
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 5.4
+            "amountPer100g": 5.5
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.62
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 41.0
+            "amountPer100g": 47.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 2.41
+            "amountPer100g": 2.54
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 71.1
+            "amountPer100g": 75.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 166.0
+            "amountPer100g": 181.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 289.0
+            "amountPer100g": 312.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 438.0
+            "amountPer100g": 426.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 1.38
+            "amountPer100g": 1.44
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.348
+            "amountPer100g": 0.377
         },
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 16.2
+            "amountPer100g": 4.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -79,37 +94,42 @@
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.15
+            "amountPer100g": 0.16
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.115
+            "amountPer100g": 0.127
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.948
+            "amountPer100g": 1.024
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.318
+            "amountPer100g": 0.346
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.143
+            "amountPer100g": 0.146
         },
         {
             "name": "folate",
             "unit": "µg",
-            "amountPer100g": 36.0
+            "amountPer100g": 48.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 46.6
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
@@ -119,47 +139,32 @@
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 1.74
+            "amountPer100g": 1.54
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 17.2
+            "amountPer100g": 22.8
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 2.22
+            "amountPer100g": 2.562
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.018
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.019
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.711
         }
     ],
     "unitOptions": [
@@ -169,9 +174,14 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
-            "portionInGrams": 16.95
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 15.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 246.0
         }
     ],
     "attributes": [
@@ -189,6 +199,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Hummus via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/321358"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Hummus, commercial via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174289"
     ]
 }

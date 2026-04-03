@@ -2,6 +2,16 @@
     "name": "Ground pork",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 233.442059
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 63.87
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 17.80625
@@ -14,7 +24,17 @@
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -57,6 +77,81 @@
             "amountPer100g": 0.0666
         },
         {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "saturatedFat",
             "unit": "g",
             "amountPer100g": 6.283
@@ -67,98 +162,8 @@
             "amountPer100g": 0.066
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 233.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "selenium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,17 +174,11 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 110.0
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 160,
     "attributes": [
         "glutenFree",
         "lactoseIntolerant",
@@ -192,7 +191,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Ground pork via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2514745",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Pork, ground, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2514745"
     ]
 }

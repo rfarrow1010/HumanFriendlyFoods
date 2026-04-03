@@ -7,6 +7,11 @@
             "amountPer100g": 884.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.0
@@ -68,17 +73,17 @@
         },
         {
             "name": "copper",
-            "unit": "\u03bcg",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "selenium",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "fluoride",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u03bcg",
+            "unit": "µg",
             "amountPer100g": 13.6
         },
         {
@@ -153,12 +158,12 @@
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -167,6 +172,21 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "tablespoon",
+            "unitAbbreviation": "",
+            "portionInGrams": 13.6
+        },
+        {
+            "unitFullName": "tsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 4.5
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 218.0
         }
     ],
     "attributes": [
@@ -185,6 +205,6 @@
         "sr_legacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Oil, sesame, salad or cooking via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171016"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Oil, sesame, salad or cooking via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171016"
     ]
 }

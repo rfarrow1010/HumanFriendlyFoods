@@ -7,6 +7,11 @@
             "amountPer100g": 101.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 65.11
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 5.56
@@ -25,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 14.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -67,6 +77,16 @@
             "amountPer100g": 0.555
         },
         {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminC",
             "unit": "mg",
             "amountPer100g": 160.1
@@ -102,6 +122,11 @@
             "amountPer100g": 45.0
         },
         {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB12",
             "unit": "µg",
             "amountPer100g": 0.0
@@ -112,7 +137,17 @@
             "amountPer100g": 238.0
         },
         {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
             "unit": "µg",
             "amountPer100g": 0.0
         },
@@ -127,38 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "selenium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -194,6 +199,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Thyme via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173470"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Thyme, fresh via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173470"
     ]
 }

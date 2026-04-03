@@ -7,6 +7,11 @@
             "amountPer100g": 134.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 74.04
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 6.81
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 2.3
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 8.5
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 8.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.16
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 65.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 2.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.5
         },
         {
@@ -153,12 +158,12 @@
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -181,6 +186,11 @@
         {
             "unitFullName": "cup",
             "unitAbbreviation": "",
+            "portionInGrams": 126.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 252.0
         }
     ],
@@ -198,6 +208,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Evaporated milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Milk, canned, evaporated, with added vitamin D and without added vitamin A via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171276"
     ]
 }

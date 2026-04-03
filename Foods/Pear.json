@@ -7,6 +7,11 @@
             "amountPer100g": 57.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 83.96
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.36
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.1
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 2.2
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 7.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 4.4
         },
         {
@@ -158,7 +163,7 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -216,6 +221,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Pear via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169118"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Pears, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169118"
     ]
 }

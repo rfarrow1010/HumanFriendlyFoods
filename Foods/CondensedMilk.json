@@ -7,6 +7,11 @@
             "amountPer100g": 321.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 27.16
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 7.91
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 14.8
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 11.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.44
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 74.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.2
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.6
         },
         {
@@ -147,18 +157,13 @@
             "amountPer100g": 5.486
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -193,6 +198,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Condensed milk via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171275"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Milk, canned, condensed, sweetened via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171275"
     ]
 }

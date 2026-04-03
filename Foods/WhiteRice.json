@@ -2,6 +2,16 @@
     "name": "White rice",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 369.637321
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 11.19
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 7.03885
@@ -20,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 0.1488
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -63,8 +78,18 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 6.6
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
@@ -82,83 +107,63 @@
             "amountPer100g": 1.434
         },
         {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB6",
             "unit": "mg",
             "amountPer100g": 0.05788
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 359.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,9 +174,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 185
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 45.0
         }
     ],
     "attributes": [
@@ -190,7 +195,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). White rice via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2512381",
-        "Cup weight: https://fdc.nal.usda.gov/food-details/169756/nutrients"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Rice, white, long grain, unenriched, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2512381"
     ]
 }

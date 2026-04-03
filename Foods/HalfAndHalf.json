@@ -7,6 +7,11 @@
             "amountPer100g": 131.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 80.57
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 3.13
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.2
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.19
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 97.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.3
         },
         {
@@ -158,8 +163,8 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.04
         }
     ],
     "unitOptions": [
@@ -169,13 +174,13 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
             "portionInGrams": 15.0
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 242.0
         },
         {
@@ -184,8 +189,8 @@
             "portionInGrams": 15.0
         },
         {
-            "unitFullName": "fluid ounce",
-            "unitAbbreviation": "fl oz",
+            "unitFullName": "fl oz",
+            "unitAbbreviation": "",
             "portionInGrams": 30.2
         }
     ],
@@ -205,6 +210,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Half-and-half via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171255"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Cream, fluid, half and half via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171255"
     ]
 }

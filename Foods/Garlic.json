@@ -7,6 +7,11 @@
             "amountPer100g": 143.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 63.1
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 6.62
@@ -27,9 +32,59 @@
             "amountPer100g": 2.7
         },
         {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 9.8
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -37,128 +92,78 @@
             "amountPer100g": 10.0
         },
         {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "calcium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "iron",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "magnesium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "phosphorus",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "potassium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sodium",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "zinc",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "copper",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "thiamin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -167,6 +172,21 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "clove",
+            "unitAbbreviation": "clove",
+            "portionInGrams": 3.0
+        },
+        {
+            "unitFullName": "teaspoon",
+            "unitAbbreviation": "tsp",
+            "portionInGrams": 2.8
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 136.0
         }
     ],
     "attributes": [
@@ -185,6 +205,7 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Garlic via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/1104647"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Garlic, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/1104647",
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-04-02). Garlic, raw via SR Legacy. USDA FoodData Central. https://fdc.nal.usda.gov/food-details/169230/nutrients"
     ]
 }

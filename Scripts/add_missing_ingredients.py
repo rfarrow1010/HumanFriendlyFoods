@@ -77,39 +77,43 @@ MISSING_INGREDIENTS = [
 ]
 
 # Nutrient mapping from FoodData Central to our format
+# 1008 = Energy (general); 2047/2048 = Atwater factors used by Foundation Foods
 NUTRIENT_MAPPING = {
-    1008: ("calories", "kcal"),
-    1003: ("protein", "g"),
-    1004: ("fat", "g"),
-    1005: ("carbohydrates", "g"),
-    1079: ("fiber", "g"),
-    2000: ("sugar", "g"),
-    1087: ("calcium", "mg"),
-    1089: ("iron", "mg"),
-    1090: ("magnesium", "mg"),
-    1091: ("phosphorus", "mg"),
-    1092: ("potassium", "mg"),
-    1093: ("sodium", "mg"),
-    1095: ("zinc", "mg"),
-    1098: ("copper", "μg"),
-    1103: ("selenium", "μg"),
-    1099: ("fluoride", "mg"),
-    1162: ("vitaminC", "mg"),
-    1165: ("thiamin", "mg"),
-    1166: ("riboflavin", "mg"),
-    1167: ("niacin", "mg"),
-    1170: ("pantothenicAcid", "mg"),
-    1175: ("vitaminB6", "mg"),
-    1177: ("folate", "μg"),
-    1180: ("choline", "mg"),
-    1178: ("vitaminB12", "μg"),
-    1106: ("vitaminA", "μg"),
-    1109: ("vitaminE", "mg"),
-    1114: ("vitaminD", "μg"),
-    1185: ("vitaminK", "μg"),
-    1258: ("saturatedFat", "g"),
-    1257: ("transFat", "g"),
-    1404: ("alphaLinolenicAcid", "g"),
+    1008: ("calories",          "kcal"),
+    2047: ("calories",          "kcal"),   # Atwater General — Foundation Foods
+    2048: ("calories",          "kcal"),   # Atwater Specific — Foundation Foods
+    1051: ("water",             "g"),
+    1003: ("protein",           "g"),
+    1004: ("fat",               "g"),
+    1005: ("carbohydrates",     "g"),
+    1079: ("fiber",             "g"),
+    2000: ("sugar",             "g"),
+    1087: ("calcium",           "mg"),
+    1089: ("iron",              "mg"),
+    1090: ("magnesium",         "mg"),
+    1091: ("phosphorus",        "mg"),
+    1092: ("potassium",         "mg"),
+    1093: ("sodium",            "mg"),
+    1095: ("zinc",              "mg"),
+    1098: ("copper",            "mg"),   # was incorrectly "μg"
+    1103: ("selenium",          "µg"),
+    1099: ("fluoride",          "µg"),
+    1162: ("vitaminC",          "mg"),
+    1165: ("thiamin",           "mg"),
+    1166: ("riboflavin",        "mg"),
+    1167: ("niacin",            "mg"),
+    1170: ("pantothenicAcid",   "mg"),
+    1175: ("vitaminB6",         "mg"),
+    1177: ("folate",            "µg"),
+    1180: ("choline",           "mg"),
+    1178: ("vitaminB12",        "µg"),
+    1106: ("vitaminA",          "µg"),
+    1109: ("vitaminE",          "mg"),
+    1114: ("vitaminD",          "µg"),
+    1185: ("vitaminK",          "µg"),
+    1258: ("saturatedFat",      "g"),
+    1257: ("transFat",          "g"),
+    1404: ("alphaLinolenicAcid","g"),
 }
 
 
@@ -246,25 +250,29 @@ def create_food_json(food_data: Dict, display_name: str) -> Dict:
                 "amountPer100g": float(amount)
             }
     
-    # Add all nutrients in consistent order
-    nutrient_order = ["calories", "protein", "fat", "carbohydrates", "fiber", "sugar",
-                     "calcium", "iron", "magnesium", "phosphorus", "potassium", "sodium",
-                     "zinc", "copper", "selenium", "fluoride", "vitaminC", "thiamin",
-                     "riboflavin", "niacin", "pantothenicAcid", "vitaminB6", "folate",
-                     "choline", "vitaminB12", "vitaminA", "vitaminE", "vitaminD",
-                     "vitaminK", "saturatedFat", "transFat", "alphaLinolenicAcid"]
-    
+    # Canonical units for placeholder entries (nutrient not found in USDA data)
+    canonical_units = {name: unit for _, (name, unit) in NUTRIENT_MAPPING.items()}
+
+    # Add all nutrients in consistent order — calories first, water second
+    nutrient_order = [
+        "calories", "water",
+        "protein", "fat", "carbohydrates", "fiber", "sugar",
+        "calcium", "iron", "magnesium", "phosphorus", "potassium", "sodium",
+        "zinc", "copper", "selenium", "fluoride",
+        "vitaminC", "thiamin", "riboflavin", "niacin", "pantothenicAcid",
+        "vitaminB6", "folate", "choline", "vitaminB12",
+        "vitaminA", "vitaminE", "vitaminD", "vitaminK",
+        "saturatedFat", "transFat", "alphaLinolenicAcid",
+    ]
+
     for nutrient_name in nutrient_order:
         if nutrient_name in nutrients_dict:
             food_json["nutrients"].append(nutrients_dict[nutrient_name])
         else:
-            # Add placeholder with empty unit
-            unit = ""
-            if nutrient_name in ["calories"]:
-                unit = "kcal"
+            # Placeholder — use canonical unit so the field is never empty
             food_json["nutrients"].append({
                 "name": nutrient_name,
-                "unit": unit,
+                "unit": canonical_units.get(nutrient_name, ""),
                 "amountPer100g": 0.0
             })
     

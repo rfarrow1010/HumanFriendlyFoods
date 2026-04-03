@@ -7,6 +7,11 @@
             "amountPer100g": 598.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 1.23
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 22.21
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 4.1
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 87.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.3
         },
         {
@@ -152,14 +162,9 @@
             "amountPer100g": 0.075
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.027
         }
     ],
     "unitOptions": [
@@ -170,13 +175,13 @@
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 258.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
-            "portionInGrams": 16.0
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 32.0
         }
     ],
     "attributes": [
@@ -194,6 +199,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Peanut butter via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172470"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Peanut butter, smooth style, without salt via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172470"
     ]
 }

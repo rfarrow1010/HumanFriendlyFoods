@@ -7,6 +7,11 @@
             "amountPer100g": 77.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 78.54
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.0
@@ -77,6 +82,11 @@
             "amountPer100g": 0.5
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminC",
             "unit": "mg",
             "amountPer100g": 13.0
@@ -95,6 +105,11 @@
             "name": "niacin",
             "unit": "mg",
             "amountPer100g": 0.7
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
@@ -142,23 +157,13 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -193,6 +198,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Worcestershire sauce via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171610"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Sauce, worcestershire via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171610"
     ]
 }

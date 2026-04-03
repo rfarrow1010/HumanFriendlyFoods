@@ -7,6 +7,11 @@
             "amountPer100g": 574.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 1.7
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 15.31
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 11.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 69.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 34.7
         },
         {
@@ -147,18 +157,13 @@
             "amountPer100g": 9.157
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,18 +174,18 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
             "portionInGrams": 28.35
         },
         {
             "unitFullName": "cup, halves and whole",
-            "unitAbbreviation": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 137.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
             "portionInGrams": 8.6
         }
     ],
@@ -199,6 +204,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-23). Cashews via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170571"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Nuts, cashew nuts, dry roasted, without salt added via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170571"
     ]
 }

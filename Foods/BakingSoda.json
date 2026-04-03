@@ -7,6 +7,11 @@
             "amountPer100g": 0.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 0.2
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.0
@@ -75,6 +80,11 @@
             "name": "selenium",
             "unit": "µg",
             "amountPer100g": 0.2
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -147,18 +157,13 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -194,6 +199,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Baking soda via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/175040"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Leavening agents, baking soda via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/175040"
     ]
 }

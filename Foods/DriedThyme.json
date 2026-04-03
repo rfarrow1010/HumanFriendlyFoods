@@ -7,6 +7,11 @@
             "amountPer100g": 276.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 7.79
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 9.11
@@ -77,6 +82,11 @@
             "amountPer100g": 4.6
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminC",
             "unit": "mg",
             "amountPer100g": 50.0
@@ -95,6 +105,11 @@
             "name": "niacin",
             "unit": "mg",
             "amountPer100g": 4.94
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
@@ -147,18 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -204,6 +209,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Dried thyme via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170938"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Spices, thyme, dried via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170938"
     ]
 }

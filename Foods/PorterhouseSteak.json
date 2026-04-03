@@ -4,20 +4,35 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 145.0
+            "amountPer100g": 218.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 64.12
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 22.7
+            "amountPer100g": 20.36
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 5.32
+            "amountPer100g": 14.58
         },
         {
             "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
             "unit": "g",
             "amountPer100g": 0.0
         },
@@ -29,137 +44,127 @@
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 2.26
+            "amountPer100g": 1.91
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 10.7
+            "amountPer100g": 10.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 200.0
+            "amountPer100g": 188.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 266.0
+            "amountPer100g": 246.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 43.0
+            "amountPer100g": 52.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 3.52
+            "amountPer100g": 3.19
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.075
+            "amountPer100g": 0.052
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
-            "amountPer100g": 21.4
-        },
-        {
-            "name": "riboflavin",
-            "unit": "mg",
-            "amountPer100g": 0.23
-        },
-        {
-            "name": "niacin",
-            "unit": "mg",
-            "amountPer100g": 5.32
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "mg",
-            "amountPer100g": 0.751
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "\u00b5g",
-            "amountPer100g": 1.98
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 2.07
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.28
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 20.7
         },
         {
             "name": "fluoride",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.048
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.241
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 4.961
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.331
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.59
         },
         {
             "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 3.0
         },
         {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 51.4
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 1.8
         },
         {
             "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 4.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.23
         },
         {
             "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 0.1
         },
         {
             "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 1.5
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 6.171
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.861
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.027
         }
     ],
     "unitOptions": [
@@ -170,21 +175,15 @@
         },
         {
             "unitFullName": "steak",
-            "unitAbbreviation": "steak",
-            "portionInGrams": 525.0
+            "unitAbbreviation": "",
+            "portionInGrams": 539.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
-            "portionInGrams": 28.3495
-        },
-        {
-            "unitFullName": "pound",
-            "unitAbbreviation": "lb",
-            "portionInGrams": 453.592
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 113.0
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 145,
     "attributes": [
         "glutenFree",
         "lactoseIntolerant",
@@ -199,7 +198,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Porterhouse steak via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746762",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Beef, short loin, porterhouse steak, separable lean and fat, trimmed to 1/8\" fat, choice, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168715"
     ]
 }

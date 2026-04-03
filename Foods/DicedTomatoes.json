@@ -4,27 +4,42 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 18.0
+            "amountPer100g": 16.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 94.75
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 0.84
+            "amountPer100g": 0.79
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 0.5
+            "amountPer100g": 0.25
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 3.32
+            "amountPer100g": 3.47
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 1.9
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 2.55
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 30.0
+            "amountPer100g": 33.0
         },
         {
             "name": "iron",
@@ -34,22 +49,22 @@
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 9.8
+            "amountPer100g": 10.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 18.0
+            "amountPer100g": 17.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 198.0
+            "amountPer100g": 191.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 125.0
+            "amountPer100g": 115.0
         },
         {
             "name": "zinc",
@@ -62,103 +77,93 @@
             "amountPer100g": 0.052
         },
         {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "selenium",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 0.7
         },
         {
             "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 5.1
         },
         {
             "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 12.6
         },
         {
             "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.575
         },
         {
             "name": "riboflavin",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.055
         },
         {
             "name": "niacin",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.712
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.117
         },
         {
             "name": "vitaminB6",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.111
         },
         {
             "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 8.0
         },
         {
             "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 6.4
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 20.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "mg",
+            "amountPer100g": 0.59
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 2.6
         },
         {
             "name": "saturatedFat",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.034
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -170,8 +175,33 @@
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 245.0
+            "unitAbbreviation": "",
+            "portionInGrams": 240.0
+        },
+        {
+            "unitFullName": "medium",
+            "unitAbbreviation": "",
+            "portionInGrams": 111.0
+        },
+        {
+            "unitFullName": "large",
+            "unitAbbreviation": "",
+            "portionInGrams": 164.0
+        },
+        {
+            "unitFullName": "small",
+            "unitAbbreviation": "",
+            "portionInGrams": 82.0
+        },
+        {
+            "unitFullName": "can",
+            "unitAbbreviation": "",
+            "portionInGrams": 190.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 15.0
         }
     ],
     "attributes": [
@@ -190,6 +220,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Diced tomatoes via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/333281"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tomatoes, red, ripe, canned, packed in tomato juice via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170051"
     ]
 }

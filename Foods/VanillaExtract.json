@@ -7,6 +7,11 @@
             "amountPer100g": 288.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 52.58
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.06
@@ -77,6 +82,11 @@
             "amountPer100g": 0.0
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminC",
             "unit": "mg",
             "amountPer100g": 0.0
@@ -109,6 +119,11 @@
         {
             "name": "folate",
             "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
@@ -147,18 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -199,6 +204,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). VanillaExtract via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173471"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Vanilla extract via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173471"
     ]
 }

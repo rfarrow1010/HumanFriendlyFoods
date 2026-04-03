@@ -7,6 +7,11 @@
             "amountPer100g": 643.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 4.39
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 14.29
@@ -73,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 5.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -97,13 +107,18 @@
             "amountPer100g": 2.217
         },
         {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB6",
             "unit": "mg",
             "amountPer100g": 0.526
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 91.0
         },
         {
@@ -113,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.0
         },
         {
@@ -128,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.3
         },
         {
@@ -147,18 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,8 +174,8 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "ounce",
-            "unitAbbreviation": "oz",
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
             "portionInGrams": 28.0
         }
     ],
@@ -189,6 +194,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-23). Walnuts via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170594"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Nuts, walnuts, dry roasted, with salt added via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170594"
     ]
 }

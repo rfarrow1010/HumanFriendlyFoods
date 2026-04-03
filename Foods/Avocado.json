@@ -7,6 +7,11 @@
             "amountPer100g": 160.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 73.23
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 2.0
@@ -158,8 +163,8 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.111
         }
     ],
     "unitOptions": [
@@ -209,6 +214,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Avocado via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171705"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Avocados, raw, all commercial varieties via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171705"
     ]
 }

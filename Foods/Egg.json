@@ -4,22 +4,27 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 148.0
+            "amountPer100g": 143.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 76.15
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 12.4
+            "amountPer100g": 12.56
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 9.96
+            "amountPer100g": 9.51
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 0.96
+            "amountPer100g": 0.72
         },
         {
             "name": "fiber",
@@ -27,139 +32,139 @@
             "amountPer100g": 0.0
         },
         {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.37
+        },
+        {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 48.0
+            "amountPer100g": 56.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 1.67
+            "amountPer100g": 1.75
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 11.4
+            "amountPer100g": 12.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 184.0
+            "amountPer100g": 198.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 132.0
+            "amountPer100g": 138.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 129.0
+            "amountPer100g": 142.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 1.24
+            "amountPer100g": 1.29
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.072
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
-            "amountPer100g": 31.1
+            "unit": "µg",
+            "amountPer100g": 30.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 1.1
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.077
+            "amountPer100g": 0.04
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.419
+            "amountPer100g": 0.457
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.075
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 1.533
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.063
+            "amountPer100g": 0.17
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
-            "amountPer100g": 71.0
+            "unit": "µg",
+            "amountPer100g": 47.0
         },
         {
             "name": "choline",
             "unit": "mg",
-            "amountPer100g": 335.0
+            "amountPer100g": 293.8
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
-            "amountPer100g": 1.02
+            "unit": "µg",
+            "amountPer100g": 0.89
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
-            "amountPer100g": 180.0
+            "unit": "µg",
+            "amountPer100g": 160.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 1.05
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
-            "amountPer100g": 2.46
+            "unit": "µg",
+            "amountPer100g": 2.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 0.3
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 3.2
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 3.126
         },
         {
             "name": "transFat",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.038
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.036
         }
     ],
     "unitOptions": [
@@ -169,12 +174,36 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "egg",
-            "unitAbbreviation": "egg",
-            "portionInGrams": 50.3
+            "unitFullName": "cup (4.86 large eggs)",
+            "unitAbbreviation": "",
+            "portionInGrams": 243.0
+        },
+        {
+            "unitFullName": "medium",
+            "unitAbbreviation": "",
+            "portionInGrams": 44.0
+        },
+        {
+            "unitFullName": "extra large",
+            "unitAbbreviation": "",
+            "portionInGrams": 56.0
+        },
+        {
+            "unitFullName": "small",
+            "unitAbbreviation": "",
+            "portionInGrams": 38.0
+        },
+        {
+            "unitFullName": "jumbo",
+            "unitAbbreviation": "",
+            "portionInGrams": 63.0
+        },
+        {
+            "unitFullName": "large",
+            "unitAbbreviation": "",
+            "portionInGrams": 50.0
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 160,
     "attributes": [
         "vegetarian",
         "glutenFree",
@@ -189,7 +218,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Egg via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/748967",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Egg, whole, raw, fresh via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171287"
     ]
 }

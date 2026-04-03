@@ -7,6 +7,11 @@
             "amountPer100g": 247.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 10.58
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 3.99
@@ -75,6 +80,11 @@
             "name": "selenium",
             "unit": "µg",
             "amountPer100g": 3.1
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -152,14 +162,9 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.011
         }
     ],
     "unitOptions": [
@@ -194,6 +199,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Cinnamon via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171320"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Spices, cinnamon, ground via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171320"
     ]
 }

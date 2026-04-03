@@ -7,6 +7,11 @@
             "amountPer100g": 884.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.0
@@ -73,7 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -108,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -118,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -133,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 60.2
         },
         {
@@ -147,18 +157,13 @@
             "amountPer100g": 13.808
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -170,17 +175,17 @@
         },
         {
             "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
+            "unitAbbreviation": "",
             "portionInGrams": 13.5
         },
         {
-            "unitFullName": "teaspoon",
-            "unitAbbreviation": "tsp",
+            "unitFullName": "tsp",
+            "unitAbbreviation": "",
             "portionInGrams": 4.5
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 216.0
         }
     ],
@@ -200,6 +205,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-15). ExtraVirginOliveOil via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171413"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Oil, olive, salad or cooking via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171413"
     ]
 }

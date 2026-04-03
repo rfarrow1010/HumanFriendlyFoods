@@ -7,6 +7,11 @@
             "amountPer100g": 340.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 57.71
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 2.84
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 4.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.16
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 411.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.6
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.2
         },
         {
@@ -158,8 +163,8 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.122
         }
     ],
     "unitOptions": [
@@ -203,6 +208,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-21). Heavy cream via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170859"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Cream, fluid, heavy whipping via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170859"
     ]
 }

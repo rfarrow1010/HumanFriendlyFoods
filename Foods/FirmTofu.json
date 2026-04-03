@@ -7,6 +7,11 @@
             "amountPer100g": 144.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 69.83
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 17.27
@@ -25,6 +30,11 @@
             "name": "fiber",
             "unit": "g",
             "amountPer100g": 2.3
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -68,8 +78,13 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 17.4
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -103,17 +118,37 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 29.0
         },
         {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -127,38 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -170,13 +175,13 @@
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 252.0
+            "unitAbbreviation": "",
+            "portionInGrams": 126.0
         },
         {
             "unitFullName": "block",
-            "unitAbbreviation": "block",
-            "portionInGrams": 324.0
+            "unitAbbreviation": "",
+            "portionInGrams": 81.0
         }
     ],
     "attributes": [
@@ -194,6 +199,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-24). Firm tofu via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172475"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tofu, raw, firm, prepared with calcium sulfate via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172475"
     ]
 }

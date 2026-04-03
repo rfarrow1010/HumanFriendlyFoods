@@ -4,22 +4,27 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 254.0
+            "amountPer100g": 252.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 39.01
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 12.3
+            "amountPer100g": 12.45
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 3.55
+            "amountPer100g": 3.5
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 43.1
+            "amountPer100g": 42.71
         },
         {
             "name": "fiber",
@@ -27,19 +32,24 @@
             "amountPer100g": 6.0
         },
         {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 4.34
+        },
+        {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 163.0
+            "amountPer100g": 161.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 2.56
+            "amountPer100g": 2.47
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 76.6
+            "amountPer100g": 75.0
         },
         {
             "name": "phosphorus",
@@ -49,56 +59,66 @@
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 250.0
+            "amountPer100g": 254.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 450.0
+            "amountPer100g": 455.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 1.76
+            "amountPer100g": 1.77
         },
         {
             "name": "copper",
             "unit": "mg",
-            "amountPer100g": 0.226
+            "amountPer100g": 0.227
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
-            "amountPer100g": 25.8
+            "unit": "µg",
+            "amountPer100g": 25.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.391
+            "amountPer100g": 0.394
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.166
+            "amountPer100g": 0.167
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 4.43
+            "amountPer100g": 4.438
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.65
+            "amountPer100g": 0.646
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.216
+            "amountPer100g": 0.215
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 42.0
         },
         {
@@ -107,59 +127,44 @@
             "amountPer100g": 27.2
         },
         {
-            "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 2.82
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.732
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.022
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 2.66
+        },
+        {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "µg",
+            "amountPer100g": 7.8
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 0.722
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.02
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.137
         }
     ],
     "unitOptions": [
@@ -169,14 +174,14 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "slice",
-            "unitAbbreviation": "slice",
-            "portionInGrams": 32.1
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.35
         },
         {
-            "unitFullName": "RACC",
-            "unitAbbreviation": "RACC",
-            "portionInGrams": 50.0
+            "unitFullName": "slice",
+            "unitAbbreviation": "",
+            "portionInGrams": 32.0
         }
     ],
     "attributes": [
@@ -194,6 +199,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-10-23). Whole wheat bread via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/335240"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Bread, whole-wheat, commercially prepared via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172688"
     ]
 }

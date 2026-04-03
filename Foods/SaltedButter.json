@@ -7,6 +7,11 @@
             "amountPer100g": 717.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 16.17
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.85
@@ -73,12 +78,12 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.0
         },
         {
             "name": "fluoride",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 2.8
         },
         {
@@ -113,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 3.0
         },
         {
@@ -123,12 +128,12 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.17
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 684.0
         },
         {
@@ -138,12 +143,12 @@
         },
         {
             "name": "vitaminD",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 7.0
         },
         {
@@ -158,8 +163,8 @@
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.315
         }
     ],
     "unitOptions": [
@@ -203,6 +208,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Salted butter via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173410"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Butter, salted via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173410"
     ]
 }

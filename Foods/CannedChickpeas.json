@@ -2,6 +2,16 @@
     "name": "Canned chickpeas",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 132.972
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 68.59
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 7.01875
@@ -15,6 +25,16 @@
             "name": "carbohydrates",
             "unit": "g",
             "amountPer100g": 20.32025
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
         },
         {
             "name": "calcium",
@@ -57,108 +77,93 @@
             "amountPer100g": 0.2674
         },
         {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 137.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "selenium",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "fluoride",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -169,14 +174,9 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "cup drained, rinsed",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 152
-        },
-        {
-            "unitFullName": "can drained, rinsed",
-            "unitAbbreviation": "can",
-            "portionInGrams": 254
+            "unitFullName": "RACC",
+            "unitAbbreviation": "RACC",
+            "portionInGrams": 130.0
         }
     ],
     "attributes": [
@@ -195,8 +195,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-20). Canned chickpeas via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2644288",
-        "Cup weight: https://fdc.nal.usda.gov/food-details/173801/nutrients",
-        "Can weight: https://fdc.nal.usda.gov/food-details/173801/nutrients"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2644288"
     ]
 }

@@ -7,6 +7,11 @@
             "amountPer100g": 116.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 79.99
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 0.84
@@ -75,6 +80,11 @@
             "name": "selenium",
             "unit": "µg",
             "amountPer100g": 0.9
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -152,13 +162,8 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -199,6 +204,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-10-15). Olives via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169094"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Olives, ripe, canned (small-extra large) via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169094"
     ]
 }

@@ -2,6 +2,41 @@
     "name": "Salt",
     "nutrients": [
         {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 0.42
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "calcium",
             "unit": "mg",
             "amountPer100g": 50.0
@@ -42,123 +77,93 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "calories",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "protein",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fat",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "carbohydrates",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "selenium",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "fluoride",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "riboflavin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "niacin",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "pantothenicAcid",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB6",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "folate",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "choline",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminB12",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminA",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminE",
-            "unit": "",
+            "unit": "mg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminD",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
-            "unit": "",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
             "name": "saturatedFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "transFat",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
@@ -189,6 +194,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Salt via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746775"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Salt, table, iodized via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/746775"
     ]
 }

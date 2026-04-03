@@ -4,57 +4,72 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 421.0
+            "amountPer100g": 420.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 22.65
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 29.6
+            "amountPer100g": 28.42
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 28.0
+            "amountPer100g": 27.84
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 12.4
+            "amountPer100g": 13.91
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.07
         },
         {
             "name": "calcium",
             "unit": "mg",
-            "amountPer100g": 884.0
+            "amountPer100g": 853.0
         },
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 0.45
+            "amountPer100g": 0.49
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 34.9
+            "amountPer100g": 34.0
         },
         {
             "name": "phosphorus",
             "unit": "mg",
-            "amountPer100g": 634.0
+            "amountPer100g": 627.0
         },
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 184.0
+            "amountPer100g": 180.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 1750.0
+            "amountPer100g": 1804.0
         },
         {
             "name": "zinc",
             "unit": "mg",
-            "amountPer100g": 4.33
+            "amountPer100g": 4.2
         },
         {
             "name": "copper",
@@ -63,28 +78,38 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
-            "amountPer100g": 35.0
+            "unit": "µg",
+            "amountPer100g": 34.4
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.027
+            "amountPer100g": 0.026
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.345
+            "amountPer100g": 0.358
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.078
+            "amountPer100g": 0.08
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.457
+            "amountPer100g": 0.45
         },
         {
             "name": "vitaminB6",
@@ -93,7 +118,7 @@
         },
         {
             "name": "folate",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 6.0
         },
         {
@@ -103,63 +128,43 @@
         },
         {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
-            "amountPer100g": 1.35
+            "unit": "µg",
+            "amountPer100g": 1.4
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
-            "amountPer100g": 228.0
+            "unit": "µg",
+            "amountPer100g": 262.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.51
+            "amountPer100g": 0.53
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.5
         },
         {
             "name": "vitaminK",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.7
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 15.5
+            "amountPer100g": 15.371
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.896
-        },
-        {
-            "name": "fiber",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.876
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.102
         }
     ],
     "unitOptions": [
@@ -169,9 +174,19 @@
             "portionInGrams": 1.0
         },
         {
-            "unitFullName": "tablespoon",
-            "unitAbbreviation": "tbsp",
-            "portionInGrams": 7.6
+            "unitFullName": "oz",
+            "unitAbbreviation": "",
+            "portionInGrams": 28.35
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "",
+            "portionInGrams": 100.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "",
+            "portionInGrams": 5.0
         }
     ],
     "attributes": [
@@ -188,6 +203,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Parmesan cheese via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/325036"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Cheese, parmesan, grated via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171247"
     ]
 }

@@ -7,6 +7,11 @@
             "amountPer100g": 290.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 56.44
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 13.9
@@ -73,11 +78,21 @@
         },
         {
             "name": "selenium",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 11.3
         },
         {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
             "unit": "mg",
             "amountPer100g": 0.0
         },
@@ -92,13 +107,48 @@
             "amountPer100g": 5.8
         },
         {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminB12",
-            "unit": "\u00b5g",
+            "unit": "µg",
             "amountPer100g": 1.0
         },
         {
             "name": "vitaminA",
-            "unit": "\u00b5g",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminE",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
             "amountPer100g": 0.0
         },
         {
@@ -112,54 +162,9 @@
             "amountPer100g": 0.115
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "folate",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.152
         }
     ],
     "unitOptions": [
@@ -174,7 +179,6 @@
             "portionInGrams": 101.0
         }
     ],
-    "minimumInternalTemperatureFahrenheit": 160,
     "attributes": [
         "glutenFree",
         "lactoseIntolerant",
@@ -187,7 +191,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-03-22). Italian sausage via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171631",
-        "U.S. Department of Agriculture, Food Safety and Inspection Service. (2025-09-02). Safe Minimum Internal Temeprature Chart. https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Sausage, Italian, pork, mild, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171631"
     ]
 }

@@ -4,27 +4,37 @@
         {
             "name": "calories",
             "unit": "kcal",
-            "amountPer100g": 61.0
+            "amountPer100g": 60.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 83.72
         },
         {
             "name": "protein",
             "unit": "g",
-            "amountPer100g": 4.25
+            "amountPer100g": 3.74
         },
         {
             "name": "fat",
             "unit": "g",
-            "amountPer100g": 3.38
+            "amountPer100g": 3.34
         },
         {
             "name": "carbohydrates",
             "unit": "g",
-            "amountPer100g": 5.3
+            "amountPer100g": 5.83
         },
         {
             "name": "fiber",
             "unit": "g",
-            "amountPer100g": 4.3
+            "amountPer100g": 4.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.92
         },
         {
             "name": "calcium",
@@ -34,12 +44,12 @@
         {
             "name": "iron",
             "unit": "mg",
-            "amountPer100g": 1.59
+            "amountPer100g": 1.61
         },
         {
             "name": "magnesium",
             "unit": "mg",
-            "amountPer100g": 47.7
+            "amountPer100g": 48.0
         },
         {
             "name": "phosphorus",
@@ -49,12 +59,12 @@
         {
             "name": "potassium",
             "unit": "mg",
-            "amountPer100g": 150.0
+            "amountPer100g": 152.0
         },
         {
             "name": "sodium",
             "unit": "mg",
-            "amountPer100g": 1100.0
+            "amountPer100g": 1104.0
         },
         {
             "name": "zinc",
@@ -69,37 +79,42 @@
         {
             "name": "selenium",
             "unit": "µg",
-            "amountPer100g": 34.0
+            "amountPer100g": 33.5
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 1.5
         },
         {
             "name": "vitaminC",
             "unit": "mg",
-            "amountPer100g": 0.4
+            "amountPer100g": 0.3
         },
         {
             "name": "thiamin",
             "unit": "mg",
-            "amountPer100g": 0.189
+            "amountPer100g": 0.177
         },
         {
             "name": "riboflavin",
             "unit": "mg",
-            "amountPer100g": 0.066
+            "amountPer100g": 0.07
         },
         {
             "name": "niacin",
             "unit": "mg",
-            "amountPer100g": 0.561
+            "amountPer100g": 0.565
         },
         {
             "name": "pantothenicAcid",
             "unit": "mg",
-            "amountPer100g": 0.263
+            "amountPer100g": 0.254
         },
         {
             "name": "vitaminB6",
             "unit": "mg",
-            "amountPer100g": 0.069
+            "amountPer100g": 0.07
         },
         {
             "name": "folate",
@@ -107,59 +122,49 @@
             "amountPer100g": 7.0
         },
         {
+            "name": "choline",
+            "unit": "mg",
+            "amountPer100g": 22.4
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 0.0
+        },
+        {
             "name": "vitaminA",
             "unit": "µg",
-            "amountPer100g": 4.0
+            "amountPer100g": 5.0
         },
         {
             "name": "vitaminE",
             "unit": "mg",
-            "amountPer100g": 0.35
+            "amountPer100g": 0.36
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminK",
             "unit": "µg",
-            "amountPer100g": 1.5
+            "amountPer100g": 1.4
         },
         {
             "name": "saturatedFat",
             "unit": "g",
-            "amountPer100g": 0.252
+            "amountPer100g": 0.214
         },
         {
             "name": "transFat",
             "unit": "g",
-            "amountPer100g": 0.01
-        },
-        {
-            "name": "sugar",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "",
-            "amountPer100g": 0.0
+            "amountPer100g": 0.009
         },
         {
             "name": "alphaLinolenicAcid",
-            "unit": "",
-            "amountPer100g": 0.0
+            "unit": "g",
+            "amountPer100g": 0.373
         }
     ],
     "unitOptions": [
@@ -170,13 +175,13 @@
         },
         {
             "unitFullName": "cup",
-            "unitAbbreviation": "cup",
+            "unitAbbreviation": "",
             "portionInGrams": 249.0
         },
         {
-            "unitFullName": "teaspoon",
-            "unitAbbreviation": "tsp",
-            "portionInGrams": 6.0
+            "unitFullName": "tsp or 1 packet",
+            "unitAbbreviation": "",
+            "portionInGrams": 5.0
         }
     ],
     "attributes": [
@@ -194,6 +199,6 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-13). Mustard via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/326698"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Mustard, prepared, yellow via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/172234"
     ]
 }

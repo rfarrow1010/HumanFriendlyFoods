@@ -7,6 +7,11 @@
             "amountPer100g": 80.0
         },
         {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 78.89
+        },
+        {
             "name": "protein",
             "unit": "g",
             "amountPer100g": 1.82
@@ -75,6 +80,11 @@
             "name": "selenium",
             "unit": "µg",
             "amountPer100g": 0.7
+        },
+        {
+            "name": "fluoride",
+            "unit": "µg",
+            "amountPer100g": 0.0
         },
         {
             "name": "vitaminC",
@@ -152,17 +162,17 @@
             "amountPer100g": 0.0
         },
         {
-            "name": "fluoride",
-            "unit": "",
-            "amountPer100g": 0.0
-        },
-        {
             "name": "alphaLinolenicAcid",
-            "unit": "",
+            "unit": "g",
             "amountPer100g": 0.0
         }
     ],
     "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
         {
             "unitFullName": "slices (1\" dia)",
             "unitAbbreviation": "",
@@ -177,11 +187,6 @@
             "unitFullName": "tsp",
             "unitAbbreviation": "",
             "portionInGrams": 2.0
-        },
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
         }
     ],
     "attributes": [
@@ -199,6 +204,6 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2025-02-05). Ginger via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169231"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Ginger root, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169231"
     ]
 }
