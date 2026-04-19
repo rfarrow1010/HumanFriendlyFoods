@@ -126,6 +126,10 @@ def parse(json_dict: dict, fdcId: str, name: str) -> dict:
 
         portionInGrams = unit["gramWeight"]
 
+        # Skip RACC units — not human-friendly
+        if unitFullName == "RACC":
+            continue
+
         food["unitOptions"].append(
             {
                 "unitFullName": unitFullName,

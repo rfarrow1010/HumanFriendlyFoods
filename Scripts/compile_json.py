@@ -22,6 +22,9 @@ foods = []
 for file in json_files:
     with open(file, 'r') as f:
         data = json.load(f)
+        # Filter out any RACC unit options that may have slipped through
+        if "unitOptions" in data:
+            data["unitOptions"] = [u for u in data["unitOptions"] if u.get("unitFullName") != "RACC"]
         foods.append(data)
 
 # Create the output structure with version and foods fields
