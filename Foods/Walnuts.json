@@ -177,6 +177,16 @@
             "unitFullName": "oz",
             "unitAbbreviation": "",
             "portionInGrams": 28.0
+        },
+        {
+            "unitFullName": "cup, chopped",
+            "unitAbbreviation": "",
+            "portionInGrams": 117.0
+        },
+        {
+            "unitFullName": "cup, halves",
+            "unitAbbreviation": "",
+            "portionInGrams": 80.0
         }
     ],
     "attributes": [
@@ -194,6 +204,7 @@
         "srLegacy"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Nuts, walnuts, dry roasted, with salt added via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170594"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Nuts, walnuts, dry roasted, with salt added via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170594",
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-05-25). Nuts, walnuts, english via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170187"
     ]
 }

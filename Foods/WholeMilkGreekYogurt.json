@@ -172,6 +172,11 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 245.0
         }
     ],
     "attributes": [

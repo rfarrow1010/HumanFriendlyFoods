@@ -177,6 +177,16 @@
             "unitFullName": "oz",
             "unitAbbreviation": "",
             "portionInGrams": 28.35
+        },
+        {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 180.0
+        },
+        {
+            "unitFullName": "tbsp",
+            "unitAbbreviation": "tbsp",
+            "portionInGrams": 12.0
         }
     ],
     "attributes": [
