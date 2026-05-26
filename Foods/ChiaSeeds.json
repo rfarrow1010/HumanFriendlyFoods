@@ -1,210 +1,205 @@
 {
-    "name": "Chia seeds",
-    "nutrients": [
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 486.0
-        },
-        {
-            "name": "water",
-            "unit": "g",
-            "amountPer100g": 5.8
-        },
-        {
-            "name": "protein",
-            "unit": "g",
-            "amountPer100g": 16.54
-        },
-        {
-            "name": "fat",
-            "unit": "g",
-            "amountPer100g": 30.74
-        },
-        {
-            "name": "carbohydrates",
-            "unit": "g",
-            "amountPer100g": 42.12
-        },
-        {
-            "name": "fiber",
-            "unit": "g",
-            "amountPer100g": 34.4
-        },
-        {
-            "name": "sugar",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "calcium",
-            "unit": "mg",
-            "amountPer100g": 631.0
-        },
-        {
-            "name": "iron",
-            "unit": "mg",
-            "amountPer100g": 7.72
-        },
-        {
-            "name": "magnesium",
-            "unit": "mg",
-            "amountPer100g": 335.0
-        },
-        {
-            "name": "phosphorus",
-            "unit": "mg",
-            "amountPer100g": 860.0
-        },
-        {
-            "name": "potassium",
-            "unit": "mg",
-            "amountPer100g": 407.0
-        },
-        {
-            "name": "sodium",
-            "unit": "mg",
-            "amountPer100g": 16.0
-        },
-        {
-            "name": "zinc",
-            "unit": "mg",
-            "amountPer100g": 4.58
-        },
-        {
-            "name": "copper",
-            "unit": "mg",
-            "amountPer100g": 0.924
-        },
-        {
-            "name": "selenium",
-            "unit": "µg",
-            "amountPer100g": 55.2
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "mg",
-            "amountPer100g": 1.6
-        },
-        {
-            "name": "thiamin",
-            "unit": "mg",
-            "amountPer100g": 0.62
-        },
-        {
-            "name": "riboflavin",
-            "unit": "mg",
-            "amountPer100g": 0.17
-        },
-        {
-            "name": "niacin",
-            "unit": "mg",
-            "amountPer100g": 8.83
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "folate",
-            "unit": "µg",
-            "amountPer100g": 49.0
-        },
-        {
-            "name": "choline",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 0.5
-        },
-        {
-            "name": "vitaminD",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 3.33
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.14
-        },
-        {
-            "name": "alphaLinolenicAcid",
-            "unit": "g",
-            "amountPer100g": 17.83
-        }
-    ],
-    "unitOptions": [
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "oz",
-            "unitAbbreviation": "",
-            "portionInGrams": 28.35
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 180.0
-        },
-        {
-            "unitFullName": "tbsp",
-            "unitAbbreviation": "tbsp",
-            "portionInGrams": 12.0
-        }
-    ],
-    "attributes": [
-        "vegetarian",
-        "vegan",
-        "glutenFree",
-        "lactoseIntolerant",
-        "nutFree",
-        "soyFree",
-        "eggFree",
-        "halal",
-        "kosher",
-        "protein"
-    ],
-    "annotations": [
-        "srLegacy"
-    ],
-    "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Seeds, chia seeds, dried via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170554"
-    ]
+  "name": "Chia seeds",
+  "nutrients": [
+    {
+      "name": "calories",
+      "unit": "kcal",
+      "amountPer100g": 486.0
+    },
+    {
+      "name": "water",
+      "unit": "g",
+      "amountPer100g": 5.8
+    },
+    {
+      "name": "protein",
+      "unit": "g",
+      "amountPer100g": 16.54
+    },
+    {
+      "name": "fat",
+      "unit": "g",
+      "amountPer100g": 30.74
+    },
+    {
+      "name": "carbohydrates",
+      "unit": "g",
+      "amountPer100g": 42.12
+    },
+    {
+      "name": "fiber",
+      "unit": "g",
+      "amountPer100g": 34.4
+    },
+    {
+      "name": "sugar",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "calcium",
+      "unit": "mg",
+      "amountPer100g": 631.0
+    },
+    {
+      "name": "iron",
+      "unit": "mg",
+      "amountPer100g": 7.72
+    },
+    {
+      "name": "magnesium",
+      "unit": "mg",
+      "amountPer100g": 335.0
+    },
+    {
+      "name": "phosphorus",
+      "unit": "mg",
+      "amountPer100g": 860.0
+    },
+    {
+      "name": "potassium",
+      "unit": "mg",
+      "amountPer100g": 407.0
+    },
+    {
+      "name": "sodium",
+      "unit": "mg",
+      "amountPer100g": 16.0
+    },
+    {
+      "name": "zinc",
+      "unit": "mg",
+      "amountPer100g": 4.58
+    },
+    {
+      "name": "copper",
+      "unit": "mg",
+      "amountPer100g": 0.924
+    },
+    {
+      "name": "selenium",
+      "unit": "\u00b5g",
+      "amountPer100g": 55.2
+    },
+    {
+      "name": "fluoride",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminC",
+      "unit": "mg",
+      "amountPer100g": 1.6
+    },
+    {
+      "name": "thiamin",
+      "unit": "mg",
+      "amountPer100g": 0.62
+    },
+    {
+      "name": "riboflavin",
+      "unit": "mg",
+      "amountPer100g": 0.17
+    },
+    {
+      "name": "niacin",
+      "unit": "mg",
+      "amountPer100g": 8.83
+    },
+    {
+      "name": "pantothenicAcid",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB6",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "folate",
+      "unit": "\u00b5g",
+      "amountPer100g": 49.0
+    },
+    {
+      "name": "choline",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB12",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminA",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminE",
+      "unit": "mg",
+      "amountPer100g": 0.5
+    },
+    {
+      "name": "vitaminD",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminK",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "saturatedFat",
+      "unit": "g",
+      "amountPer100g": 3.33
+    },
+    {
+      "name": "transFat",
+      "unit": "g",
+      "amountPer100g": 0.14
+    },
+    {
+      "name": "alphaLinolenicAcid",
+      "unit": "g",
+      "amountPer100g": 17.83
+    }
+  ],
+  "unitOptions": [
+    {
+      "unitFullName": "gram",
+      "unitAbbreviation": "g",
+      "portionInGrams": 1.0
+    },
+    {
+      "unitFullName": "oz",
+      "unitAbbreviation": "",
+      "portionInGrams": 28.35
+    },
+    {
+      "unitFullName": "cup",
+      "unitAbbreviation": "cup",
+      "portionInGrams": 168.0
+    }
+  ],
+  "attributes": [
+    "vegetarian",
+    "vegan",
+    "glutenFree",
+    "lactoseIntolerant",
+    "nutFree",
+    "soyFree",
+    "eggFree",
+    "halal",
+    "kosher",
+    "protein"
+  ],
+  "annotations": [
+    "srLegacy"
+  ],
+  "sources": [
+    "U.S. Department of Agriculture, Agricultural Research Service. (2024-10-01). Chia seeds via Survey (FNDDS). USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2707590"
+  ]
 }

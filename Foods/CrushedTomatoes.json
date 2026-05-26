@@ -1,201 +1,201 @@
 {
-    "name": "Crushed tomatoes",
-    "nutrients": [
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 32.313665
-        },
-        {
-            "name": "water",
-            "unit": "g",
-            "amountPer100g": 89.94
-        },
-        {
-            "name": "protein",
-            "unit": "g",
-            "amountPer100g": 1.4375
-        },
-        {
-            "name": "fat",
-            "unit": "g",
-            "amountPer100g": 0.3975
-        },
-        {
-            "name": "carbohydrates",
-            "unit": "g",
-            "amountPer100g": 7.137
-        },
-        {
-            "name": "fiber",
-            "unit": "g",
-            "amountPer100g": 1.944
-        },
-        {
-            "name": "sugar",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "calcium",
-            "unit": "mg",
-            "amountPer100g": 19.2
-        },
-        {
-            "name": "iron",
-            "unit": "mg",
-            "amountPer100g": 2.268
-        },
-        {
-            "name": "magnesium",
-            "unit": "mg",
-            "amountPer100g": 18.64
-        },
-        {
-            "name": "phosphorus",
-            "unit": "mg",
-            "amountPer100g": 32.91
-        },
-        {
-            "name": "potassium",
-            "unit": "mg",
-            "amountPer100g": 345.6
-        },
-        {
-            "name": "sodium",
-            "unit": "mg",
-            "amountPer100g": 139.8
-        },
-        {
-            "name": "zinc",
-            "unit": "mg",
-            "amountPer100g": 0.2014
-        },
-        {
-            "name": "copper",
-            "unit": "mg",
-            "amountPer100g": 0.1043
-        },
-        {
-            "name": "selenium",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "mg",
-            "amountPer100g": 9.1
-        },
-        {
-            "name": "thiamin",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "riboflavin",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "folate",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "choline",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "alphaLinolenicAcid",
-            "unit": "g",
-            "amountPer100g": 0.0
-        }
-    ],
-    "unitOptions": [
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 240.0
-        }
-    ],
-    "attributes": [
-        "vegetarian",
-        "vegan",
-        "glutenFree",
-        "lactoseIntolerant",
-        "nutFree",
-        "soyFree",
-        "eggFree",
-        "halal",
-        "kosher",
-        "vegetables"
-    ],
-    "annotations": [
-        "foundation"
-    ],
-    "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tomatoes, crushed, canned via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685581",
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-05-25). Tomatoes, crushed, canned via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170501"
-    ]
+  "name": "Crushed tomatoes",
+  "nutrients": [
+    {
+      "name": "calories",
+      "unit": "kcal",
+      "amountPer100g": 32.313665
+    },
+    {
+      "name": "water",
+      "unit": "g",
+      "amountPer100g": 89.94
+    },
+    {
+      "name": "protein",
+      "unit": "g",
+      "amountPer100g": 1.4375
+    },
+    {
+      "name": "fat",
+      "unit": "g",
+      "amountPer100g": 0.3975
+    },
+    {
+      "name": "carbohydrates",
+      "unit": "g",
+      "amountPer100g": 7.137
+    },
+    {
+      "name": "fiber",
+      "unit": "g",
+      "amountPer100g": 1.944
+    },
+    {
+      "name": "sugar",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "calcium",
+      "unit": "mg",
+      "amountPer100g": 19.2
+    },
+    {
+      "name": "iron",
+      "unit": "mg",
+      "amountPer100g": 2.268
+    },
+    {
+      "name": "magnesium",
+      "unit": "mg",
+      "amountPer100g": 18.64
+    },
+    {
+      "name": "phosphorus",
+      "unit": "mg",
+      "amountPer100g": 32.91
+    },
+    {
+      "name": "potassium",
+      "unit": "mg",
+      "amountPer100g": 345.6
+    },
+    {
+      "name": "sodium",
+      "unit": "mg",
+      "amountPer100g": 139.8
+    },
+    {
+      "name": "zinc",
+      "unit": "mg",
+      "amountPer100g": 0.2014
+    },
+    {
+      "name": "copper",
+      "unit": "mg",
+      "amountPer100g": 0.1043
+    },
+    {
+      "name": "selenium",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "fluoride",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminC",
+      "unit": "mg",
+      "amountPer100g": 9.1
+    },
+    {
+      "name": "thiamin",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "riboflavin",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "niacin",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "pantothenicAcid",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB6",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "folate",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "choline",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB12",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminA",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminE",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminD",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminK",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "saturatedFat",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "transFat",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "alphaLinolenicAcid",
+      "unit": "g",
+      "amountPer100g": 0.0
+    }
+  ],
+  "unitOptions": [
+    {
+      "unitFullName": "gram",
+      "unitAbbreviation": "g",
+      "portionInGrams": 1.0
+    },
+    {
+      "unitFullName": "cup",
+      "unitAbbreviation": "cup",
+      "portionInGrams": 242.0
+    }
+  ],
+  "attributes": [
+    "vegetarian",
+    "vegan",
+    "glutenFree",
+    "lactoseIntolerant",
+    "nutFree",
+    "soyFree",
+    "eggFree",
+    "halal",
+    "kosher",
+    "vegetables"
+  ],
+  "annotations": [
+    "foundation"
+  ],
+  "sources": [
+    "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Tomatoes, crushed, canned via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2685581",
+    "U.S. Department of Agriculture, Agricultural Research Service. (2026-05-25). Tomatoes, crushed, canned via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170501"
+  ]
 }

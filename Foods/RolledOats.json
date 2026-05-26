@@ -1,201 +1,201 @@
 {
-    "name": "Rolled oats",
-    "nutrients": [
-        {
-            "name": "calories",
-            "unit": "kcal",
-            "amountPer100g": 378.866123
-        },
-        {
-            "name": "water",
-            "unit": "g",
-            "amountPer100g": 10.25
-        },
-        {
-            "name": "protein",
-            "unit": "g",
-            "amountPer100g": 13.49645
-        },
-        {
-            "name": "fat",
-            "unit": "g",
-            "amountPer100g": 5.89
-        },
-        {
-            "name": "carbohydrates",
-            "unit": "g",
-            "amountPer100g": 68.65755
-        },
-        {
-            "name": "fiber",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "sugar",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "calcium",
-            "unit": "mg",
-            "amountPer100g": 45.53
-        },
-        {
-            "name": "iron",
-            "unit": "mg",
-            "amountPer100g": 4.339
-        },
-        {
-            "name": "magnesium",
-            "unit": "mg",
-            "amountPer100g": 126.3
-        },
-        {
-            "name": "phosphorus",
-            "unit": "mg",
-            "amountPer100g": 387.3
-        },
-        {
-            "name": "potassium",
-            "unit": "mg",
-            "amountPer100g": 350.1
-        },
-        {
-            "name": "sodium",
-            "unit": "mg",
-            "amountPer100g": 0.6675
-        },
-        {
-            "name": "zinc",
-            "unit": "mg",
-            "amountPer100g": 2.744
-        },
-        {
-            "name": "copper",
-            "unit": "mg",
-            "amountPer100g": 0.4278
-        },
-        {
-            "name": "selenium",
-            "unit": "µg",
-            "amountPer100g": 25.35
-        },
-        {
-            "name": "fluoride",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminC",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "thiamin",
-            "unit": "mg",
-            "amountPer100g": 0.4063
-        },
-        {
-            "name": "riboflavin",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "niacin",
-            "unit": "mg",
-            "amountPer100g": 0.9931
-        },
-        {
-            "name": "pantothenicAcid",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB6",
-            "unit": "mg",
-            "amountPer100g": 0.1346
-        },
-        {
-            "name": "folate",
-            "unit": "µg",
-            "amountPer100g": 32.03
-        },
-        {
-            "name": "choline",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminB12",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminA",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminE",
-            "unit": "mg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminD",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "vitaminK",
-            "unit": "µg",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "saturatedFat",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "transFat",
-            "unit": "g",
-            "amountPer100g": 0.0
-        },
-        {
-            "name": "alphaLinolenicAcid",
-            "unit": "g",
-            "amountPer100g": 0.0
-        }
-    ],
-    "unitOptions": [
-        {
-            "unitFullName": "gram",
-            "unitAbbreviation": "g",
-            "portionInGrams": 1.0
-        },
-        {
-            "unitFullName": "cup",
-            "unitAbbreviation": "cup",
-            "portionInGrams": 80.0
-        }
-    ],
-    "attributes": [
-        "vegetarian",
-        "vegan",
-        "glutenFree",
-        "lactoseIntolerant",
-        "nutFree",
-        "soyFree",
-        "eggFree",
-        "halal",
-        "kosher",
-        "grains"
-    ],
-    "annotations": [
-        "foundation"
-    ],
-    "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Oats, whole grain, rolled, old fashioned via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346396",
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-05-25). Oats, regular and quick, not fortified, dry via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/168190"
-    ]
+  "name": "Rolled oats",
+  "nutrients": [
+    {
+      "name": "calories",
+      "unit": "kcal",
+      "amountPer100g": 378.866123
+    },
+    {
+      "name": "water",
+      "unit": "g",
+      "amountPer100g": 10.25
+    },
+    {
+      "name": "protein",
+      "unit": "g",
+      "amountPer100g": 13.49645
+    },
+    {
+      "name": "fat",
+      "unit": "g",
+      "amountPer100g": 5.89
+    },
+    {
+      "name": "carbohydrates",
+      "unit": "g",
+      "amountPer100g": 68.65755
+    },
+    {
+      "name": "fiber",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "sugar",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "calcium",
+      "unit": "mg",
+      "amountPer100g": 45.53
+    },
+    {
+      "name": "iron",
+      "unit": "mg",
+      "amountPer100g": 4.339
+    },
+    {
+      "name": "magnesium",
+      "unit": "mg",
+      "amountPer100g": 126.3
+    },
+    {
+      "name": "phosphorus",
+      "unit": "mg",
+      "amountPer100g": 387.3
+    },
+    {
+      "name": "potassium",
+      "unit": "mg",
+      "amountPer100g": 350.1
+    },
+    {
+      "name": "sodium",
+      "unit": "mg",
+      "amountPer100g": 0.6675
+    },
+    {
+      "name": "zinc",
+      "unit": "mg",
+      "amountPer100g": 2.744
+    },
+    {
+      "name": "copper",
+      "unit": "mg",
+      "amountPer100g": 0.4278
+    },
+    {
+      "name": "selenium",
+      "unit": "\u00b5g",
+      "amountPer100g": 25.35
+    },
+    {
+      "name": "fluoride",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminC",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "thiamin",
+      "unit": "mg",
+      "amountPer100g": 0.4063
+    },
+    {
+      "name": "riboflavin",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "niacin",
+      "unit": "mg",
+      "amountPer100g": 0.9931
+    },
+    {
+      "name": "pantothenicAcid",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB6",
+      "unit": "mg",
+      "amountPer100g": 0.1346
+    },
+    {
+      "name": "folate",
+      "unit": "\u00b5g",
+      "amountPer100g": 32.03
+    },
+    {
+      "name": "choline",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminB12",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminA",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminE",
+      "unit": "mg",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminD",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "vitaminK",
+      "unit": "\u00b5g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "saturatedFat",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "transFat",
+      "unit": "g",
+      "amountPer100g": 0.0
+    },
+    {
+      "name": "alphaLinolenicAcid",
+      "unit": "g",
+      "amountPer100g": 0.0
+    }
+  ],
+  "unitOptions": [
+    {
+      "unitFullName": "gram",
+      "unitAbbreviation": "g",
+      "portionInGrams": 1.0
+    },
+    {
+      "unitFullName": "cup",
+      "unitAbbreviation": "cup",
+      "portionInGrams": 81.0
+    }
+  ],
+  "attributes": [
+    "vegetarian",
+    "vegan",
+    "glutenFree",
+    "lactoseIntolerant",
+    "nutFree",
+    "soyFree",
+    "eggFree",
+    "halal",
+    "kosher",
+    "grains"
+  ],
+  "annotations": [
+    "foundation"
+  ],
+  "sources": [
+    "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Oats, whole grain, rolled, old fashioned via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2346396",
+    "U.S. Department of Agriculture, Agricultural Research Service. (2019-04-01). Cereals, oats, regular and quick, not fortified, dry via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173904"
+  ]
 }
