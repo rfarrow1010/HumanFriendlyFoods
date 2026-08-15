@@ -182,6 +182,11 @@
             "unitFullName": "ounce",
             "unitAbbreviation": "oz",
             "portionInGrams": 28.35
+        },
+        {
+            "unitFullName": "piece",
+            "unitAbbreviation": "",
+            "portionInGrams": 272.0
         }
     ],
     "attributes": [
@@ -198,6 +203,7 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Chicken, breast, boneless, skinless, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Chicken, breast, boneless, skinless, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2646170",
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-08-15). Chicken, broiler or fryers, breast, skinless, boneless, meat only, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/171077"
     ]
 }
