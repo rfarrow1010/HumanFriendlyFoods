@@ -176,12 +176,12 @@
         {
             "unitFullName": "can",
             "unitAbbreviation": "can",
-            "portionInGrams": 425
+            "portionInGrams": 254
         },
         {
             "unitFullName": "cup",
             "unitAbbreviation": "cup",
-            "portionInGrams": 164
+            "portionInGrams": 152
         },
         {
             "unitFullName": "ounce",
@@ -205,6 +205,7 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2644288"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Chickpeas (garbanzo beans, bengal gram), canned, sodium added, drained and rinsed via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2644288",
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-08-15). Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained, rinsed in tap water via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173801"
     ]
 }
