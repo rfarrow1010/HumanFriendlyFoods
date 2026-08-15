@@ -174,6 +174,11 @@
             "portionInGrams": 1.0
         },
         {
+            "unitFullName": "cup",
+            "unitAbbreviation": "cup",
+            "portionInGrams": 149
+        },
+        {
             "unitFullName": "ounce",
             "unitAbbreviation": "oz",
             "portionInGrams": 28.35
@@ -201,6 +206,7 @@
     ],
     "sources": [
         "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Peppers, bell, yellow, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2258589",
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-08-15). Peppers, sweet, yellow, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169383"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-08-15). Peppers, sweet, yellow, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/169383",
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-08-15). Peppers, sweet, red, raw via SR Legacy (cup chopped, applied to yellow as a same-cultivar approximation; USDA publishes no cup portion for yellow). USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/170108"
     ]
 }
