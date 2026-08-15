@@ -194,8 +194,7 @@
         "eggFree",
         "halal",
         "kosher",
-        "vegetables",
-        "protein"
+        "vegetables"
     ],
     "annotations": [
         "srLegacy"

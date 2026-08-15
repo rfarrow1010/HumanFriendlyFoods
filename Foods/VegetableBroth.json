@@ -198,8 +198,7 @@
         "soyFree",
         "eggFree",
         "halal",
-        "kosher",
-        "protein"
+        "kosher"
     ],
     "annotations": [
         "srLegacy",

@@ -38,8 +38,8 @@ CLASSIFICATION_RULES = {
     },
     'fruits': {
         'name_patterns': [
-            r'berry$', r'apple', r'banana', r'orange', r'grape', r'lemon', r'lime',
-            r'peach', r'pear', r'plum', r'cherry', r'strawberr', r'blueberr',
+            r'berry$', r'apple', r'banana', r'orange', r'\bgrapes?\b', r'lemon', r'lime',
+            r'peach', r'\bpears?\b', r'plum', r'cherry', r'strawberr', r'blueberr',
             r'raspberr', r'blackberr', r'cranberr', r'mango', r'pineapple',
             r'watermelon', r'melon', r'kiwi', r'papaya', r'fig', r'date',
             r'apricot', r'nectarine', r'persimmon', r'pomegranate', r'guava',
@@ -65,8 +65,8 @@ CLASSIFICATION_RULES = {
             r'sardine', r'mackerel', r'herring', r'anchovy', r'shrimp', r'crab',
             r'lobster', r'oyster', r'mussel', r'clam', r'scallop', r'squid',
             # Plant proteins
-            r'tofu', r'tempeh', r'bean', r'lentil', r'pea(?!nut)', r'chickpea',
-            r'nut', r'almond', r'cashew', r'walnut', r'peanut', r'pecan',
+            r'tofu', r'tempeh', r'bean', r'lentil', r'\bpeas?\b', r'chickpea',
+            r'\bnuts?\b', r'almond', r'cashew', r'walnut', r'peanut', r'pecan',
             r'pistachio', r'hazelnut', r'seed', r'chia', r'flax', r'hemp',
             r'sunflower seed', r'pumpkin seed', r'edamame', r'soy'
         ]
@@ -94,7 +94,22 @@ CLASSIFICATION_RULES = {
 # Exclusion patterns (e.g., nut butter is protein, not dairy/fatsAndOils)
 EXCLUSIONS = {
     'dairy': [r'butter.*nut', r'peanut butter', r'almond butter', r'coconut milk'],
-    'fatsAndOils': [r'butter.*nut', r'peanut butter', r'almond butter']
+    'fatsAndOils': [r'butter.*nut', r'peanut butter', r'almond butter'],
+    # Broths and stocks are flavoured water, not a protein serving, however they are made.
+    # Green and wax beans are harvested immature and count as vegetables under MyPlate, not
+    # as part of the beans/peas/lentils group. Coconut is a drupe, not a nut.
+    'protein': [
+        r'\bbroth\b', r'\bstock\b', r'\bbouillon\b',
+        r'green bean', r'wax bean',
+        r'coconut',
+    ],
+    # Tomatoes and sweet peppers are botanically fruit but count as vegetables under MyPlate.
+    # Vinegar is a condiment, not a serving of the fruit it was made from.
+    'fruits': [r'tomato', r'pepper', r'vinegar'],
+    # A tortilla is a grain food, and a seed is a protein food, whatever they are made from.
+    'vegetables': [r'tortilla', r'pumpkin seed'],
+    # Rice wine and rice vinegar are condiments, not a grain serving.
+    'grains': [r'rice wine', r'rice vinegar'],
 }
 
 

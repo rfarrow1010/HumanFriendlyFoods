@@ -193,8 +193,7 @@
         "kosher",
         "vegan",
         "lactoseIntolerant",
-        "nutFree",
-        "protein"
+        "nutFree"
     ],
     "annotations": [
         "srLegacy"

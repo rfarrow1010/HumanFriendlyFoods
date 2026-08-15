@@ -188,9 +188,7 @@
         "eggFree",
         "halal",
         "kosher",
-        "fruits",
-        "grains",
-        "protein"
+        "grains"
     ],
     "annotations": [
         "srLegacy"
