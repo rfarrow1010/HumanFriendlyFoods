@@ -16,7 +16,7 @@ if not version or not version.strip():
     sys.exit(1)
 
 # List all JSON files in the directory
-json_files = glob.glob("Foods/*.json")
+json_files = sorted(glob.glob("Foods/*.json"))
 foods = []
 
 for file in json_files:

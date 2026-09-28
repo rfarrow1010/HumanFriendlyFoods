@@ -1,0 +1,108 @@
+{
+    "name": "Grass-fed ribeye steak, lean and fat",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 217.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 64.6
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 19.8
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 15.21
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 0.11
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 5.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 1.74
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 60.0
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 5.0
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 6.782
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.7
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "ounce",
+            "unitAbbreviation": "oz",
+            "portionInGrams": 28.25
+        },
+        {
+            "unitFullName": "roast",
+            "unitAbbreviation": "",
+            "portionInGrams": 350.0
+        }
+    ],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher",
+        "protein"
+    ],
+    "annotations": [
+        "srLegacy"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-09-28). Beef, Australian, imported, grass-fed, rib, ribeye steak/roast lip-on, boneless, separable lean and fat, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/173975"
+    ]
+}

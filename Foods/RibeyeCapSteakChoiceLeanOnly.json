@@ -1,0 +1,178 @@
+{
+    "name": "Ribeye cap steak, choice, lean only",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 187.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 66.5
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 19.46
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 11.4
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 1.75
+        },
+        {
+            "name": "fiber",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "sugar",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 6.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 2.64
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 24.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 210.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 357.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 88.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 7.8
+        },
+        {
+            "name": "copper",
+            "unit": "mg",
+            "amountPer100g": 0.143
+        },
+        {
+            "name": "selenium",
+            "unit": "µg",
+            "amountPer100g": 25.5
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.082
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.219
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 3.509
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.39
+        },
+        {
+            "name": "folate",
+            "unit": "µg",
+            "amountPer100g": 3.0
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "µg",
+            "amountPer100g": 3.21
+        },
+        {
+            "name": "vitaminA",
+            "unit": "µg",
+            "amountPer100g": 2.0
+        },
+        {
+            "name": "vitaminD",
+            "unit": "µg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "vitaminK",
+            "unit": "µg",
+            "amountPer100g": 1.5
+        },
+        {
+            "name": "saturatedFat",
+            "unit": "g",
+            "amountPer100g": 4.359
+        },
+        {
+            "name": "transFat",
+            "unit": "g",
+            "amountPer100g": 0.48
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "ounce",
+            "unitAbbreviation": "oz",
+            "portionInGrams": 28.25
+        },
+        {
+            "unitFullName": "steak",
+            "unitAbbreviation": "",
+            "portionInGrams": 249.0
+        }
+    ],
+    "attributes": [
+        "glutenFree",
+        "lactoseIntolerant",
+        "nutFree",
+        "soyFree",
+        "eggFree",
+        "halal",
+        "kosher",
+        "protein"
+    ],
+    "annotations": [
+        "srLegacy"
+    ],
+    "sources": [
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-09-28). Beef, ribeye cap steak, boneless, separable lean only, trimmed to 0\" fat, choice, raw via SR Legacy. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/174699"
+    ]
+}
