@@ -5,12 +5,18 @@ on:
     paths:
       - 'Foods/**'
       - 'Scripts/validate_food_data.py'
+      - 'Scripts/test_salmon_vinegar.py'
+      - 'Scripts/compile_json.py'
+      - '.github/workflows/validate-foods.yml'
   push:
     branches:
       - main
     paths:
       - 'Foods/**'
       - 'Scripts/validate_food_data.py'
+      - 'Scripts/test_salmon_vinegar.py'
+      - 'Scripts/compile_json.py'
+      - '.github/workflows/validate-foods.yml'
 
 jobs:
   validate:
@@ -25,6 +31,9 @@ jobs:
       with:
         python-version: '3.11'
     
+    - name: Run scoped salmon and vinegar regression tests
+      run: python3 Scripts/test_salmon_vinegar.py
+
     - name: Run food database validation
       id: validate
       run: |

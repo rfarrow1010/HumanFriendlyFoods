@@ -49,6 +49,80 @@ The compiler sorts filenames to make the generated artifact reproducible.
 does not publish or release it. The existing broad validator reports unrelated
 historical warnings and is not used as a new all-legacy gate.
 
+## Sourced salmon mass units and rice vinegar (v39 candidate)
+
+This change builds on the 234-food meat-variant source tree and preserves every
+existing name and nutrition profile. It adds **Rice vinegar**, making 235 foods.
+Compile only through `Scripts/compile_json.py`; the ignored `FoodData-v39.json`
+is a local candidate, not a published release:
+
+```bash
+python3 Scripts/test_salmon_vinegar.py
+python3 Scripts/test_meat_variants.py /path/to/sr-legacy.zip
+python3 Scripts/compile_json.py FoodData-v39.json v39
+```
+
+**Salmon:** the exact primary Foundation record is
+[FDC 2684441](https://api.nal.usda.gov/fdc/v1/food/2684441),
+`Fish, salmon, Atlantic, farm raised, raw`. The October 2026 Foundation archive
+confirms its only portion is 1 RACC = 115 g. Repository policy excludes RACC;
+it is not relabeled as a fillet or serving. Nutrients are unchanged, including
+pre-existing legacy placeholders; this is not a full nutrient re-audit.
+
+**Rice vinegar:** Japan's government MEXT
+[food 17016, table 01, Supplement 2023](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17016_7&MODE=0&WEIGHT=100)
+has exact English description `SEASONINGS AND SPICES/Vinegar/rice vinegar`.
+Its Japanese rice-vinegar profile reports 46 kcal, 0.2 g protein, 0 g fat,
+7.4 g carbohydrates and 12 mg sodium per 100 g edible portion. Reported kcal
+includes energy not represented by the three macros (organic acids are present).
+Only explicitly numeric values are imported; `Tr`, `-`, and parenthesized
+estimated values are omitted. Sugar is not inferred from carbohydrates. The
+record uses `mext` provenance, not a fabricated USDA ID, and is not rice wine,
+seasoned sushi vinegar, or a claim that all rice-vinegar brands are identical.
+Vegetarian/vegan are the only dietary attributes; allergy/certification claims
+are not inferred from the food name.
+
+**Portions:** both records expose gram = 1 g, avoirdupois ounce =
+28.349523125 g, and pound = 453.59237 g, exactly, from
+[NIST Handbook 133 (2026), Appendix E](https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixE-20251222.docx).
+These are mass definitions, not fluid-volume conversions or estimated servings.
+No rice-vinegar tsp/tbsp/cup weight was verified for this profile; those units
+remain absent rather than borrowing distilled-vinegar density.
+
+**Deliberately open gaps (checked 2026-11-23):** complete current USDA
+[downloads](https://fdc.nal.usda.gov/download-datasets/) contain no vinegar in
+Foundation (October 2026), only the four already-present vinegar types in SR
+Legacy (April 2018), and only generic `Vinegar` (FDC 2709351) in FNDDS
+(2021-2023). No distinct government-backed white-wine profile was verified.
+[UK CoFID 2021](https://www.gov.uk/government/publications/composition-of-foods-integrated-dataset-cofid)
+food 17-339 combines malt, cider and wine samples;
+[Australian AFCD Release 3](https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files)
+food F009498 combines white, brown and malt vinegar. Neither is a matching
+white-wine source. MEXT 17017 is wine vinegar without a white/red distinction.
+USDA branded white-wine records largely specify mL-only servings and rounded
+labels, not a generic profile or a verified gram conversion. The gram-based
+Napa Valley record FDC 1866254 includes grape must, unlike the manufacturer's
+current ingredient listing; it was not imported. White-wine and other
+unsubstantiated variants stay open, as requested, rather than repurposing
+existing distilled/red-wine records.
+
+**Supplementary-portion review:** USDA SR Legacy independently confirms the
+existing Golden Delicious apple FDC 168202 portions (small 129 g, medium 169 g,
+large 215 g, sliced cup 109 g) and raw long-grain rice FDC 169756/169703 cup
+185 g. The old downstream generic-apple 149/182 g and generic-rice 210 g claims
+are not replacements for these cultivar/state-matching sources. No additional
+rice/apple source changes are needed.
+
+The focused test is wired into food-validation CI before the historical broad
+validator. It checks flat schema, unique identities, exact positive mass weights
+and metrology citations, MEXT nutrient/unknown-value regressions, and
+byte-deterministic source-preserving compilation. Historical broad-validator
+warnings are not silently fixed by this scoped change: both the 234-food baseline
+and this candidate have 7 required-macro warnings and 9 high-zero warnings.
+The broad validator's indiscriminate zero-macro list grows from 49 to 50 because
+MEXT explicitly reports rice vinegar's fat as zero; the scoped source gate
+accepts that reported zero, not an unknown-value placeholder.
+
 ## add_missing_ingredients.py
 
 This script fetches nutritional data from the USDA FoodData Central API and creates individual JSON files in the `Foods/` directory.

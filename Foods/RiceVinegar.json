@@ -1,0 +1,159 @@
+{
+    "name": "Rice vinegar",
+    "nutrients": [
+        {
+            "name": "calories",
+            "unit": "kcal",
+            "amountPer100g": 46.0
+        },
+        {
+            "name": "water",
+            "unit": "g",
+            "amountPer100g": 87.9
+        },
+        {
+            "name": "protein",
+            "unit": "g",
+            "amountPer100g": 0.2
+        },
+        {
+            "name": "fat",
+            "unit": "g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "carbohydrates",
+            "unit": "g",
+            "amountPer100g": 7.4
+        },
+        {
+            "name": "calcium",
+            "unit": "mg",
+            "amountPer100g": 2.0
+        },
+        {
+            "name": "iron",
+            "unit": "mg",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "magnesium",
+            "unit": "mg",
+            "amountPer100g": 6.0
+        },
+        {
+            "name": "phosphorus",
+            "unit": "mg",
+            "amountPer100g": 15.0
+        },
+        {
+            "name": "potassium",
+            "unit": "mg",
+            "amountPer100g": 16.0
+        },
+        {
+            "name": "sodium",
+            "unit": "mg",
+            "amountPer100g": 12.0
+        },
+        {
+            "name": "zinc",
+            "unit": "mg",
+            "amountPer100g": 0.2
+        },
+        {
+            "name": "iodine",
+            "unit": "\u00b5g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "chromium",
+            "unit": "\u00b5g",
+            "amountPer100g": 1.0
+        },
+        {
+            "name": "molybdenum",
+            "unit": "\u00b5g",
+            "amountPer100g": 4.0
+        },
+        {
+            "name": "vitaminA",
+            "unit": "\u00b5g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "thiamin",
+            "unit": "mg",
+            "amountPer100g": 0.01
+        },
+        {
+            "name": "riboflavin",
+            "unit": "mg",
+            "amountPer100g": 0.01
+        },
+        {
+            "name": "niacin",
+            "unit": "mg",
+            "amountPer100g": 0.3
+        },
+        {
+            "name": "vitaminB6",
+            "unit": "mg",
+            "amountPer100g": 0.02
+        },
+        {
+            "name": "vitaminB12",
+            "unit": "\u00b5g",
+            "amountPer100g": 0.1
+        },
+        {
+            "name": "folate",
+            "unit": "\u00b5g",
+            "amountPer100g": 0.0
+        },
+        {
+            "name": "pantothenicAcid",
+            "unit": "mg",
+            "amountPer100g": 0.08
+        },
+        {
+            "name": "biotin",
+            "unit": "\u00b5g",
+            "amountPer100g": 0.4
+        },
+        {
+            "name": "vitaminC",
+            "unit": "mg",
+            "amountPer100g": 0.0
+        }
+    ],
+    "unitOptions": [
+        {
+            "unitFullName": "gram",
+            "unitAbbreviation": "g",
+            "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "ounce",
+            "unitAbbreviation": "oz",
+            "portionInGrams": 28.349523125
+        },
+        {
+            "unitFullName": "pound",
+            "unitAbbreviation": "lb",
+            "portionInGrams": 453.59237
+        }
+    ],
+    "attributes": [
+        "vegetarian",
+        "vegan"
+    ],
+    "annotations": [
+        "mext"
+    ],
+    "sources": [
+        "Ministry of Education, Culture, Sports, Science and Technology, Japan (MEXT). Standard Tables of Food Composition in Japan, eighth revised edition, Supplement 2023. Food number 17016, exact English description: SEASONINGS AND SPICES/Vinegar/rice vinegar. General composition, minerals and vitamins, per 100 g edible portion, accessed 2026-11-23. This is the Japanese rice-vinegar profile, not rice wine or seasoned sushi vinegar, and is not an assertion that all brands are identical. https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17016_7&MODE=0&WEIGHT=100",
+        "Nutrient rationale: only explicit numeric entries from MEXT table 01 are included, including explicitly reported zeros. Trace (Tr), missing (-), and parenthesized estimated values are omitted, not replaced by zero. Vitamin A uses retinol activity equivalents; carbohydrates uses the reported total carbohydrate value; calories uses the reported 46 kcal, not a macro-only calculation (organic acids are present). No sugar value is inferred from carbohydrates. Plant-derived vinegar supports vegetarian/vegan attributes; no gluten-free or certification claim is inferred. https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=17_17016_7&MODE=0&WEIGHT=100",
+        "National Institute of Standards and Technology. (2026). Handbook 133, Appendix E, General Tables of Units of Measurement. Gram is the mass basis; 1 avoirdupois ounce = 28.349523125 g and 1 avoirdupois pound = 453.59237 g exactly. These are mass units, not fluid ounces. MEXT supplies no spoon/cup gram weights; no density or volume conversion is assumed. https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixE-20251222.docx"
+    ]
+}

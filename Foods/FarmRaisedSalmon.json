@@ -172,6 +172,16 @@
             "unitFullName": "gram",
             "unitAbbreviation": "g",
             "portionInGrams": 1.0
+        },
+        {
+            "unitFullName": "ounce",
+            "unitAbbreviation": "oz",
+            "portionInGrams": 28.349523125
+        },
+        {
+            "unitFullName": "pound",
+            "unitAbbreviation": "lb",
+            "portionInGrams": 453.59237
         }
     ],
     "attributes": [
@@ -188,6 +198,8 @@
         "foundation"
     ],
     "sources": [
-        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Fish, salmon, Atlantic, farm raised, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2684441"
+        "U.S. Department of Agriculture, Agricultural Research Service. (2026-03-22). Fish, salmon, Atlantic, farm raised, raw via Foundation Foods. USDA FoodData Central. https://api.nal.usda.gov/fdc/v1/food/2684441",
+        "National Institute of Standards and Technology. (2026). Handbook 133, Appendix E, General Tables of Units of Measurement. Gram is the mass basis; 1 avoirdupois ounce = 28.349523125 g and 1 avoirdupois pound = 453.59237 g exactly. These are mass units, not fluid ounces or assumed fish servings. https://www.nist.gov/system/files/documents/2025/12/23/2026_NIST_HB133_AppendixE-20251222.docx",
+        "USDA FoodData Central FDC 2684441, checked 2026-11-23: the only foodPortions entry is 1 RACC = 115 g. RACC is excluded by repository policy; no fillet or serving weight is supplied, so neither is added. Existing nutrients and food identity are unchanged. https://api.nal.usda.gov/fdc/v1/food/2684441"
     ]
 }
